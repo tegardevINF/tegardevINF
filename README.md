@@ -84,10 +84,6 @@ const tegar = {
 ### 📌 Pinned Projects
 
 <div align="center">
-
-<a href="https://github.com/tegardevINF/portfolio-3d">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tegardevINF&repo=portfolio-3d&hide_border=true&theme=tokyonight" />
-</a>
 <a href="https://github.com/tegardevINF/AI-Veltrix-App">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=tegardevINF&repo=AI-Veltrix-App&hide_border=true&theme=tokyonight" />
 </a>
