@@ -1,399 +1,206 @@
-# ─── ❖ ─ TEGAR (tegardevINF) ─ ❖ ───
-## THE ULTIMATE BACKEND ENGINEER & AI AGENT ARCHITECT PORTFOLIO
-### 🚀 Scalable Backends · Distributed Systems · Multi-Agent Swarms · Local-First Intelligence
-
-```text
- ████████╗███████╗ ██████╗  █████╗ ██████╗ 
- ╚══██╔══╝██╔════╝██╔════╝ ██╔══██╗██╔══██╗
-    ██║   █████╗  ██║  ███╗███████║██████╔╝
-    ██║   ██╔══╝  ██║   ██║██╔══██║██╔══██╗
-    ██║   ███████╗╚██████╔╝██║  ██║██║  ██║
-    ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-```
-
-> "Clear code > clever code. Ship more, think less, deploy always."
-
----
-
-## 🖥️ SYSTEM OVERVIEW & DIAGNOSTICS
-
-```text
-[SYSTEM BOOT] ........................................................... [OK]
-[OS KERNEL] ............................................................. Windows/Linux Hybrid
-[ENGINE SHELL] .......................................................... PowerShell 7.4 / Zsh
-[PERSISTENCE LAYER] ..................................................... SQLite WAL (Write-Ahead Logging)
-[VECTOR KNOWLEDGEBASE] .................................................. ChromaDB Local Vector Instance
-[AUTH ROUTER] ........................................................... win32crypt DPAPI session keys
-[ACTIVE AGENT NETWORKS] ................................................. PlanArchitect, SecurityEngine, CodeDeveloper, SwarmCoordinator
-```
-
----
-
-## 🧑‍💻 THE DEVELOPER BLUEPRINT (OBJECT-ORIENTED)
-
-```python
-"""
-Filename: tegardevinf.py
-Author: Tegar <tegardevINF>
-Role: Backend Developer & AI Builder
-Location: Yogyakarta, Indonesia 🇮🇩
-Status: Active & Available for Collaborations
-"""
-
-from typing import List, Dict, Union, Any
-import time
-import sys
-
-class DeveloperProfile:
-    def __init__(self):
-        self.username: str = "tegardevINF"
-        self.location: str = "Yogyakarta, Indonesia 🇮🇩"
-        self.role: str = "Backend Developer & AI Builder"
-        self.mantra: str = "Clear code > clever code"
-        self.focus_areas: List[str] = [
-            "High-Performance Backend Engineering",
-            "Autonomous Multi-Agent Systems",
-            "Distributed Event-Driven Architectures",
-            "Zero-Trust API Security Gateways",
-            "Local LLM Optimization & Embeddings"
-        ]
-        self.current_project: str = "Veltrix V2 (Autonomous Agent Swarm Engine)"
-
-    def get_tech_stack(self) -> Dict[str, List[str]]:
-        """
-        Returns the core technology matrix that I actively use and build with.
-        """
-        return {
-            "Languages": [
-                "Python (FastAPI, Flask, asyncio, Pydantic)",
-                "JavaScript (ES6+, Node.js, Express)",
-                "TypeScript (Strongly typed backend microservices)",
-                "SQL (PostgreSQL, SQLite WAL optimization)",
-                "Shell Scripting (Bash, PowerShell automation)"
-            ],
-            "AI & Embeddings": [
-                "Ollama (Local LLM deployment)",
-                "ChromaDB (Vector database semantic search)",
-                "LangChain & LangGraph (Agentic workflows)",
-                "API Integration (OpenAI, Anthropic Claude, Google Gemini)",
-                "RAG Pipelines (Retrieval-Augmented Generation)"
-            ],
-            "Database & Caching": [
-                "Redis (Pub/Sub, High-speed Caching, Message Queues)",
-                "PostgreSQL (Relational modeling, indexing optimization)",
-                "SQLite (WAL mode crash-safe local persistence)"
-            ],
-            "Infrastructure & DevOps": [
-                "Docker (Containerization & multi-stage builds)",
-                "Docker Compose (Orchestrating multi-service networks)",
-                "Nginx (Reverse proxy, load balancing, SSL termination)",
-                "Git & GitHub (Version control, semantic branching, actions)",
-                "Linux (Ubuntu, Debian system administration)"
-            ],
-            "Testing & Tooling": [
-                "Pytest & Supertest (Unit & Integration testing)",
-                "Postman (API documentation and test automation)",
-                "VS Code / Cursor (Primary IDE environments)"
-            ]
-        }
-
-    def execute_development_cycle(self, task_description: str) -> bool:
-        """
-        Simulates my rigorous development cycle for shipping production-grade code.
-        """
-        print(f"[+] Initializing new feature development: '{task_description}'")
-        time.sleep(0.5)
-
-        # Step 1: Design and Architecture Planning
-        print("[Step 1] Planning architecture & verifying DB schemas...")
-        time.sleep(0.3)
-
-        # Step 2: Zero-Trust Security Verification
-        print("[Step 2] Conducting zero-trust compliance review...")
-        if not self._run_security_audit():
-            print("[!] Security audit failed. Refusing to write code.")
-            return False
-
-        # Step 3: Core Implementation
-        print("[Step 3] Implementing backend logic using asyncio & non-blocking I/O...")
-        time.sleep(0.6)
-
-        # Step 4: Verification & Automated Tests
-        print("[Step 4] Running unit and integration tests (Pytest)...")
-        tests_passed = self._run_automated_tests()
-        if not tests_passed:
-            print("[!] Tests failed. Initiating automated debugging loop...")
-            return False
-
-        # Step 5: Production Deployment
-        print("[Step 5] Creating Docker images and deploying via Nginx...")
-        time.sleep(0.4)
-        print(f"[✓] Feature '{task_description}' successfully shipped to production!")
-        return True
-
-    def _run_security_audit(self) -> bool:
-        # Check for hardcoded secrets, check CORS policies, ensure session DPAPI encryption
-        return True
-
-    def _run_automated_tests(self) -> bool:
-        # 100% test coverage target
-        return True
-
-# Instantiate Tegar's Profile
-tegar = DeveloperProfile()
-```
-
----
-
-## 🤖 FEATURED ARCHITECTURE: VELTRIX V2 SWARM
-
-Veltrix V2 is a local-first, high-performance agentic engine built on FastAPI, SQLite in WAL mode, and ChromaDB. It coordinates a multi-agent swarm to execute complex workspace mutations and operating-system automation.
-
-```text
-                                  ┌───────────────────┐
-                                  │   User Terminal   │
-                                  └─────────┬─────────┘
-                                            │
-                                     (veltrix cli)
-                                            │
-                                            ▼
-                             ┌─────────────────────────────┐
-                             │    Veltrix CLI Entrance     │
-                             │ - Authentication Service    │
-                             │ - System Diagnostics Router │
-                             └──────────────┬──────────────┘
-                                            │
-                                    (Agent Gate)
-                                            │
-                                            ▼
-                           ┌─────────────────────────────────┐
-                           │    Swarm Coordinator Engine     │
-                           │ - Fallback Chain Logic          │
-                           │ - Telemetry Logging Streams     │
-                           └────────┬───────┬───────┬────────┘
-                                    │       │       │
-             ┌──────────────────────┘       │       └──────────────────────┐
-             ▼                              ▼                              ▼
-┌─────────────────────────┐    ┌─────────────────────────┐    ┌─────────────────────────┐
-│   PlanArchitectAgent    │    │  SecurityEngineAgent    │    │   CodeDeveloperAgent    │
-│ - Structure blueprints  │    │ - Zero-trust validation │    │ - Code generation       │
-│ - Dependency mapping    │    │ - API key rotation keys │    │ - Automated test runs   │
-└────────────┬────────────┘    └────────────┬────────────┘    └────────────┬────────────┘
-             │                              │                              │
-             └──────────────────────────────┼──────────────────────────────┘
-                                            ▼
-                             ┌─────────────────────────────┐
-                             │       DeveloperAgent        │
-                             │ - Computer Use Skill        │
-                             │ - Visual Reasoning Module   │
-                             └──────────────┬──────────────┘
-                                            │
-                                            ▼
-                             ┌─────────────────────────────┐
-                             │   Operating System API      │
-                             │ - PyAutoGUI mouse clicks    │
-                             │ - PIL Screen capture        │
-                             │ - Shell Command Executor    │
-                             └─────────────────────────────┘
-```
-
-### Swarm Agents Specifications & Manifest
-
-#### 1. PlanArchitectAgent
-*   **Role**: Senior Systems Architect
-*   **Task**: Analyze user queries, outline required architectural changes, map dependencies, and write structured implementation plans.
-*   **System Prompt Style**: Top-level system instructions with strict markdown syntax formatting rules.
-
-#### 2. SecurityEngineAgent
-*   **Role**: Principal Security Officer
-*   **Task**: Enforce zero-trust boundaries. Validate all file read/write operations to prevent directory traversals. Prevent hardcoding of secrets by verifying DPAPI encryption status.
-*   **Policies**: Block commands containing wildcard modifications (`rm -rf *`), verify workspace bounds, and validate cross-user session boundaries.
-
-#### 3. CodeDeveloperAgent
-*   **Role**: Lead Software Engineer
-*   **Task**: Implement structural modifications to Python/TypeScript projects, run formatters (`black`/`prettier`), execute pytest testing suites, and report test coverage logs.
-
-#### 4. DeveloperAgent (The Computer Executor)
-*   **Role**: Operating System Automation Specialist
-*   **Task**: Runs visual reasoning loops using screenshot captures, analyzes control coordinate layouts, and executes simulated UI actions.
-
----
-
-## ⚡ THE ZEN OF TEGAR (10 LAWS OF BACKEND DESIGN)
-
-1.  **Readability Over Cleverness**: Code is read vastly more times than it is written. Use self-explanatory variable naming, strict type-hinting, and avoid nested ternary operations.
-2.  **Local-First Architecture**: Build systems that run autonomously on your local hardware. Use cloud resources only as an optional utility, not a mandatory bottleneck.
-3.  **Concurrency Without Blocking**: All network gateways, database calls, and file I/O operations must be executed asynchronously. Never run synchronous blocking logic in async request loops.
-4.  **Crash-Safe Database Integrity**: Configure relational engines for maximum resilience. Use SQLite in Write-Ahead Logging (WAL) mode with normal synchronization to survive unexpected power losses.
-5.  **Zero-Trust Session Sandboxing**: Always extract and validate session identity metadata before authorizing file system reads or collection queries. Block all unauthorized directory traversal attempts.
-6.  **Comprehensive Token & Latency Telemetry**: Measure everything. Monitor Time-To-First-Token (TTFT), complete roundtrip latency, and input/output token usage. Pipe telemetry records to scraping agents.
-7.  **Failover Circuit Breakers**: Implement robust cascading fallback pathways. When an external API gateway experiences a failure (429/5xx), place it on cooldown and divert traffic immediately.
-8.  **Automate Repetitive Workflows**: If you find yourself manually running a sequence of commands more than three times, write a Python shell utility or train a Veltrix agent to execute it.
-9.  **Secure Secret Management**: Secrets must never touch repository commits. Encrypt session tokens at the OS level using DPAPI (`win32crypt`) so they are bound securely to the local machine credentials.
-10. **Midnight Execution**: The quiet hours of the night are when distraction disappears, cognitive reasoning peaks, and the most challenging structural bugs are resolved.
-
----
-
-## 🛠️ THE COMPREHENSIVE TECHNOLOGY ATLAS
-
-### Backend Frameworks & Microservices
-*   **FastAPI**: High-performance ASGI framework. Extensive use of dependency injection, Pydantic data validation, and asynchronous routing templates.
-*   **Node.js & Express**: Scalable event-driven JavaScript backend environments. Design of modular middleware, robust error boundaries, and RESTful routing layers.
-*   **TypeScript**: Static type verification for Node.js backends. Implementing domain-driven architectures, clean interfaces, and robust compile-time safety guards.
-
-### Databases & Cache Optimization
-*   **PostgreSQL**: Advanced schema configurations, table partitioning, optimized indexing (B-Tree, GIN, GiST), and performance-tuning connection pools.
-*   **Redis**: Key-value data caching, distributed locks (Redlock algorithm), system message queues, and high-frequency pub/sub event brokers.
-*   **SQLite**: Micro-database deployment with Write-Ahead Logging enabled. Highly optimized for memory-mapped read speeds and thread-safe writing transactions.
-*   **ChromaDB**: Semantic search knowledge base. High-efficiency vector search query scopes with metadata filtration to isolate document segments.
-
-### Systems, Containerization & DevOps
-*   **Docker**: Multistage microservice builds. Minimizing final image sizes, isolating runtime environments, and configuring read-only root filesystems.
-*   **Docker Compose**: Declarative definition of multi-container service networks. Managing dependencies, network routing bounds, and local volume persistence.
-*   **Nginx**: Reverse-proxy server configurations, HTTPS encryption handshakes, compression load rules, and rate-limiting request gateways.
-*   **Linux (Ubuntu/Debian)**: System service daemon setups (`systemd`), cron job orchestrations, network socket tracking, and directory permissions administration.
-
----
-
-## 💬 SIMULATED MULTI-AGENT SWARM SESSION LOG
-
-The following block is a detailed representation of Veltrix V2 executing a complex task in my local workspace:
-
-```text
-2026-05-20T17:15:00.000Z [INFO] [CLI] Received command: veltrix "/spawn crm" --effort=high
-2026-05-20T17:15:00.005Z [INFO] [Auth] Retrieving DPAPI decrypted token... Success.
-2026-05-20T17:15:00.120Z [INFO] [DB] SQLite WAL Checkpoint verified. Session DB active.
-2026-05-20T17:15:00.250Z [INFO] [Swarm] Initiating Swarm Coordinator for task: "enrich CRM records"
-2026-05-20T17:15:00.255Z [INFO] [Swarm] Spawning agent mesh...
-2026-05-20T17:15:00.300Z [INFO] [PlanArchitect] Analysing workspace files and defining implementation plan.
-2026-05-20T17:15:01.102Z [INFO] [PlanArchitect] Plan created successfully: "blueprints/crm_enrichment_plan.md"
-2026-05-20T17:15:01.150Z [INFO] [SecurityEngine] Scanning execution path for safety compliance.
-2026-05-20T17:15:01.155Z [INFO] [SecurityEngine] Target endpoints: Salesforce API & LinkedIn DOM search.
-2026-05-20T17:15:01.160Z [INFO] [SecurityEngine] No malicious shell parameters detected. Permission granted.
-2026-05-20T17:15:01.200Z [INFO] [DeveloperAgent] Booting Computer Use automation loop.
-2026-05-20T17:15:01.500Z [INFO] [DeveloperAgent] [Phase 1] Taking virtual workspace screenshot.
-2026-05-20T17:15:02.110Z [INFO] [DeveloperAgent] [Phase 1] Layout analysed. Chrome browser detected at screen bounds.
-2026-05-20T17:15:02.120Z [INFO] [DeveloperAgent] [Phase 2] Moving simulated mouse cursor to address bar: coordinate [450, 80]
-2026-05-20T17:15:02.400Z [INFO] [DeveloperAgent] [Phase 2] Executed mouse click.
-2026-05-20T17:15:02.500Z [INFO] [DeveloperAgent] [Phase 3] Sending typing payload: "https://linkedin.com/in/target-company"
-2026-05-20T17:15:03.200Z [INFO] [DeveloperAgent] [Phase 3] Navigating...
-2026-05-20T17:15:05.100Z [INFO] [DeveloperAgent] [Phase 4] Screen capture parsed for profile attributes.
-2026-05-20T17:15:05.150Z [INFO] [DeveloperAgent] [Phase 4] Extracted Parameters:
-                             - Target Headcount: 320 Employees
-                             - Sector Classification: Neural Technology & AI Engineering
-2026-05-20T17:15:05.200Z [INFO] [DeveloperAgent] [Phase 5] Switching browser active tab to Salesforce CRM instance.
-2026-05-20T17:15:05.500Z [INFO] [DeveloperAgent] [Phase 5] Moving cursor to click: coordinate [1550, 220]
-2026-05-20T17:15:05.800Z [INFO] [DeveloperAgent] [Phase 6] Focus verified on data entry input field.
-2026-05-20T17:15:06.000Z [INFO] [DeveloperAgent] [Phase 6] Typing corporate enrichment details: "Veltrix Corp - 320 Employees - Neural Tech"
-2026-05-20T17:15:07.120Z [INFO] [DeveloperAgent] [Phase 7] Moving cursor to submit button: coordinate [1080, 850]
-2026-05-20T17:15:07.400Z [INFO] [DeveloperAgent] [Phase 7] Click executed. Database transaction completed.
-2026-05-20T17:15:07.450Z [INFO] [Telemetry] Emitting session execution parameters:
-                             {
-                               "session_id": "9f2b881c-8821-4cc1-ba99-c891901abcf8",
-                               "total_duration_ms": 7450,
-                               "steps_completed": 7,
-                               "tokens_consumed": 1820,
-                               "provider_routing": "cascade-anthropic",
-                               "status": "success"
-                             }
-2026-05-20T17:15:07.500Z [INFO] [CLI] Swarm execution loop terminated successfully.
-```
-
----
-
-## 🔗 COMPREHENSIVE REST API SPECIFICATION (VELTRIX GATEWAY)
-
-Below is the structured OpenAPI definition for my local agent gateways:
-
-```yaml
-openapi: 3.0.3
-info:
-  title: Veltrix Agentic Swarm API Gateway
-  description: High-performance endpoint schema for initiating agentic workflows.
-  version: 2.1.0-Stealth
-paths:
-  /api/v2/swarm/spawn:
-    post:
-      summary: Spawn autonomous agent loop
-      security:
-        - DPAPIOAuth: []
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: object
-              required:
-                - goal
-              properties:
-                goal:
-                  type: string
-                  description: The target task description
-                model:
-                  type: string
-                  enum: [cascade, gemini, anthropic, groq, ollama]
-                  default: cascade
-                bypass_permissions:
-                  type: boolean
-                  default: false
-      responses:
-        '200':
-          description: Agent swarm successfully initiated
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  session_id:
-                    type: string
-                  status:
-                    type: string
-                  active_branch:
-                    type: string
-        '401':
-          description: Unauthorized session token
-  /api/v2/telemetry/metrics:
-    get:
-      summary: Fetch real-time token and latency metrics
-      responses:
-        '200':
-          description: List of active metrics
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    timestamp:
-                      type: string
-                    provider:
-                      type: string
-                    duration_ms:
-                      type: integer
-                    input_tokens:
-                      type: integer
-                    output_tokens:
-                      type: integer
-```
-
----
-
-## 🌐 CONNECT WITH ME
+<!--
+================================================================================
+████████╗███████╗ ██████╗  █████╗ ██████╗ ██████╗ ███████╗██╗   ██╗██╗███╗   ██╗███████╗
+╚══██╔══╝██╔════╝██╔════╝ ██╔══██╗██╔══██╗██╔══██╗██╔════╝██║   ██║██║████╗  ██║██╔════╝
+   ██║   █████╗  ██║  ███╗███████║██████╔╝██║  ██║█████╗  ██║   ██║██║██╔██╗ ██║█████╗  
+   ██║   ██╔══╝  ██║   ██║██╔══██║██╔══██╗██║  ██║██╔══╝  ╚██╗ ██╔╝██║██║╚██╗██║██╔══╝  
+   ██║   ███████╗╚██████╔╝██║  ██║██║  ██║██████╔╝███████╗ ╚████╔╝ ██║██║ ╚████║██║     
+   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝╚═╝     
+================================================================================
+-->
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-tegardevINF-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tegardevINF)
-[![Instagram](https://img.shields.io/badge/Instagram-@tegar-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tegar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Telegram](https://img.shields.io/badge/Telegram-@tegar-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](#)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
+<!-- CAPSULE HEADER WITH VENOM EFFECT -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,40:002200,80:004d00,100:00e676&height=280&section=header&text=Tegar&fontSize=110&fontColor=00ff88&animation=fadeIn&fontAlignY=45&stroke=00e676&strokeWidth=3&desc=Backend%20Developer%20%7C%20AI%20Builder%20%7C%20Yogyakarta%20%F0%9F%87%AE%F0%9F%87%A9&descSize=20&descColor=aaffcc&descAlignY=65" width="100%" />
+
+<br/>
+
+<!-- DYNAMIC TYPING SVG WELCOME -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00E676&center=true&vCenter=true&width=750&height=80&lines=Welcome+to+my+digital+universe!+%F0%9F%8C%8C;I'm+a+Backend+Developer+%2B+AI+Builder+%F0%9F%A4%96;Crafting+scalable+systems+%2B+smart+backends+%F0%9F%94%A5;Python+%7C+Node.js+%7C+TypeScript+%F0%9F%92%9A;Clean+code+always+wins+over+clever+code!+%E2%9A%A1;Let's+build+the+future+together!+%E2%9C%A8" />
+
+<br/>
+
+<!-- VISITOR & FOLLOWERS BADGES -->
+<img src="https://komarev.com/ghpvc/?username=tegardevINF&label=Profile+Views&color=00e676&style=for-the-badge&background=0d1117" />
+&nbsp;
+<a href="https://github.com/tegardevINF?tab=followers">
+  <img src="https://img.shields.io/github/followers/tegardevINF?label=Followers&style=for-the-badge&color=00e676&labelColor=0d1117" />
+</a>
+&nbsp;
+<a href="https://github.com/tegardevINF?tab=repositories">
+  <img src="https://img.shields.io/github/stars/tegardevINF?label=Total+Stars&style=for-the-badge&color=00e676&labelColor=0d1117" />
+</a>
+
+<br/><br/>
+
+<!-- INTERACTIVE LOADING STATE -->
+<a href="https://github.com/tegardevINF">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00e676&center=true&vCenter=true&width=550&lines=...+loading+Tegar's+system+...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25+%E2%9C%85" />
+</a>
 
 </div>
 
 ---
 
-## 📈 GITHUB STATISTICS & ACTIVITY
+## 📖 WHO IS TEGAR?
+
+Hello! I am a passionate **Backend Developer** and **AI Builder** based in the cultural heart of Indonesia, **Yogyakarta**. I specialize in creating highly efficient, distributed backend systems and integrating intelligent, autonomous agent swarms (like Veltrix V2) to solve real-world complexities.
+
+I believe in **clean architecture**, **asynchronous execution**, and **local-first AI computing**. When I'm not writing code or tweaking prompt engineering limits, you can find me exploring Jogja's local coffee spots, debugging deep-tech concepts at 2 AM, or building tools that automate the boring stuff.
+
+```text
+┌────────────────────────────────────────────────────────┐
+│  "Software engineering is not just about making things │
+│  work; it's about making them maintainable, secure,    │
+│  and elegant enough to stand the test of time."        │
+└────────────────────────────────────────────────────────┘
+```
+
+---
+
+## ⚡ CORE FOCUS & DAILY DRIVER
+
+Here is a quick snapshot of what drives my developer lifestyle:
+
+*   🤖 **Autonomous AI Swarms**: Orchestrating multi-agent systems with localized thinking states, visual reasoning capabilities, and local vector retrieval.
+*   💾 **High-Performance Persistence**: Designing databases with write-ahead logging (WAL), distributed connection caching, and structured relational constraints.
+*   ⚙️ **Microservice Infrastructure**: Deploying scalable API gateways, reverse proxies, and isolated container networks.
+*   🔒 **Zero-Trust Development**: Enforcing directory path isolation, automated runtime security compliance, and encrypted credential storage.
+
+---
+
+## 🛠️ THE TECH ARSENAL
+
+I work with a diverse set of technologies to bring robust applications to life. Below is my categorized technology stack:
+
+### 🐍 Backend & Programming Languages
+<table5>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="48" height="48" />
+      <br/><b>Python</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" width="48" height="48" />
+      <br/><b>JavaScript</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48" height="48" />
+      <br/><b>TypeScript</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" />
+      <br/><b>Node.js</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" />
+      <br/><b>Express</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" />
+      <br/><b>FastAPI</b>
+    </td>
+  </tr>
+</table>
+
+### 🗄️ Database & Memory Layer
+<table>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" />
+      <br/><b>PostgreSQL</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" />
+      <br/><b>SQLite</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" />
+      <br/><b>Redis</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" />
+      <br/><b>MongoDB</b>
+    </td>
+  </tr>
+</table>
+
+### 🤖 AI Engineering & Smart Swarms
+<table>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=openai" width="48" height="48" />
+      <br/><b>OpenAI API</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=google" width="48" height="48" />
+      <br/><b>Gemini API</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" />
+      <br/><b>TensorFlow</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" />
+      <br/><b>PyTorch</b>
+    </td>
+  </tr>
+</table>
+
+### ⚙️ DevOps, OS, & Core Infrastructure
+<table>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="48" height="48" />
+      <br/><b>Docker</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" />
+      <br/><b>Git</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" />
+      <br/><b>Linux</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" />
+      <br/><b>Nginx</b>
+    </td>
+    <td align="center" width="120">
+      <img src="https://skillicons.dev/icons?i=bash" width="48" height="48" />
+      <br/><b>Bash</b>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 PROJECTS SPOTLIGHT
+
+Here are some of the key open-source projects I've been building and maintaining:
+
+### 🤖 Veltrix V2 (The Agentic Swarm Engine)
+An autonomous, local-first multi-agent coordination engine built with FastAPI, SQLite WAL mode, and ChromaDB. It allows users to run developer tasks from their terminal with high accuracy and safety.
+*   **Tech Stack**: Python, FastAPI, SQLite, ChromaDB, Ollama.
+*   **Key Features**: Visual computer automation loop, DPAPI secure configuration store, fallback cascading API gateway router.
+*   **Status**: Active development 🚀
+
+### 📁 File Validator Framework
+An extensible, high-performance file validation library designed to check file integrity, mime-types, size limits, and security headers dynamically on backend uploads.
+*   **Tech Stack**: Python, TypeScript, Node.js.
+*   **Key Features**: Fast magic-number checks, malware extension blocklist, customizable pipeline filters.
+*   **Status**: Stable 📦
+
+### 🌐 Scalable Chat Engine Gateway
+A real-time, distributed chat gateway utilizing Redis Pub/Sub channels to sync states across clustered backend nodes.
+*   **Tech Stack**: Node.js, Express, Socket.io, Redis, Docker.
+*   **Key Features**: Sub-5ms message routing latency, automatic reconnect sync, Docker Compose orchestrated networks.
+*   **Status**: Maintained ⚡
+
+---
+
+## 📈 MY GITHUB STATS
 
 <div align="center">
 
@@ -410,21 +217,23 @@ paths:
 
 ---
 
-## 📊 WORKSPACE DYNAMICS
+## 📈 CONTRIBUTION GRAPH
 
-### Core Technical Accomplishments Matrix
-*   **Authentication Hardening**: Upgraded JWT session workflows from static strings to DPAPI machine credentials.
-*   **Database Acceleration**: Switched flat JSON file tracking states to SQLite Write-Ahead Logging.
-*   **Tooling Optimization**: Refactored blocking HTTP calls inside agent tasks to utilize `httpx` async pipelines.
-*   **Visual Automation**: Designed visual reasoning screenshot capture scripts for Chrome address bar mapping.
+<div align="center">
 
-### Programming Activity Timeline
-```text
-2023: Backend fundamentals, Node.js development, RESTful API design.
-2024: Advanced Python scripting, SQLite database integrations, initial LLM APIs.
-2025: Asynchronous microservices, RAG pipeline construction, Local Vector Databases.
-2026: Multi-Agent swarms, visual computer reasoning automation, Veltrix V2 implementation.
-```
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=003300&hide_border=true&radius=6" />
+
+</div>
+
+---
+
+## 🏆 GITHUB TROPHIES
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=tegardevINF&row=2&column=4&margin-w=10&margin-h=10&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
 
 ---
 
@@ -438,421 +247,547 @@ paths:
 
 ---
 
-## 🌟 DEVELOPMENT DEV QUOTE
+## 💻 MY WORKSPACE & SETUP
 
-<div align="center">
+Here is the hardware and software configuration I use on a daily basis:
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
----
-
-## 📅 HISTORICAL SYSTEM ARCHIVE (DEVELOPMENT TIMELINE)
-
-### Q1 2023 - Backend Foundation Stage
-*   Designed microservices using Express.js and structured standard middleware routing templates.
-*   Learned Docker basics, containerizing static backends, and configuring network link bridges.
-*   Focused on relational database design, structuring indices, and writing optimized raw SQL queries.
-
-### Q3 2023 - System Scaling Stage
-*   Refactored core services to TypeScript, achieving strict type-safety checks across API layers.
-*   Integrated Redis caching systems to accelerate retrieval times for high-frequency queries.
-*   Built asynchronous event brokers using Redis Pub/Sub channels to coordinate microservice tasks.
-
-### Q1 2024 - AI & LLM Exploration Stage
-*   Began experimenting with OpenAI API integrations, constructing initial prompt templates.
-*   Built simple Retrieval-Augmented Generation (RAG) pipelines to search custom text documents.
-*   Migrated backends from Node.js to Python FastAPI, leveraging async logic for inference calls.
-
-### Q3 2024 - Local-First Architecture Stage
-*   Deployed Ollama instances to run local language models (Llama 3, Mistral) on hardware.
-*   Integrated ChromaDB vector databases to manage document embeddings locally.
-*   Optimized database layers by enabling Write-Ahead Logging on local SQLite databases.
-
-### Q1 2025 - Swarm Intelligence Stage
-*   Developed early iterations of Veltrix multi-agent coordination scripts.
-*   Established structured output parsers to convert model thoughts into executable system instructions.
-*   Configured DPAPI data protection workflows to encrypt local workspace configuration keys.
-
-### Q2 2026 - Autonomous Workspace Stage
-*   Implemented visual computer automation algorithms utilizing screenshot analyzing loops.
-*   Successfully wired CLI entries (`veltrix`) to spawn autonomous workspace-fixing agents.
-*   Maintained full Git sync pipelines to track and deploy workspace modifications.
+*   **Operating System**: Windows 11 Pro + WSL2 (Ubuntu 22.04 LTS)
+*   **Primary IDE**: Cursor & Visual Studio Code (Custom Tokyonight / Stealth theme)
+*   **Terminal Emulator**: Windows Terminal (custom PowerShell 7 & Zsh profiles)
+*   **Editor Font**: Fira Code / JetBrains Mono (with ligatures enabled)
+*   **Local LLM Engine**: Ollama (running Llama 3 & DeepSeek-R1 local variants)
+*   **Database Client**: DBeaver & SQLite Studio
+*   **API Test Suite**: Postman / Bruno client
 
 ---
 
-## 🎯 THIS WEEK I SPENT MY TIME ON
+## 🧠 DEV MEME & HUMOR
 
-<div align="center">
+Here are some classic developer jokes and realities that keep me company during midnight debugging sessions:
 
 ```text
-TypeScript   ████████████████░░░░   78%
-Python       ██████░░░░░░░░░░░░░░   28%
-Bash         ██░░░░░░░░░░░░░░░░░░   10%
-JSON         █░░░░░░░░░░░░░░░░░░░    5%
-Other        █░░░░░░░░░░░░░░░░░░░    4%
++--------------------------------------------------------+
+|  Midnight Debugging Status:                            |
+|                                                        |
+|  [ ] Code works, I know why.                           |
+|  [ ] Code doesn't work, I know why.                    |
+|  [ ] Code works, I have absolutely no idea why.        |
+|  [x] Code doesn't work, I have absolutely no idea why. |
++--------------------------------------------------------+
 ```
 
-</div>
+*   **Why do programmers wear glasses?** Because they can't C#!
+*   **There are 10 types of people in the world:** Those who understand binary, and those who don't.
+*   **Real Developer Vibe:** Spending 4 hours writing a Python automation script for a task that takes 2 minutes to do manually.
 
 ---
 
-## 🛡️ CORE SECURITY PROCEDURES (THE SECURE BLUEPRINT)
+## 🎮 BEYOND CODING
 
-To maintain absolute data isolation and prevent cross-session leakage, Veltrix CLI enforces the following verification steps:
+When I'm not staring at terminal screens, you'll find me:
 
-```python
-def verify_security_boundary(source_path: str, target_dir: str) -> bool:
-    """
-    Prevents directory traversal attacks by validating path resolutions.
-    """
-    import os
-    resolved_source = os.path.realpath(source_path)
-    resolved_target = os.path.realpath(target_dir)
-    return resolved_source.startswith(resolved_target)
-```
-
-1.  **Strict Path Verification**: All operations are restricted to the active workspace directory path. Attempts to traverse outside are blocked.
-2.  **DPAPI Key Protection**: Secrets are locked using the Windows Data Protection API, preventing other local users from decrypting session keys.
-3.  **Local Isolation**: Database records, state recoveries, and agent logs are stored locally within the user workspace. No telemetry is leaked to unauthorized cloud routers.
+*   ☕ **Coffee Hunting**: Sampling local coffees in Yogyakarta and comparing cold brews.
+*   🎧 **Vibing to Beats**: Listening to lo-fi coding playlists, rap, or local Indonesian indie bands.
+*   🕹️ **Gaming**: Playing competitive esports or relaxing sandbox building games.
+*   🗺️ **Exploring**: Wandering around Jogja's historic spots and cultural events.
 
 ---
 
-## 🔧 COMPREHENSIVE UTILITIES (LOCAL AUTOMATION SCRIPTS)
+## 📅 THE DEVELOPMENT PATH (TIMELINE)
 
-### 1. SQLite WAL Checkpoint Optimization (Python)
-This script is executed periodically to optimize SQLite WAL file sizes without blocking database access:
+### 🚀 2023: The Foundation
+*   Dived deep into backend engineering concepts and Node.js routing.
+*   Built several RESTful APIs using Express and managed relational data models in PostgreSQL.
+*   Learned containerization standards using Docker and orchestrated simple development networks.
 
+### ⚡ 2024: Advanced Systems
+*   Refactored Node projects to TypeScript for robust build-time safety.
+*   Implemented high-speed key-value caches and message brokers using Redis.
+*   Built async endpoints in Python FastAPI, exploring fast execution loops.
+
+### 🤖 2025: Swarms and AI
+*   Created local RAG pipelines combining ChromaDB vector spaces with model APIs.
+*   Developed initial prototypes of Veltrix agent swarms to automate repetitive developer workflows.
+*   Optimized micro-database operations using SQLite Write-Ahead Logging (WAL) configurations.
+
+### 🔮 2026: Visual Automation & Scalability
+*   Integrated visual action parsing loops for OS automation tasks.
+*   Implemented DPAPI machine encryption standards for securing configuration keys locally.
+*   Expanding local-first agent mesh coordination patterns to resolve full directory changes.
+
+---
+
+## 🛠️ THE SHELL CHRONICLES: MY DAILY ALIASES & SHORTCUTS
+
+To speed up my workspace activities, I configure custom aliases in my PowerShell profile and `.zshrc`. Here is the developer toolbox that keeps me productive:
+
+### 🐚 PowerShell Profile (`$PROFILE`)
+```powershell
+# Git Shortcuts
+function g-ac { git add -A; git commit -m "$args" }
+function g-p { git push }
+function g-s { git status }
+function g-co { git checkout $args }
+function g-b { git branch }
+
+# Veltrix Autonomous Shortcuts
+function vx-check { veltrix "/check all" }
+function vx-spawn { veltrix "/spawn $args" }
+function vx-status { veltrix --status }
+
+# Docker Quick Clean
+function d-clean {
+    docker system prune -a --volumes -f
+    echo "[✓] Docker workspace successfully sanitized."
+}
+
+# Python Virtualenv Activation
+function activate {
+    if (Test-Path ".\veltrix-env\Scripts\Activate.ps1") {
+        .\veltrix-env\Scripts\Activate.ps1
+        echo "[+] Activated local veltrix-env"
+    } else {
+        echo "[!] No local veltrix-env folder found in current directory."
+    }
+}
+```
+
+### 🐧 WSL Zsh Shell (`~/.zshrc`)
+```bash
+# Core navigation and listing
+alias ll="ls -lah --color=auto"
+alias ..="cd .."
+alias ...="cd ../.."
+
+# Python environments
+alias py="python3"
+alias pipinstall="pip install --upgrade pip && pip install -r requirements.txt"
+
+# Git logs formatted elegantly
+alias glog="git log --graph --oneline --decorate --abbrev-commit -n 15"
+alias gdiff="git diff --color-words"
+```
+
+---
+
+## 📚 DETAILED TECH ARSENAL LIBRARIES & TOOLKIT
+
+Below is the list of specific libraries and utilities I rely on to construct responsive backend systems:
+
+### 🐍 Python Backend Ecosystem
+| Library / Package | Category | Primary Use Case / Purpose | My Rating |
+| :--- | :--- | :--- | :---: |
+| **FastAPI** | Web Framework | Building high-performance, asynchronous REST APIs | ⭐⭐⭐⭐⭐ |
+| **Pydantic V2** | Validation | Strict data validation and settings management | ⭐⭐⭐⭐⭐ |
+| **Asyncio** | Concurrency | Running non-blocking network socket communication | ⭐⭐⭐⭐ |
+| **SQLAlchemy** | ORM | Relational database mapping & session tracking | ⭐⭐⭐⭐ |
+| **Httpx** | Async Client | Non-blocking API requests to third-party endpoints | ⭐⭐⭐⭐⭐ |
+| **ChromaDB** | Vector DB | Local semantic storage for RAG pipeline embeddings | ⭐⭐⭐⭐ |
+| **Black / Flake8** | Tooling | Automatic code formatting & static lint validation | ⭐⭐⭐⭐⭐ |
+
+### 🟢 Node.js / TypeScript Ecosystem
+| Package Name | Category | Primary Use Case / Purpose | My Rating |
+| :--- | :--- | :--- | :---: |
+| **Express** | Framework | Fast and minimalist routing gateway server | ⭐⭐⭐⭐⭐ |
+| **Socket.io** | Realtime | Low-latency WebSockets communication layer | ⭐⭐⭐⭐ |
+| **TypeScript** | Language | Compile-time type verification for clean services | ⭐⭐⭐⭐⭐ |
+| **Dotenv** | Utility | Loading environment variables from local configurations | ⭐⭐⭐⭐⭐ |
+| **Redis Client** | Caching | Connecting backend threads to local Redis queues | ⭐⭐⭐⭐⭐ |
+| **Zod** | Validation | Type-safe schema validation for Express payloads | ⭐⭐⭐⭐ |
+| **Jest / Supertest** | Testing | Automated unit and route integration checking | ⭐⭐⭐⭐ |
+
+---
+
+## 🧠 THE DEVELOPER FAQ & TRIVIA (JOGJA VIBES EDITION)
+
+Here are the answers to some of the questions I get asked most frequently about my setup, philosophy, and lifestyle:
+
+#### Q: Mengapa fokus pada Backend dan AI dibanding Frontend?
+> **A**: Backend adalah tempat di mana logika rumit bekerja—mulai dari struktur database, sistem caching, antrean pesan, hingga integrasi model AI otonom. Frontend sangat menyenangkan, tetapi merancang sistem terdistribusi yang aman dan cepat adalah keahlian utama saya.
+
+#### Q: Cursor vs VS Code?
+> **A**: Saat ini saya menggunakan Cursor untuk project-project AI-heavy (seperti Veltrix V2) karena fitur pemahaman konteks reponya sangat intuitif. Namun, saya selalu mengonfigurasi tombol shortcut dan tema saya agar identik dengan VS Code asli.
+
+#### Q: Mengapa Anda menyukai SQLite WAL Mode dibanding PostgreSQL untuk project lokal?
+> **A**: SQLite sangat ringan dan tidak membutuhkan server background daemon tambahan. Dengan WAL (Write-Ahead Logging) diaktifkan, kecepatan baca database lokal sangat mengesankan, dan datanya tetap aman dari mati lampu mendadak saat coding malam.
+
+#### Q: Bagaimana cara Anda menjaga produktivitas coding?
+> **A**: Kopi Jogja, lo-fi beats, dan daftar tugas yang terperinci di Markdown. Saya selalu membagi tugas besar menjadi component-level TODO list kecil agar progressnya terasa nyata.
+
+#### Q: Kopi favorit saat ngoding malam?
+> **A**: Kopi hitam lokal tanpa gula—dingin (Cold Brew) untuk konsentrasi tinggi tanpa mengganggu fokus visual keyboard.
+
+#### Q: Pendapat Anda tentang Tabs vs Spaces?
+> **A**: Secara visual saya lebih menyukai indentasi 4 spasi (spaces) untuk Python dan 2 spasi untuk TypeScript, karena membuat struktur kode bertingkat terlihat lebih rapi dan terbaca.
+
+#### Q: OS utama Anda?
+> **A**: Windows 11 Pro dengan WSL2 (Ubuntu 22.04 LTS). Kombinasi ini memberikan kenyamanan UI Windows untuk hiburan dan kekuatan kernel Linux asli untuk development.
+
+---
+
+## 🎮 THE DEV PERSONALITY TEST (MY BEHAVIOR MATRIX)
+
+Here is a funny visual representation of my coding preferences:
+
+```text
+[Preference Matrix]
+  
+  Dark Theme  [████████████████████] 100%  (Light theme burns my eyes!)
+  Terminal    [██████████████████░░]  90%  (CLI is faster than GUI)
+  Manual Test [████░░░░░░░░░░░░░░░░]  20%  (Automate it with scripts!)
+  Debugging   [████████████████████] 100%  (Solving bugs is my dopamine source)
+  Socializing [████████░░░░░░░░░░░░]  40%  (Only after compiling completes)
+```
+
+---
+
+## 📖 CURATED DEV READING LIST
+
+Berikut adalah beberapa bacaan, dokumentasi, dan referensi yang saya gunakan untuk memperdalam pengetahuan arsitektur software saya:
+
+1.  **Designing Data-Intensive Applications** - Martin Kleppmann (Kitab suci untuk memahami database, replikasi, dan distributed systems).
+2.  **Clean Code: A Handbook of Agile Software Craftsmanship** - Robert C. Martin (Prinsip penulisan kode yang bersih dan mudah dirawat).
+3.  **FastAPI Documentation** - Tiangolo (Panduan terbaik untuk memahami dependency injection dan ASGI patterns).
+4.  **Zero-Trust Security Frameworks** - Berbagai whitepaper tentang keamanan I/O dan DPAPI encryption lokal.
+5.  **Multi-Agent Swarm Architectures** - Makalah riset terbaru mengenai visual computer reasoning dan agentic tool calls.
+
+---
+
+## 🎨 RETRO STATUS BAR (LIVE GRAPHICS MOCKUP)
+
+```text
+========================================================================
+[STATUS] CPU: 12% | RAM: 58% | INFERENCE ENGINE: ONLINE | COFFEEMETER: 85%
+========================================================================
+[SYS] veltrix-coordinator-v2.1 --boot-check:
+      ├─ Local ChromaDB Collection: "veltrix_knowledge_base" [OK]
+      ├─ Relational Schema Version: 2.1.0-WAL [OK]
+      └─ Session Gateway Key Rotation: win32crypt [OK]
+========================================================================
+```
+
+---
+
+## 💻 WORKSPACE CONFIGURATION BLUEPRINTS
+
+I believe that a clean editor setup and consistent formatting configurations make developer sessions 10x more productive. Below are the dotfile templates I use:
+
+### 1. VS Code / Cursor `settings.json` (Stealth GASS Theme)
+```json
+{
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 22,
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.pyc": true,
+    "**/__pycache__": true,
+    "**/*.egg-info": true
+  },
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "'Fira Code', monospace"
+}
+```
+
+### 2. Git Configurations (`~/.gitconfig`)
+```ini
+[user]
+    name = Tegar
+    email = tegardevINF@users.noreply.github.com
+[core]
+    editor = code --wait
+    autocrlf = true
+    excludesfile = ~/.gitignore_global
+[color]
+    ui = auto
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --graph --oneline --decorate
+    last = log -1 HEAD
+[init]
+    defaultBranch = main
+```
+
+### 3. Prettier Formatting Configuration (`.prettierrc`)
+```json
+{
+  "semi": true,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "always"
+}
+```
+
+### 4. Python Black Formatting Configuration (`pyproject.toml`)
+```toml
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+```
+
+---
+
+## 📝 COMPREHENSIVE COMMAND CHEAT SHEETS (MY DAILY GO-TO'S)
+
+Here is a detailed collection of the commands I execute daily across my development workflows:
+
+### 🐙 Advanced Git Operations
+*   **Create and switch to a new feature branch**:
+    ```bash
+    git checkout -b feature/amazing-ai-agent
+    ```
+*   **Merge main into feature branch safely**:
+    ```bash
+    git fetch origin
+    git merge origin/main
+    ```
+*   **Undo the last local commit but keep changes staged**:
+    ```bash
+    git reset --soft HEAD~1
+    ```
+*   **Stash current modifications with a descriptive message**:
+    ```bash
+    git stash save "refactor: intermediate backend router state"
+    ```
+*   **Apply the last stashed changes back**:
+    ```bash
+    git stash pop
+    ```
+*   **Clean untracked files and directories from the repository index**:
+    ```bash
+    git clean -fd
+    ```
+
+### 🐋 Advanced Docker Commands
+*   **List all active container resources and port bindings**:
+    ```bash
+    docker ps -a
+    ```
+*   **Spin up services in background mode and rebuild images**:
+    ```bash
+    docker-compose up -d --build
+    ```
+*   **Shut down composer services and delete associated volumes**:
+    ```bash
+    docker-compose down -v
+    ```
+*   **Stream container output logs in real-time**:
+    ```bash
+    docker logs -f container_name_here
+    ```
+*   **Open an interactive bash shell inside a running container**:
+    ```bash
+    docker exec -it container_name_here /bin/bash
+    ```
+*   **Remove unused containers, networks, images, and builder caches**:
+    ```bash
+    docker system prune -a --volumes -f
+    ```
+
+### 🐍 Python Virtual Environment & PIP
+*   **Create a clean python virtual environment**:
+    ```bash
+    python3 -m venv veltrix-env
+    ```
+*   **Install package specifications and verify runtime environments**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+*   **Export active runtime package listing to requirements file**:
+    ```bash
+    pip freeze > requirements.txt
+    ```
+*   **Run the entire unit and integration test suite with coverage logging**:
+    ```bash
+    pytest --cov=backend tests/
+    ```
+
+---
+
+## ⚡ MY 10 CODING COMMANDMENTS & PARADIGMS
+
+Here are the engineering guidelines I follow strictly to write clean, maintainable software:
+
+1.  **Do Not Repeat Yourself (DRY)**: Abstract duplicate logic into reusable modules, components, or hooks.
+2.  **Keep It Simple, Stupid (KISS)**: Choose the simplest architecture that solves the problem. Avoid over-engineering features before they are actually needed.
+3.  **You Aren't Gonna Need It (YAGNI)**: Never implement functionality until it is explicitly requested or required by the system.
+4.  **Single Responsibility Principle (SRP)**: Each class, module, or function must have one, and only one, reason to change.
+5.  **Fail Fast**: Validate parameters immediately. Raise descriptive exceptions at the boundary rather than allowing failures to cascade silently deep in the execution path.
+6.  **Document the Why, Not the What**: Code comments should explain why a decision was made, not restate what the syntax already describes.
+7.  **Write Testable Code**: If code is difficult to test, it is usually poorly structured. Refactor it into isolated, mockable blocks.
+8.  **Automate formatting**: Never debate formatting style in PR reviews. Use linters and automated formatters to enforce consistency.
+9.  **Secure All Inputs**: Assume that any parameter originating from client-side UI, third-party APIs, or external files is hostile until sanitized.
+10. **Refactor Continuously**: Leave the codebase cleaner than you found it. Small, incremental cleanups prevent technical debt accumulation.
+
+---
+
+## 🎮 PLAY THE MIDNIGHT BUG HUNTER (CLI ADVENTURE GAME)
+
+Welcome to a text-based simulator of my daily life as a backend engineer. Choose your path wisely to fix the production server before the clients notice!
+
+```text
+========================================================================
+                       MIDNIGHT BUG HUNTER v1.0
+========================================================================
+[11:58 PM] Your phone vibrates. Production server latency is spiking!
+[11:59 PM] You open your terminal. What is your first command?
+ 
+ > Option A: Run `git log` to see who pushed code last.
+ > Option B: Run `docker-compose logs -f` to check system outputs.
+ > Option C: Restart the server and hope the latency resolves itself.
+
+------------------------------------------------------------------------
+[IF YOU CHOSE OPTION A]:
+ You see a commit: "feat: add experimental neural query filter". It was
+ pushed by a junior dev 10 minutes ago. You checkout to the previous commit
+ and run tests. Latency drops back to normal!
+ [Verdict]: YOU WIN! Clean git history saved the day.
+------------------------------------------------------------------------
+[IF YOU CHOSE OPTION B]:
+ You see thousands of lines: "Error: Connection pool exhausted. Too many
+ database connections open." The PostgreSQL pool was not closed properly.
+ You write an async connection release middleware, patch it, and redeploy.
+ [Verdict]: YOU WIN! Async resource management was key.
+------------------------------------------------------------------------
+[IF YOU CHOSE OPTION C]:
+ The server boots up, but 30 seconds later the latency spikes again.
+ The underlying issue was a memory leak in the semantic embedding cache.
+ [Verdict]: GAME OVER. Never blindly restart production!
+========================================================================
+```
+
+---
+
+## 🔧 MY COMPREHENSIVE LOCAL AUTOMATION BLUEPRINTS
+
+Here are the utility scripts I write to automate backing up database records, cleaning logs, and setting up workspace environments:
+
+### 1. `backup_data.py` (Local SQLite & Vector Database Backup)
 ```python
-import sqlite3
 import os
+import shutil
+from datetime import datetime
 
-def optimize_wal(db_path: str):
+def perform_workspace_backup(db_path: str, vector_dir: str, backup_root: str):
     """
-    Triggers an active WAL checkpoint to write changes back to the main DB file.
+    Backs up the SQLite database and ChromaDB vector files locally.
     """
-    if not os.path.exists(db_path):
-        print(f"[!] Database not found at: {db_path}")
-        return
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_folder = os.path.join(backup_root, f"backup_{timestamp}")
+    os.makedirs(backup_folder, exist_ok=True)
+    
+    print(f"[+] Starting backup to: {backup_folder}")
+    
+    # 1. Backup SQLite Database
+    if os.path.exists(db_path):
+        shutil.copy2(db_path, os.path.join(backup_folder, "data.db"))
+        print("  - SQLite data.db successfully backed up.")
+    else:
+        print("  - [WARN] SQLite database file not found.")
+        
+    # 2. Backup Vector Store Directory
+    if os.path.exists(vector_dir) and os.path.isdir(vector_dir):
+        shutil.copytree(vector_dir, os.path.join(backup_folder, "chroma_db"))
+        print("  - ChromaDB vector store directory successfully backed up.")
+    else:
+        print("  - [WARN] Vector store directory not found.")
+        
+    print(f"[✓] Backup process successfully completed!")
 
-    try:
-        conn = sqlite3.connect(db_path)
-        cursor = conn.cursor()
-        
-        # Trigger explicit checkpoint
-        cursor.execute("PRAGMA wal_checkpoint(FULL);")
-        checkpoint_result = cursor.fetchone()
-        
-        # Optimize database file sizes
-        cursor.execute("VACUUM;")
-        
-        conn.close()
-        print(f"[✓] WAL checkpoint full execution complete: {checkpoint_result}")
-    except Exception as e:
-        print(f"[!] Failed to optimize WAL checkpoint: {str(e)}")
+if __name__ == "__main__":
+    perform_workspace_backup(
+        db_path="c:/AI VELTRIX V2/data.db",
+        vector_dir="c:/AI VELTRIX V2/backend/chroma_db",
+        backup_root="c:/AI VELTRIX V2/backups"
+    )
 ```
 
-### 2. Multi-Stage Dockerfile Blueprint (TypeScript Backend)
-A template Dockerfile designed to minimize final production image sizes and secure container execution:
-
-```dockerfile
-# Stage 1: Build TypeScript dependencies
-FROM node:20-alpine AS builder
-WORKDIR /app
-COPY package*.json ./
-COPY tsconfig.json ./
-RUN npm ci
-COPY src ./src
-RUN npm run build
-RUN npm prune --production
-
-# Stage 2: Execute production image
-FROM node:20-alpine
-WORKDIR /app
-COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/node_modules ./node_modules
-COPY package*.json ./
-
-# Run container as a non-root user for security compliance
-USER node
-EXPOSE 3000
-CMD ["node", "dist/index.js"]
-```
-
-### 3. Local Environment Verification Checklist (Bash)
-This script is run before mounding Veltrix agent runs to confirm dependencies are present:
-
+### 2. `clean_logs.sh` (Log Compressor for Local Services)
 ```bash
 #!/bin/bash
-echo "[+] Initializing pre-execution system check..."
+# A simple shell script to compress old log outputs and save disk space
 
-# 1. Verify Python Environment
-if command -v python3 &>/dev/null; then
-    python_version=$(python3 -V 2>&1)
-    echo "  - Python detected: $python_version [OK]"
-else
-    echo "  - [ERROR] Python 3 is required but missing."
-    exit 1
-fi
+LOG_DIR="/c/AI VELTRIX V2/logs"
+BACKUP_DIR="/c/AI VELTRIX V2/logs/archive"
+mkdir -p "$BACKUP_DIR"
 
-# 2. Verify Docker Daemon
-if docker info &>/dev/null; then
-    echo "  - Docker daemon detected [OK]"
-else
-    echo "  - [WARN] Docker daemon is offline or not installed."
-fi
+echo "[+] Starting log rotation..."
 
-# 3. Verify SQLite Version
-if command -v sqlite3 &>/dev/null; then
-    sqlite_version=$(sqlite3 --version | awk '{print $1}')
-    echo "  - SQLite detected: $sqlite_version [OK]"
-else
-    echo "  - [WARN] SQLite3 CLI tool is missing."
-fi
+# Find logs modified more than 7 days ago, compress them, and move to archive
+find "$LOG_DIR" -name "*.log" -type f -mtime +7 | while read -r logfile; do
+    echo "  - Compressing old log file: $logfile"
+    tar -czf "${logfile}.tar.gz" "$logfile"
+    mv "${logfile}.tar.gz" "$BACKUP_DIR/"
+    rm "$logfile"
+done
 
-echo "[✓] Pre-execution system checks completed successfully."
+echo "[✓] Log compression and rotation successfully completed."
 ```
 
----
+### 3. `.env.example` (Template Configuration Variables)
+```ini
+# ==============================================================================
+# VELTRIX V2 GLOBAL ENVIRONMENT CONFIGURATIONS
+# Copy this file to '.env' and fill in your local variables
+# ==============================================================================
 
-## 🔌 EXTENDED API ENDPOINT SPECS & PAYLOAD MODELS
+# Core System Parameters
+PORT=8000
+HOST=127.0.0.1
+ENVIRONMENT=development
+LOG_LEVEL=info
 
-This section details the complete API surface of the Veltrix gateway system, including headers, payloads, query parameters, and responses.
+# SQLite WAL Database Options
+DATABASE_URL=sqlite:///c:/AI VELTRIX V2/data.db
 
-### 1. `/api/v2/swarm/spawn`
-*   **Method**: `POST`
-*   **Headers**:
-    *   `Content-Type: application/json`
-    *   `Authorization: Bearer <DPAPI_DECRYPTED_TOKEN>`
-*   **Request Payload**:
-    ```json
-    {
-      "goal": "create an automated system status dashboard page using React",
-      "model": "cascade",
-      "bypass_permissions": false,
-      "max_turns": 15,
-      "max_budget_usd": 2.50,
-      "system_prompt_override": "Ensure maximum responsive layout with glassmorphism cards.",
-      "variables": {
-        "theme": "tokyonight",
-        "update_interval_ms": 5000
-      }
-    }
-    ```
-*   **Response (200 OK)**:
-    ```json
-    {
-      "status": "success",
-      "session_id": "8fa21c00-cc19-482a-bc77-99120abc78fd",
-      "active_branch": "feature/agent-dashboard-layout",
-      "goal_registered": "create an automated system status dashboard page using React",
-      "initiated_at": 1779267053208
-    }
-    ```
-*   **Response (400 Bad Request)**:
-    ```json
-    {
-      "status": "error",
-      "error_code": "INVALID_GOAL_SPECIFICATION",
-      "message": "The goal field cannot be empty and must contain actionable instructions."
-    }
-    ```
-*   **Response (401 Unauthorized)**:
-    ```json
-    {
-      "status": "error",
-      "error_code": "DPAPI_DECRYPTION_FAILED",
-      "message": "Authorization token could not be decrypted using the machine credentials."
-    }
-    ```
+# Redis Caching Gateways
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+REDIS_DB=0
 
-### 2. `/api/v2/telemetry/metrics`
-*   **Method**: `GET`
-*   **Query Parameters**:
-    *   `limit`: integer (default: 50, maximum: 500)
-    *   `provider`: string (optional, e.g., `gemini`, `anthropic`, `groq`)
-*   **Response (200 OK)**:
-    ```json
-    [
-      {
-        "id": 1205,
-        "timestamp": "2026-05-20T17:15:07Z",
-        "session_id": "9f2b881c-8821-4cc1-ba99-c891901abcf8",
-        "provider": "anthropic",
-        "model": "claude-3-5-sonnet",
-        "duration_ms": 1150,
-        "input_tokens": 120,
-        "output_tokens": 340,
-        "time_to_first_token_ms": 280,
-        "circuit_breaker_active": 0
-      },
-      {
-        "id": 1206,
-        "timestamp": "2026-05-20T17:15:09Z",
-        "session_id": "9f2b881c-8821-4cc1-ba99-c891901abcf8",
-        "provider": "gemini",
-        "model": "gemini-1.5-pro",
-        "duration_ms": 2290,
-        "input_tokens": 850,
-        "output_tokens": 1200,
-        "time_to_first_token_ms": 410,
-        "circuit_breaker_active": 0
-      }
-    ]
-    ```
+# AI Provider API Keys (Note: Secured via DPAPI in production)
+OPENAI_API_KEY=your_openai_key_here
+GEMINI_API_KEY=your_google_gemini_key_here
+ANTHROPIC_API_KEY=your_anthropic_key_here
+GROQ_API_KEY=your_groq_key_here
 
----
-
-## 📡 ADVANCED REDIS PUB/SUB EVENT SPECS
-
-For inter-agent communication, Veltrix utilizes Redis channels to stream state changes. Below are the JSON schemas for the main message topics.
-
-### Channel: `veltrix:swarm:events`
-Published whenever an agent starts a new action, completes a task, or hits a security block.
-
-#### 1. Task Dispatched Event
-```json
-{
-  "event_type": "TASK_DISPATCHED",
-  "timestamp": 1779267053208,
-  "session_id": "8fa21c00-cc19-482a-bc77-99120abc78fd",
-  "payload": {
-    "source_agent": "SwarmCoordinator",
-    "target_agent": "PlanArchitectAgent",
-    "subtask_id": "sub-001",
-    "goal": "Analyze project structures and map code mutation endpoints."
-  }
-}
-```
-
-#### 2. Security Boundary Alert Event
-```json
-{
-  "event_type": "SECURITY_BOUNDARY_ALERT",
-  "timestamp": 1779267053910,
-  "session_id": "8fa21c00-cc19-482a-bc77-99120abc78fd",
-  "payload": {
-    "source_agent": "DeveloperAgent",
-    "policy_violation": "DIRECTORY_TRAVERSAL_ATTEMPT",
-    "attempted_path": "/var/log/system.log",
-    "verdict": "BLOCKED",
-    "reason": "Path resolves outside of the active Veltrix workspace boundary."
-  }
-}
-```
-
-#### 3. Mutation Completed Event
-```json
-{
-  "event_type": "MUTATION_COMPLETED",
-  "timestamp": 1779267055410,
-  "session_id": "8fa21c00-cc19-482a-bc77-99120abc78fd",
-  "payload": {
-    "source_agent": "CodeDeveloperAgent",
-    "modified_files": [
-      "backend/services/code_mutator.py",
-      "backend/services/ghost_watcher.py"
-    ],
-    "tests_executed": 8,
-    "tests_passed": 8,
-    "test_duration_seconds": 9.22
-  }
-}
-```
-
----
-
-## 💻 CLONING, INSTALLATION & RUNTIME SETUP SPEC
-
-A step-by-step developer manual to clone and run the Veltrix environment cleanly on a fresh workstation.
-
-### 1. Repository Setup & Clone
-Execute the following commands to clone and initialize the local workspace:
-```bash
-# Clone the repository
-git clone https://github.com/tegardevINF/AI-VELTRIX-V2.git
-cd AI-VELTRIX-V2
-
-# Create local python virtual environment
-python -m venv veltrix-env
-
-# Activate the virtual environment
-# On Windows PowerShell:
-.\veltrix-env\Scripts\Activate.ps1
-# On Linux / macOS:
-source veltrix-env/bin/activate
-```
-
-### 2. Dependency Packaging Installation
-Install the core development stack in editable mode to expose the global `veltrix` executable:
-```bash
-# Upgrade pip to latest version
-python -m pip install --upgrade pip
-
-# Install project and dependencies
-pip install -e .
-```
-
-### 3. Database Migration & Initialization
-Prepare the SQLite database schema structures using our embedded migrate routine:
-```bash
-# Run database migrations
-veltrix db:migrate
-```
-
-### 4. Setting up Decrypted Keys (DPAPI Setup)
-Configure key valves locally. These keys are secured via Windows DPAPI:
-```bash
-# Launch interactive terminal loop
-veltrix
-
-# Inside prompt, register valves
-veltrix » [cascade] › /valves set gemini AIzaSy_YourGoogleGeminiKeyHere
-veltrix » [cascade] › /valves set anthropic sk-ant-YourAnthropicKeyHere
-veltrix » [cascade] › /valves set groq gsk_YourGroqKeyHere
-```
-
-### 5. Running the Backend Dev Server
-If you want to run the FastAPI backend gateway server locally, execute:
-```bash
-# Start FastAPI backend via uvicorn
-uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
-```
-
----
-
-## 🛠️ COMPLETE MULTI-AGENT DIALOGUE SIMULATION (PHASE 2 & 3)
-
-Below is the raw, internal agent-to-agent transcript detailing a code mutation task in the workspace.
-
-```text
-[17:20:00] [PlanArchitect -> SecurityEngine]
-"I have prepared an implementation plan to resolve outstanding bugs in backend/services/code_mutator.py. 
-Please verify that the proposed changes are compliant with zero-trust isolation policies."
-
-[17:20:02] [SecurityEngine -> PlanArchitect]
-"Analyzing proposed modifications to code_mutator.py...
-No calls to system subprocesses or raw shell environments are proposed.
-The code updates strictly use the Python ast parser module, which runs safely in-memory.
-Verification Result: COMPLIANT. You may proceed."
-
-[17:20:03] [PlanArchitect -> CodeDeveloper]
-"Security verified. Please implement the mutation operators:
-1. unroll_short_loop (find loops with ranges <= 4 and unroll them)
-2. inline_trivial_call (find functions with single return statements and inline calls)
-Write tests to verify correctness and report back."
-
-[17:20:05] [CodeDeveloper -> PlanArchitect]
-"Starting execution. Generating AST transformers in Python...
-Applied unroll_short_loop implementation utilizing ast.NodeTransformer.
-Applied inline_trivial_call implementation utilizing function mapping lookups.
-Running pytest suite..."
-
-[17:20:12] [CodeDeveloper -> PlanArchitect]
-"All tests completed. Output: 8 passed in 9.22s.
-No syntax errors detected. black and flake8 checks passed.
-Mutation changes successfully written to file:///c:/AI%20VELTRIX%20V2/backend/services/code_mutator.py"
+# Local Vector Databases
+CHROMA_DB_PATH=c:/AI VELTRIX V2/backend/chroma_db
+# ==============================================================================
 ```
 
 ---
@@ -866,15 +801,35 @@ Mutation changes successfully written to file:///c:/AI%20VELTRIX%20V2/backend/se
 
 ---
 
+## 🌟 REFLECTIONS & DEV QUOTES
+
 <div align="center">
 
-### 💬 Feel free to reach out — I don't bite! 😄
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+## 🎵 NOW PLAYING
+
+<div align="center">
+
+[![Spotify Playlist](https://img.shields.io/badge/Spotify-My_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/1GNGnca4T8qCEQ4TI49z2E)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💬 Let's Connect & Collaborate!
 
 <br/>
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
 &nbsp;&nbsp;
-<b>Open to AI projects & cool collaborations — hit me up! 🤖🔥</b>
+<b>Open to AI projects & cool backend collaborations — hit me up! 🤖🔥</b>
 &nbsp;&nbsp;
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
 
