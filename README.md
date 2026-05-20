@@ -1,55 +1,46 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=180&section=header&text=Tegar&fontSize=80&fontColor=e6edf3&animation=fadeIn&fontAlignY=40&desc=Backend+Developer+%E2%80%94+Yogyakarta%2C+Indonesia&descSize=15&descColor=8b949e&descAlignY=62" />
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00E676&center=true&vCenter=true&width=600&height=80&lines=Hey+there!+I'm+Tegar+%F0%9F%91%8B;Backend+Developer+from+Indonesia+%F0%9F%87%AE%F0%9F%87%A9;I+build+systems+that+just+work." alt="Typing SVG" />
 </div>
 
 <br/>
 
-```ts
-const tegar = {
-  location  : "Yogyakarta, Indonesia 🇮🇩",
-  role      : "Backend Developer",
-  focus     : ["Scalable Systems", "Clean Architecture", "Distributed Systems"],
-  mantra    : "Clear code > clever code",
-};
+<img align="right" width="340" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+
+### 🧑‍💻 About Me
+
+```python
+class Tegar:
+    location  = "Yogyakarta, Indonesia 🇮🇩"
+    role      = "Backend Developer"
+    focus     = [
+        "Scalable Systems",
+        "Clean Architecture",
+        "Distributed Systems",
+    ]
+    mantra    = "Clear code > clever code"
+    currently = "Building things that don't break"
 ```
 
+- 🔭 Focused on backend engineering & system design
+- 🌱 Always learning — one rabbit hole at a time
+- ⚡ Fun fact: I debug best at midnight
+
+<br clear="right"/>
+
 ---
+
+## ⚙️ My Favorite Tools & Technologies
+
+> Tools and technologies I work with and enjoy building things with
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=900&color=58A6FF&center=true&vCenter=true&width=560&lines=Python+%7C+Node.js+%7C+TypeScript+%7C+Express;Redis+%7C+SQLite+%7C+Docker+%7C+Git;Building+backends+that+don't+break+at+3AM.)
+|  |  |  |  |  |  |  |  |
+|--|--|--|--|--|--|--|--|
+| <img src="https://techstack-generator.vercel.app/python-icon.svg" width="50"/><br/>Python | <img src="https://techstack-generator.vercel.app/js-icon.svg" width="50"/><br/>JavaScript | <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="50"/><br/>TypeScript | <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/>Node.js | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/>Express | <img src="https://skillicons.dev/icons?i=redis" width="50"/><br/>Redis | <img src="https://skillicons.dev/icons?i=sqlite" width="50"/><br/>SQLite | <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="50"/><br/>Docker |
+| <img src="https://skillicons.dev/icons?i=git" width="50"/><br/>Git | <img src="https://skillicons.dev/icons?i=github" width="50"/><br/>GitHub | <img src="https://skillicons.dev/icons?i=linux" width="50"/><br/>Linux | <img src="https://skillicons.dev/icons?i=vscode" width="50"/><br/>VS Code | <img src="https://skillicons.dev/icons?i=postman" width="50"/><br/>Postman | <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="50"/><br/>REST API | <img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="50"/><br/>Nginx | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/>Bash |
 
 </div>
-
----
-
-## ⚙️ Tech Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=339933)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Express](https://img.shields.io/badge/Express-0d1117?style=for-the-badge&logo=express&logoColor=ffffff)
-![Redis](https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis&logoColor=DC382D)
-![SQLite](https://img.shields.io/badge/SQLite-0d1117?style=for-the-badge&logo=sqlite&logoColor=44a1f1)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
-
-</div>
-
----
-
-## 🧭 Engineering Principles
-
-```
-  Simplicity    →  Clear code over clever code
-  Structure     →  Organized systems over chaos
-  Consistency   →  Predictable over fast but fragile
-  Reliability   →  Systems that work when needed
-```
 
 ---
 
@@ -57,14 +48,26 @@ const tegar = {
 
 <div align="center">
 
-<a href="https://github.com/tegardevINF">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=6&card_width=280&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" />
-</a>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=8b949e&rank_icon=github" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&card_width=300&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=8b949e" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=tegardevINF&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=1c2333" />
+<img src="https://streak-stats.demolab.com/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" />
+
+<br/><br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=1c2333&hide_border=true" />
+
+</div>
+
+---
+
+## 🏆 GitHub Profile Trophy
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=tegardevINF&row=1&margin-w=10&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -72,16 +75,12 @@ const tegar = {
 
 <div align="center">
 
-![Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile+Views&color=58a6ff&style=flat-square)
-&nbsp;&nbsp;
-[![Followers](https://img.shields.io/github/followers/tegardevINF?label=Followers&style=flat-square&color=58a6ff&labelColor=0d1117)](https://github.com/tegardevINF?tab=followers)
+![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=PROFILE+VIEWS&color=00e676&style=for-the-badge)
+&nbsp;
+[![Followers](https://img.shields.io/github/followers/tegardevINF?label=FOLLOWERS&style=for-the-badge&color=00e676&labelColor=0d1117)](https://github.com/tegardevINF?tab=followers)
 
 <br/>
 
-*Open to collaborations — let's build something worth maintaining.*
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=80&section=footer" />
+<img src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" width="100%" />
 
 </div>
