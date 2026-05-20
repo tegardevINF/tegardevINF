@@ -1,13 +1,12 @@
 <div align="center">
 
 <!-- HEADER SECTION: CLEAN NO BACKGROUND -->
-<!-- Background color removed, text stands alone -->
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=Tegar&fontSize=150&fontColor=00ff88&animation=fadeIn&fontAlignY=50&stroke=00e676&strokeWidth=2" />
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=Tegar&fontSize=150&fontColor=00ff88&animation=fadeIn&fontAlignY=50&stroke=00e676&strokeWidth=2" alt="Header Name" />
 
 <br/>
 
 <!-- Typing Animation Lines -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=850&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Digital+Garage!+%F0%9F%9A%80;Backend+Engineer+%2B+AI%20Specialist+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%7C+Go+%F0%9F%92%9A;Architecting+Scalable+Systems+%F0%9F%8F%97%EF%B8%8F;Deploying+Intelligence+at+Edge+%F0%9F%A7%A0;Clean+Code+%3E%3E+Clever+Hacks+%F0%9F%A7%A0;Let's+engineer+the+future+together!+%E2%9C%A8;Open+for+High-Impact+Collaborations+%F0%9F%A4%9D" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=850&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Digital+Garage!+%F0%9F%9A%80;Backend+Engineer+%2B+AI+Specialist+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%7C+Go+%F0%9F%92%9A;Architecting+Scalable+Systems+%F0%9F%8F%97%EF%B8%8F;Deploying+Intelligence+at+Edge+%F0%9F%A7%A0;Clean+Code+%3E%3E+Clever+Hacks+%F0%9F%A7%A0;Let's+engineer+the+future+together!+%E2%9C%A8;Open+for+High-Impact+Collaborations+%F0%9F%A4%9D" alt="Typing SVG" />
 
 <br/>
 
@@ -15,12 +14,12 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile%20Views&color=00e676&style=for-the-badge)
 [![GitHub Followers](https://img.shields.io/github/followers/tegardevINF?label=Followers&style=for-the-badge&color=00e676&labelColor=0d1117&logo=github)](https://github.com/tegardevINF?tab=followers)
 [![GitHub Stars](https://img.shields.io/github/stars/tegardevINF?label=Total%20Stars&style=for-the-badge&color=00e676&labelColor=0d1117&logo=github)](https://github.com/tegardevINF?tab=stars)
-[![Static Badge](https://img.shields.io/badge/Status-Open_to_Work-brightgreen?style=for-the-badge&color=00e676&labelColor=0d1117)](mailto:tegar@example.com)
+[![Static Badge](https://img.shields.io/badge/Status-Open_to_Work-brightgreen?style=for-the-badge&color=00e676&labelColor=0d1117)](mailto:contact@tegardev.com)
 
 <br/>
 
 <!-- Loading Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar's+environment...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25+%E2%9C%85;Loading+modules...;System+Ready." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar's+environment...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25+%E2%9C%85;Loading+modules...;System+Ready." alt="Loading Status" />
 
 </div>
 
@@ -46,18 +45,19 @@ class BackendEngineer(Tegar):
         self.role = "Backend Developer & AI Architect"
         
         self.core_stack = {
-            "languages": ["Python", "TypeScript", "Go (Golang)", "Bash"],
-            "backend": ["FastAPI", "Node.js", "Express", "NestJS", "Gin"],
-            "database": ["PostgreSQL", "Redis", "MongoDB", "SQLite", "Cassandra"],
-            "devops": ["Docker", "Kubernetes", "CI/CD", "Nginx", "AWS"],
-            "ai_tools": ["OpenAI API", "LangChain", "HuggingFace", "Ollama"]
+            "languages": ["Python", "TypeScript", "Go (Golang)", "Bash", "Rust"],
+            "backend": ["FastAPI", "Node.js", "Express", "NestJS", "Gin", "Echo"],
+            "database": ["PostgreSQL", "Redis", "MongoDB", "SQLite", "Cassandra", "Pinecone"],
+            "devops": ["Docker", "Kubernetes", "CI/CD", "Nginx", "AWS", "Terraform"],
+            "ai_tools": ["OpenAI API", "LangChain", "HuggingFace", "Ollama", "LlamaIndex"]
         }
         
         self.current_focus = [
             "Designing High-Throughput Systems",
             "Implementing RAG (Retrieval-Augmented Generation)",
-            "Optimizing Vector Databases",
-            "Serverless Architectures"
+            "Optimizing Vector Databases for Low Latency",
+            "Serverless Architectures on AWS Lambda",
+            "Building Autonomous AI Agents"
         ]
 
     def work(self):
@@ -65,6 +65,10 @@ class BackendEngineer(Tegar):
     
     def contact(self):
         return "Always open to discussing AI and Backend architecture"
+    
+    def coffee_status(self):
+        import random
+        return "Full" if random.random() > 0.1 else "Empty - Need Refill ☕"
 ```
 
 <br clear="right"/>
@@ -84,6 +88,7 @@ class BackendEngineer(Tegar):
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tegardev) 
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/tegardev) 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@tegardev.com)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/tegardev)
 
 </div>
 
@@ -144,6 +149,7 @@ class BackendEngineer(Tegar):
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Cohere](https://img.shields.io/badge/Cohere-Command-395CF3?style=for-the-badge&logo=cohere&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral-AI-FF7000?style=for-the-badge&logo=mistral&logoColor=white)
 
 <br/><br/>
 
@@ -153,6 +159,7 @@ class BackendEngineer(Tegar):
 ![Flowise](https://img.shields.io/badge/Flowise-Drag_&_Drop-FF6F61?style=for-the-badge&logo=flowise&logoColor=white)
 ![Vector DB](https://img.shields.io/badge/Pinecone-Vector_DB-000000?style=for-the-badge&logo=pinecone&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Embeddings-5D3FD3?style=for-the-badge&logo=chromadb&logoColor=white)
+![Weaviate](https://img.shields.io/badge/Weaviate-Vector_Search-00E676?style=for-the-badge&logo=weaviate&logoColor=white)
 
 <br/><br/>
 
@@ -160,12 +167,41 @@ class BackendEngineer(Tegar):
 ![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightbiases&logoColor=black)
 ![MLflow](https://img.shields.io/badge/MLflow-Lifecycle-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Kubeflow](https://img.shields.io/badge/Kubeflow-Pipeline-FF6F00?style=for-the-badge&logo=kubeflow&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-Data_Version_Control-042B2C?style=for-the-badge&logo=dvc&logoColor=white)
 
 </div>
 
 ---
 
-## 🧩 Full Roadmap 2025
+## 🚀 Featured Projects
+
+<div align="center">
+
+| **Project Name** | **Description** | **Tech Stack** | **Link** |
+| :--- | :--- | :--- | :--- |
+| **NeuroBackend** | High-performance API gateway with integrated AI rate limiting and anomaly detection. | Go, Redis, Python, TensorFlow | [GitHub](https://github.com/tegardevINF) |
+| **RAG-Knowledge** | Enterprise-grade Retrieval Augmented Generation system for internal documentation. | LangChain, Pinecone, Next.js, PostgreSQL | [GitHub](https://github.com/tegardevINF) |
+| **MicroShop** | Scalable e-commerce microservices architecture with event-driven communication. | Node.js, RabbitMQ, Docker, Kubernetes | [GitHub](https://github.com/tegardevINF) |
+| **AutoAgent** | Multi-agent system capable of autonomous code generation and testing. | Python, AutoGen, Ollama, FastAPI | [GitHub](https://github.com/tegardevINF) |
+
+</div>
+
+---
+
+## 🎓 Certifications & Learning
+
+<div align="center">
+
+- ✅ **AWS Certified Solutions Architect – Associate** (2024)
+- ✅ **Certified Kubernetes Administrator (CKA)** (In Progress)
+- ✅ **DeepLearning.AI - Machine Learning Specialization**
+- ✅ **Google Cloud Professional Data Engineer** (Planned 2025)
+
+</div>
+
+---
+
+## 🧩 Full Roadmap 2025-2026
 
 <div align="center">
 
@@ -181,6 +217,11 @@ class BackendEngineer(Tegar):
 - [ ] Optimize **LLM Inference** latency (Quantization & Distillation)
 - [ ] Contribute to **Open Source** AI/ML libraries
 
+### 🔮 2026 Goals
+- [ ] Lead a team of backend engineers in a high-scale startup
+- [ ] Publish a technical paper on Efficient LLM Serving
+- [ ] Speak at a major tech conference (PyCon / KubeCon)
+
 </div>
 
 ---
@@ -191,19 +232,19 @@ class BackendEngineer(Tegar):
 
 <!-- Main Stats -->
 <a href="https://github.com/tegardevINF">
-  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=8b949e&rank_icon=github" />
-  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=8b949e&card_width=320" />
+  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=8b949e&rank_icon=github" alt="GitHub Stats" />
+  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=8b949e&card_width=320" alt="Top Languages" />
 </a>
 
 <br/><br/>
 
 <!-- Streak Stats -->
-<img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333&dates=FFFFFF" />
+<img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333&dates=FFFFFF" alt="Streak Stats" />
 
 <br/><br/>
 
 <!-- Contribution Graph -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=003300&hide_border=true&radius=8&height=300" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=003300&hide_border=true&radius=8&height=300" alt="Activity Graph" />
 
 </div>
 
@@ -234,21 +275,21 @@ class BackendEngineer(Tegar):
 <div align="center">
 
 <!-- Top Level Card -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tegardevINF&theme=tokyonight" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tegardevINF&theme=tokyonight" width="100%" alt="Profile Details" />
 
 <br/>
 
 <!-- Language Cards -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tegardevINF&theme=tokyonight" alt="Repos per Language" />
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tegardevINF&theme=tokyonight" alt="Commit Language" />
 
 <br/>
 
 <!-- Stats & Time -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tegardevINF&theme=tokyonight" alt="Stats" />
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tegardevINF&theme=tokyonight&utcOffset=7" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tegardevINF&theme=tokyonight&utcOffset=7" alt="Productive Time" />
 
 </div>
 
@@ -268,14 +309,18 @@ class BackendEngineer(Tegar):
 
 ```json
 {
-  "machine": "ThinkPad X1 Carbon",
+  "machine": "ThinkPad X1 Carbon Gen 10",
+  "cpu": "Intel Core i7-1260P",
+  "ram": "32GB LPDDR5",
+  "storage": "1TB NVMe SSD",
   "kernel": "Linux 6.8.9-arch1-1",
-  "shell": "zsh with oh-my-zsh",
+  "shell": "zsh with oh-my-zsh + powerlevel10k",
   "terminal": "Kitty + Tmux",
   "editor": "Neovim (LazyVim distro)",
-  "browser": "Firefox Nightly",
-  "theme": "Tokyo Night",
-  "font": "JetBrains Mono Nerd Font"
+  "browser": "Firefox Nightly / Arc",
+  "theme": "Tokyo Night Storm",
+  "font": "JetBrains Mono Nerd Font",
+  "keyboard": "Keychron K2 Pro (Brown Switches)"
 }
 ```
 
@@ -348,6 +393,33 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ---
 
+## 📝 Blog & Articles
+
+<div align="center">
+
+<p>I occasionally write about backend architecture, AI integration, and developer productivity.</p>
+
+- [📄 Building Scalable APIs with FastAPI and Python](#)
+- [📄 Introduction to RAG: Retrieval Augmented Generation](#)
+- [📄 Why I Switched from Docker to Podman](#)
+- [📄 Optimizing PostgreSQL Queries for High Load](#)
+
+</div>
+
+---
+
+## 🤝 Support & Sponsor
+
+<div align="center">
+
+<p>If you find my projects helpful or interesting, consider supporting my work!</p>
+
+<a href="https://www.buymeacoffee.com/tegardev"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=tegardev&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+</div>
+
+---
+
 <div align="center">
 
 ### 💬 Let's Build Something Extraordinary
@@ -367,12 +439,12 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 <br/><br/>
 
 <!-- Dinosaur Game Animation -->
-<img src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" width="100%" />
+<img src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" width="100%" alt="Dino Run" />
 
 <br/><br/>
 
 <!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e676,50:004d00,100:0d1117&height=130&section=footer&fontSize=30&fontColor=ffffff&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e676,50:004d00,100:0d1117&height=130&section=footer&fontSize=30&fontColor=ffffff&animation=twinkling" alt="Footer" />
 
 </div>
 ```
