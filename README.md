@@ -1,17 +1,12 @@
-Here is the completely revised, professional, and English-only version of your GitHub README.
-
-I have removed the sections you requested (Workspace, Roadmap, Certifications, Featured Projects) and replaced them with high-quality, technical content focusing on **System Architecture**, **AI Engineering Philosophy**, and **Development Workflow** to ensure it looks substantial, professional ("no alay"), and reaches the desired length through meaningful technical documentation rather than filler.
-
-```markdown
 <div align="center">
 
-<!-- HEADER SECTION -->
+<!-- HEADER SECTION: CLEAN NO BACKGROUND -->
 <img src="https://capsule-render.vercel.app/api?type=transparent&text=Tegar&fontSize=150&fontColor=00ff88&animation=fadeIn&fontAlignY=50&stroke=00e676&strokeWidth=2" alt="Header Name" />
 
 <br/>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=850&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Backend+Engineer+%2B+AI+Specialist;Architecting+Scalable+Systems;Deploying+Intelligence+at+Edge;Clean+Code+%3E%3E+Clever+Hacks;Open+for+High-Impact+Collaborations" alt="Typing SVG" />
+<!-- Typing Animation Lines -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=850&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Digital+Garage!+%F0%9F%9A%80;Backend+Engineer+%2B+AI+Specialist+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%7C+Go+%F0%9F%92%9A;Architecting+Scalable+Systems+%F0%9F%8F%97%EF%B8%8F;Deploying+Intelligence+at+Edge+%F0%9F%A7%A0;Clean+Code+%3E%3E+Clever+Hacks+%F0%9F%A7%A0;Let's+engineer+the+future+together!+%E2%9C%A8;Open+for+High-Impact+Collaborations+%F0%9F%A4%9D" alt="Typing SVG" />
 
 <br/>
 
@@ -24,26 +19,25 @@ I have removed the sections you requested (Workspace, Roadmap, Certifications, F
 <br/>
 
 <!-- Loading Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+environment...+100%25;System+Ready." alt="Loading Status" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar's+environment...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25+%E2%9C%85;Loading+modules...;System+Ready." alt="Loading Status" />
 
 </div>
 
 ---
 
-### 🧑‍💻 About Me
+<!-- About Section with Code Snippet -->
+<img align="right" width="400" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm5sYm5sYm5sYm5sYm5sYm5sYm5sYm5sYm5sYm5sYm5sYm5sYm5sYm5sJmVwPXYx/Gp8D54tFq/5HwHA2/giphy.gif" alt="Coding GIF" />
 
-<p align="justify">
-I am a <b>Backend Developer</b> and <b>AI Specialist</b> based in Yogyakarta, Indonesia. My passion lies in building scalable, efficient, and intelligent systems. I specialize in merging <i>Cloud-Native Architecture</i> with <i>Artificial Intelligence</i> to create backend solutions that are not only robust but also cognitively capable.
-</p>
+### 🧑‍💻 Who am I?
 
-<p align="justify">
-I believe that good code is readable, maintainable, and testable. Currently, I am focused on integrating Large Language Models (LLMs) into production environments, optimizing vector databases for low-latency retrieval, and designing resilient microservices architectures.
-</p>
+<p>I am a passionate <b>Backend Developer</b> and <b>AI Builder</b> based in Yogyakarta. I have a deep passion for building systems that are scalable, efficient, and intelligent. My main focus is combining the power of <i>Cloud Native Architecture</i> with <i>Artificial Intelligence</i> to create backend solutions that don't just run, but also "think".</p>
+
+<p>I believe that good code is code that is easy to read and maintain. Currently, I am diving deep into integrating LLM (Large Language Models) into production systems and building robust microservices.</p>
 
 <br/>
 
 ```python
-class BackendEngineer:
+class BackendEngineer(Tegar):
     def __init__(self):
         self.username = "tegardevINF"
         self.name = "Tegar"
@@ -51,19 +45,19 @@ class BackendEngineer:
         self.role = "Backend Developer & AI Architect"
         
         self.core_stack = {
-            "languages": ["Python", "TypeScript", "Go", "Rust", "SQL"],
-            "backend": ["FastAPI", "NestJS", "Express", "Gin", "Echo"],
-            "database": ["PostgreSQL", "Redis", "MongoDB", "Pinecone", "Weaviate"],
-            "devops": ["Docker", "Kubernetes", "AWS", "Terraform", "CI/CD"],
-            "ai_tools": ["LangChain", "LlamaIndex", "HuggingFace", "Ollama", "PyTorch"]
+            "languages": ["Python", "TypeScript", "Go (Golang)", "Bash", "Rust"],
+            "backend": ["FastAPI", "Node.js", "Express", "NestJS", "Gin", "Echo"],
+            "database": ["PostgreSQL", "Redis", "MongoDB", "SQLite", "Cassandra", "Pinecone"],
+            "devops": ["Docker", "Kubernetes", "CI/CD", "Nginx", "AWS", "Terraform"],
+            "ai_tools": ["OpenAI API", "LangChain", "HuggingFace", "Ollama", "LlamaIndex"]
         }
         
         self.current_focus = [
-            "High-Throughput System Design",
-            "RAG (Retrieval-Augmented Generation) Optimization",
-            "Vector Database Indexing Strategies",
-            "Serverless Microservices on AWS",
-            "Autonomous AI Agent Orchestration"
+            "Designing High-Throughput Systems",
+            "Implementing RAG (Retrieval-Augmented Generation)",
+            "Optimizing Vector Databases for Low Latency",
+            "Serverless Architectures on AWS Lambda",
+            "Building Autonomous AI Agents"
         ]
 
     def work(self):
@@ -71,15 +65,21 @@ class BackendEngineer:
     
     def contact(self):
         return "Always open to discussing AI and Backend architecture"
+    
+    def coffee_status(self):
+        import random
+        return "Full" if random.random() > 0.1 else "Empty - Need Refill ☕"
 ```
+
+<br clear="right"/>
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 Social & Contact
 
 <div align="center">
 
-<p>I am always open to technical discussions, project collaborations, or conversations about the latest in tech.</p>
+<p>Let's connect! I am always open to technical discussions, project collaborations, or just chatting about the latest tech.</p>
 
 <br/>
 
@@ -88,53 +88,54 @@ class BackendEngineer:
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tegardev) 
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/tegardev) 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@tegardev.com)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/tegardev)
 
 </div>
 
 ---
 
-## ⚙️ Technical Arsenal
+## ⚙️ Tech Stack & Arsenal
 
-> The tools and technologies I leverage to bring ideas to life.
+> The tools I use to bring ideas to life.
 
 <div align="center">
 
 ### 💻 Languages & Core
 
-| <img src="https://techstack-generator.vercel.app/python-icon.svg" width="50"/><br/><b>Python</b> | <img src="https://techstack-generator.vercel.app/js-icon.svg" width="50"/><br/><b>JavaScript</b> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="50"/><br/><b>TypeScript</b> | <img src="https://techstack-generator.vercel.app/go-icon.svg" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> |
+| <img src="https://techstack-generator.vercel.app/python-icon.svg" width="50"/><br/><b>Python</b> | <img src="https://techstack-generator.vercel.app/js-icon.svg" width="50"/><br/><b>JS</b> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="50"/><br/><b>TypeScript</b> | <img src="https://techstack-generator.vercel.app/go-icon.svg" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> | <img src="https://skillicons.dev/icons?i=c" width="50"/><br/><b>C</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-### 🧩 Backend Frameworks
+### 🧩 Backend & Frameworks
 
-| <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=nestjs" width="50"/><br/><b>NestJS</b> | <img src="https://techstack-generator.vercel.app/django-icon.svg" width="50"/><br/><b>Django</b> | <img src="https://techstack-generator.vercel.app/fastapi-icon.svg" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=gin" width="50"/><br/><b>Gin</b> | <img src="https://skillicons.dev/icons?i=graphql" width="50"/><br/><b>GraphQL</b> |
+| <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=nestjs" width="50"/><br/><b>NestJS</b> | <img src="https://techstack-generator.vercel.app/django-icon.svg" width="50"/><br/><b>Django</b> | <img src="https://techstack-generator.vercel.app/fastapi-icon.svg" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=spring" width="50"/><br/><b>Spring</b> | <img src="https://skillicons.dev/icons?i=graphql" width="50"/><br/><b>GraphQL</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### 🗄️ Databases & Storage
 
-| <img src="https://skillicons.dev/icons?i=postgres" width="50"/><br/><b>PostgreSQL</b> | <img src="https://skillicons.dev/icons?i=mysql" width="50"/><br/><b>MySQL</b> | <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br/><b>MongoDB</b> | <img src="https://skillicons.dev/icons?i=redis" width="50"/><br/><b>Redis</b> | <img src="https://skillicons.dev/icons?i=sqlite" width="50"/><br/><b>SQLite</b> | <img src="https://skillicons.dev/icons?i=elasticsearch" width="50"/><br/><b>Elastic</b> | <img src="https://skillicons.dev/icons?i=supabase" width="50"/><br/><b>Supabase</b> | <img src="https://skillicons.dev/icons?i=firebase" width="50"/><br/><b>Firebase</b> |
+| <img src="https://skillicons.dev/icons?i=postgres" width="50"/><br/><b>PostgreSQL</b> | <img src="https://skillicons.dev/icons?i=mysql" width="50"/><br/><b>MySQL</b> | <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br/><b>MongoDB</b> | <img src="https://skillicons.dev/icons?i=redis" width="50"/><br/><b>Redis</b> | <img src="https://skillicons.dev/icons?i=sqlite" width="50"/><br/><b>SQLite</b> | <img src="https://skillicons.dev/icons?i=firebase" width="50"/><br/><b>Firebase</b> | <img src="https://skillicons.dev/icons?i=supabase" width="50"/><br/><b>Supabase</b> | <img src="https://skillicons.dev/icons?i=elasticsearch" width="50"/><br/><b>Elastic</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-### 🐳 DevOps & Cloud Infrastructure
+### 🐳 DevOps & Cloud
 
-| <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>Kubernetes</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>GCP</b> | <img src="https://skillicons.dev/icons?i=azure" width="50"/><br/><b>Azure</b> | <img src="https://skillicons.dev/icons?i=linux" width="50"/><br/><b>Linux</b> | <img src="https://skillicons.dev/icons?i=nginx" width="50"/><br/><b>Nginx</b> | <img src="https://skillicons.dev/icons?i=jenkins" width="50"/><br/><b>Jenkins</b> |
+| <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>K8s</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>GCP</b> | <img src="https://skillicons.dev/icons?i=azure" width="50"/><br/><b>Azure</b> | <img src="https://skillicons.dev/icons?i=linux" width="50"/><br/><b>Linux</b> | <img src="https://skillicons.dev/icons?i=nginx" width="50"/><br/><b>Nginx</b> | <img src="https://skillicons.dev/icons?i=jenkins" width="50"/><br/><b>Jenkins</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-### 🛠️ Development Tools
+### 🛠️ Tools & Others
 
-| <img src="https://skillicons.dev/icons?i=git" width="50"/><br/><b>Git</b> | <img src="https://skillicons.dev/icons?i=github" width="50"/><br/><b>GitHub</b> | <img src="https://skillicons.dev/icons?i=vscode" width="50"/><br/><b>VS Code</b> | <img src="https://skillicons.dev/icons?i=postman" width="50"/><br/><b>Postman</b> | <img src="https://skillicons.dev/icons?i=figma" width="50"/><br/><b>Figma</b> | <img src="https://skillicons.dev/icons?i=terminal" width="50"/><br/><b>Terminal</b> | <img src="https://skillicons.dev/icons?i=arch" width="50"/><br/><b>Arch Linux</b> | <img src="https://skillicons.dev/icons?i=vim" width="50"/><br/><b>Neovim</b> |
+| <img src="https://skillicons.dev/icons?i=git" width="50"/><br/><b>Git</b> | <img src="https://skillicons.dev/icons?i=github" width="50"/><br/><b>GitHub</b> | <img src="https://skillicons.dev/icons?i=gitlab" width="50"/><br/><b>GitLab</b> | <img src="https://skillicons.dev/icons?i=vscode" width="50"/><br/><b>VS Code</b> | <img src="https://skillicons.dev/icons?i=postman" width="50"/><br/><b>Postman</b> | <img src="https://skillicons.dev/icons?i=figma" width="50"/><br/><b>Figma</b> | <img src="https://skillicons.dev/icons?i=terminal" width="50"/><br/><b>Terminal</b> | <img src="https://skillicons.dev/icons?i=ubuntu" width="50"/><br/><b>Ubuntu</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 </div>
 
 ---
 
-## 🤖 AI & Machine Learning Stack
+## 🤖 The AI & Machine Learning Stack
 
-> Integrating artificial intelligence into modern web applications.
+> Integrating Artificial Intelligence into modern web applications.
 
 <div align="center">
 
-### 🧠 Core ML Libraries
+### 🧠 Core AI/ML Libraries
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
 <br/>
 <img src="https://skillicons.dev/icons?i=pandas,numpy,matplotlib" />
@@ -147,24 +148,26 @@ class BackendEngineer:
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini_Pro-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Cohere](https://img.shields.io/badge/Cohere-Command-395CF3?style=for-the-badge&logo=cohere&logoColor=white)
 ![Mistral](https://img.shields.io/badge/Mistral-AI-FF7000?style=for-the-badge&logo=mistral&logoColor=white)
 
 <br/><br/>
 
-### ⛓️ RAG & Vector Frameworks
+### ⛓️ Frameworks & RAG
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-Data_Framework-00DC82?style=for-the-badge&logo=llamaindex&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![Flowise](https://img.shields.io/badge/Flowise-Drag_&_Drop-FF6F61?style=for-the-badge&logo=flowise&logoColor=white)
+![Vector DB](https://img.shields.io/badge/Pinecone-Vector_DB-000000?style=for-the-badge&logo=pinecone&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Embeddings-5D3FD3?style=for-the-badge&logo=chromadb&logoColor=white)
 ![Weaviate](https://img.shields.io/badge/Weaviate-Vector_Search-00E676?style=for-the-badge&logo=weaviate&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-Vector_Engine-D1E3F6?style=for-the-badge&logo=qdrant&logoColor=black)
 
 <br/><br/>
 
 ### 🛠️ MLOps & Deployment
-![Weights & Biases](https://img.shields.io/badge/W_and_B-Tracking-FFBE00?style=for-the-badge&logo=weightbiases&logoColor=black)
+![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightbiases&logoColor=black)
 ![MLflow](https://img.shields.io/badge/MLflow-Lifecycle-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Kubeflow](https://img.shields.io/badge/Kubeflow-Pipeline-FF6F00?style=for-the-badge&logo=kubeflow&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-Data_Version_Control-042B2C?style=for-the-badge&logo=dvc&logoColor=white)
 
 </div>
 
@@ -172,54 +175,55 @@ class BackendEngineer:
 
 ## 🏗️ System Architecture Philosophy
 
+> How I approach building robust software systems.
+
 <div align="justify">
 
-My approach to software engineering is grounded in **scalability**, **maintainability**, and **intelligence**. I do not just write code; I design systems that can evolve.
+I believe that a great backend is not just about writing code that works; it's about designing systems that survive the chaos of real-world traffic. My philosophy is built on three pillars: **Scalability**, **Reliability**, and **Maintainability**.
 
-### 1. Clean Architecture & SOLID Principles
-I strictly adhere to SOLID principles and Clean Architecture patterns. This ensures that business logic is decoupled from frameworks and databases, making the system easy to test and refactor.
-*   **Separation of Concerns:** Clear boundaries between domain, application, and infrastructure layers.
-*   **Dependency Injection:** Used extensively in NestJS and Go services for modularity.
-*   **Interface-Driven Design:** Promotes flexibility and easier mocking during testing.
+### 1. Scalability & Performance
+When designing systems, I always ask: "What happens if this grows by 10x?" I prioritize:
+- **Horizontal Scaling**: Designing stateless services that can be replicated easily using Kubernetes.
+- **Caching Strategies**: Implementing aggressive caching layers (Redis, Memcached) to reduce database load.
+- **Asynchronous Processing**: Offloading heavy tasks (emails, image processing, AI inference) to message queues like RabbitMQ or Kafka.
+- **Database Optimization**: Normalization vs. Denormalization trade-offs, indexing strategies, and read replicas.
 
-### 2. Event-Driven Microservices
-For high-throughput systems, I prefer event-driven architectures using message brokers like **RabbitMQ** or **Kafka**.
-*   **Asynchronous Processing:** Decouples services, improving resilience and response times.
-*   **Event Sourcing:** Maintains a history of state changes, enabling complex audit trails and temporal queries.
-*   **CQRS (Command Query Responsibility Segregation):** Optimizes read and write operations separately for performance.
+### 2. Reliability & Resilience
+Systems fail. It's inevitable. The goal is to fail gracefully.
+- **Circuit Breakers**: Preventing cascading failures when downstream services are down.
+- **Retries with Exponential Backoff**: Handling transient network errors intelligently.
+- **Idempotency**: Ensuring that retrying a request doesn't cause duplicate actions (crucial for payments).
+- **Observability**: Logging, tracing, and metrics are not afterthoughts; they are first-class citizens.
 
-### 3. AI-Native Backend Design
-Integrating AI requires a different mindset than traditional CRUD apps.
-*   **Vector Search Optimization:** Implementing HNSW indexes in Pinecone/Weaviate for sub-millisecond similarity search.
-*   **Hybrid Search:** Combining keyword-based (BM25) and vector-based search for higher relevance in RAG pipelines.
-*   **Streaming Responses:** Using Server-Sent Events (SSE) or WebSockets to stream LLM tokens to the client for a better UX.
+### 3. Maintainability & Code Quality
+Code is read much more often than it is written.
+- **Clean Architecture**: Separating business logic from infrastructure concerns.
+- **SOLID Principles**: Writing code that is easy to test, extend, and refactor.
+- **Documentation**: Code should be self-documenting, but complex logic always gets a docstring or comment.
+- **Code Reviews**: Treating them as learning opportunities, not gatekeeping.
 
 </div>
 
 ---
 
-## 🔄 Development Workflow
+## 🧠 Deep Dive: AI Integration
 
-<div align="justify">
+> Building "Smart" Backends, not just connected ones.
 
-Efficiency is key. My workflow is optimized for speed and reliability.
+Integrating AI into a backend is more than just calling an API. It involves designing data flows that can handle unstructured inputs, manage context, and provide deterministic outputs from probabilistic models.
 
-### 🐧 Linux-Centric Environment
-I use **Arch Linux** for its rolling release model and minimalism. This keeps my system lean and up-to-date with the latest kernel and driver improvements.
-*   **Window Manager:** i3wm or Hyprland for keyboard-driven productivity.
-*   **Shell:** Zsh with Oh My Zsh, enhanced with `zsh-autosuggestions` and `zsh-syntax-highlighting`.
-*   **Terminal Multiplexer:** Tmux for session management and pane splitting.
+### The RAG Pipeline
+I specialize in building **Retrieval-Augmented Generation** systems. This allows LLMs to access up-to-date, private data without retraining the model.
+1. **Ingestion**: Documents are chunked and embedded.
+2. **Storage**: Vectors are stored in high-performance databases like Pinecone or Weaviate.
+3. **Retrieval**: User queries are embedded and similar chunks are fetched.
+4. **Generation**: The retrieved context is injected into the LLM prompt for an accurate answer.
 
-### 📝 Code Editing
-*   **Neovim:** My primary editor for backend work. Configured with LazyVim for a fast, IDE-like experience without the bloat.
-*   **VS Code:** Used for frontend debugging and collaborative editing via Live Share.
-
-### 🚀 CI/CD & Deployment
-*   **GitHub Actions:** Automated testing, linting, and building of Docker images.
-*   **ArgoCD:** GitOps continuous delivery tool for Kubernetes.
-*   **Terraform:** Infrastructure as Code (IaC) to provision AWS resources securely and reproducibly.
-
-</div>
+### LLM Ops (LLMOps)
+Deploying LLMs is expensive and slow. I focus on:
+- **Quantization**: Reducing model size (e.g., GPTQ, AWQ) to run on smaller hardware.
+- **Caching Semantic Responses**: Storing common Q&A pairs to avoid API calls.
+- **Prompt Engineering & Versioning**: Treating prompts as code that needs to be versioned and tested.
 
 ---
 
@@ -267,7 +271,7 @@ I use **Arch Linux** for its rolling release model and minimalism. This keeps my
 
 ---
 
-## 📌 Profile Summary Cards
+## 📌 Profile Summary Cards (Detailed)
 
 <div align="center">
 
@@ -292,16 +296,40 @@ I use **Arch Linux** for its rolling release model and minimalism. This keeps my
 
 ---
 
-## 🕒 Recent Coding Activity
+## 🔧 Development Workflow
+
+> My daily routine and tooling for maximum productivity.
+
+### The Terminal is My Home
+I spend 90% of my time in the terminal. Here is how I organize my workflow:
+- **Shell**: `zsh` powered by `Oh My Zsh` and `Powerlevel10k` for a blazing fast prompt.
+- **Multiplexing**: `tmux` to keep sessions running and panes organized (code on left, server on right, logs on bottom).
+- **Editor**: `Neovim` (specifically the `LazyVim` distribution) for speed. I only use VS Code for debugging or heavy refactoring.
+
+### Git Hygiene
+I treat Git with respect.
+- **Commit Messages**: Follow Conventional Commits (`feat:`, `fix:`, `docs:`).
+- **Branching**: Feature branches are short-lived. Main is always deployable.
+- **Rebase**: I prefer rebase over merge to keep history linear, unless collaborating on a complex feature.
+
+### API Design
+Before writing code, I design the API.
+- **OpenAPI Spec (Swagger)**: I define the contract first using YAML.
+- **Versioning**: URLs are versioned (e.g., `/api/v1/users`), not headers.
+- **Security**: OAuth2, JWT, and rate limiting are implemented by default.
+
+---
+
+## 🕒 This Week I Spent My Time On
 
 <div align="center">
 
 ```text
 TypeScript       ████████████████████░░   85.34 %
 Python           ████████████░░░░░░░░░░   50.12 %
-Go               ████░░░░░░░░░░░░░░░░░   15.20 %
-Rust             ██░░░░░░░░░░░░░░░░░░░░    8.45 %
-SQL              █░░░░░░░░░░░░░░░░░░░░░    5.10 %
+Rust             ████░░░░░░░░░░░░░░░░░   15.20 %
+YAML             ██░░░░░░░░░░░░░░░░░░░░    8.45 %
+Dockerfile       █░░░░░░░░░░░░░░░░░░░░░    5.10 %
 Other            █░░░░░░░░░░░░░░░░░░░░░    2.30 %
 ```
 
@@ -324,11 +352,11 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 <div align="center">
 
 [![Spotify](https://img.shields.io/badge/Spotify-Listening_Green-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/tegardev)
+[![Last.fm](https://img.shields.io/badge/Last.fm-Scrobbling-ba0000?style=for-the-badge&logo=last.fm&logoColor=white)](https://last.fm/user/tegardev)
 
 <br/>
 
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=tegardev&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify GitHub Profile" />
-
+<!-- Spotify Widget Placeholder -->
 </div>
 
 ---
@@ -353,16 +381,16 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ---
 
-## 📝 Technical Writing
+## 📝 Blog & Articles
 
 <div align="center">
 
-<p>I occasionally document my learning journey and technical deep dives.</p>
+<p>I occasionally write about backend architecture, AI integration, and developer productivity.</p>
 
-- **[Understanding RAG Latency](#)**: Techniques to reduce time-to-first-token in production LLM apps.
-- **[Go vs Node.js for Microservices](#)**: A benchmark comparison of memory usage and throughput.
-- **[Kubernetes Networking Deep Dive](#)**: How CNI plugins handle pod-to-pod communication.
-- **[Optimizing PostgreSQL JSONB](#)**: When to use NoSQL features in a relational database.
+- [📄 Building Scalable APIs with FastAPI and Python](#)
+- [📄 Introduction to RAG: Retrieval Augmented Generation](#)
+- [📄 Why I Switched from Docker to Podman](#)
+- [📄 Optimizing PostgreSQL Queries for High Load](#)
 
 </div>
 
@@ -380,13 +408,94 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ---
 
+## 📚 Recommended Resources
+
+<div align="center">
+
+<p>A list of resources that helped me level up my skills.</p>
+
+### Books
+- **"Designing Data-Intensive Applications"** by Martin Kleppmann (The Bible of Backend)
+- **"Clean Architecture"** by Robert C. Martin
+- **"Building Microservices"** by Sam Newman
+
+### Courses
+- **CS50: Introduction to Computer Science** (Harvard)
+- **AWS Certified Solutions Architect** (Coursera/Udemy)
+- **FastAPI Course** by testdriven.io
+
+</div>
+
+---
+
+## 🔐 Security Best Practices
+
+<div align="justify">
+
+Security is not an afterthought. Here are the standards I uphold in every project:
+
+### Authentication & Authorization
+- **Never store passwords in plain text**. Always use strong hashing algorithms like bcrypt or Argon2.
+- **JWT (JSON Web Tokens)** for stateless authentication, with short expiry times and refresh token rotation.
+- **Role-Based Access Control (RBAC)** to ensure users only access data they are permitted to see.
+
+### Data Protection
+- **Encryption at Rest**: Databases and storage buckets are encrypted.
+- **Encryption in Transit**: Enforcing HTTPS/TLS 1.3 for all communications.
+- **Input Validation**: Sanitizing all user inputs to prevent SQL Injection (SQLi) and Cross-Site Scripting (XSS).
+
+### Secrets Management
+- Never hardcode API keys or credentials in code.
+- Using environment variables or secret managers like **AWS Secrets Manager** or **HashiCorp Vault**.
+
+</div>
+
+---
+
+## 🚀 Deployment Strategies
+
+<div align="justify">
+
+Getting code from localhost to production is an art. Here is my playbook:
+
+### CI/CD Pipeline
+1. **Push**: Code is pushed to `main` or a feature branch.
+2. **Test**: Automated tests (Unit + Integration) run in GitHub Actions.
+3. **Build**: Docker image is built and tagged with the commit SHA.
+4. **Push**: Image is pushed to a container registry (Docker Hub/GHCR).
+5. **Deploy**: Kubernetes cluster updates the deployment via a rolling update to ensure zero downtime.
+
+### Blue-Green vs. Canary
+- **Blue-Green**: I use this for critical updates where a full instant rollback might be needed. It minimizes downtime by having two identical production environments.
+- **Canary**: For new features, I release to a small subset of users (e.g., 5%) to monitor errors and performance before full rollout.
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+<div align="center">
+
+<p>I am a strong believer in Open Source. If you want to contribute to any of my projects:</p>
+
+1. Fork the repo.
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'feat: Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+</div>
+
+---
+
 <div align="center">
 
 ### 💬 Let's Build Something Extraordinary
 
 <br/>
 
-<p>Thanks for scrolling! If you have a complex backend challenge or an AI integration idea, let's discuss it.</p>
+<p>Thanks for scrolling all the way down! If you have a crazy idea or need a backend that can handle millions of requests, you know where to find me.</p>
 
 <br/>
 
