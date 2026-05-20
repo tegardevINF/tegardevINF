@@ -1,9 +1,4 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,40:003300,80:004d00,100:00e676&height=280&section=header&text=Tegar&fontSize=110&fontColor=00ff88&animation=fadeIn&fontAlignY=45&stroke=00e676&strokeWidth=3&desc=Backend%20Developer%20%7C%20AI%20Builder%20%7C%20Yogyakarta%20%F0%9F%87%AE%F0%9F%87%A9&descSize=20&descColor=aaffcc&descAlignY=65" />
-
-<br/>
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Digital+Garage!+%F0%9F%9A%80;Backend+Engineer+%2B+AI+Specialist+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%F0%9F%92%9A;Architecting+Scalable+Systems+%F0%9F%8F%97%EF%B8%8F;Deploying+Intelligence+at+Edge+%F0%9F%A7%A0;Clean+Code+%3E%3E+Clever+Hacks+%F0%9F%A7%A0;Let%27s+engineer+the+future+together!+%E2%9C%A8;Open+for+High-Impact+Collaborations+%F0%9F%A4%9D" />
 
 <br/>
