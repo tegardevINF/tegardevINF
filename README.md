@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,40:003300,80:004d00,100:00e676&height=250&section=header&text=Tegar&fontSize=100&fontColor=00ff88&animation=fadeIn&fontAlignY=45&stroke=00e676&strokeWidth=3&desc=Backend%20Developer%20%7C%20AI%20Builder%20%7C%20Yogyakarta%20%F0%9F%87%AE%F0%9F%87%A9&descSize=18&descColor=aaffcc&descAlignY=65" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,40:003300,80:004d00,100:00e676&height=280&section=header&text=Tegar&fontSize=110&fontColor=00ff88&animation=fadeIn&fontAlignY=45&stroke=00e676&strokeWidth=3&desc=Backend%20Developer%20%7C%20AI%20Builder%20%7C%20Yogyakarta%20%F0%9F%87%AE%F0%9F%87%A9&descSize=20&descColor=aaffcc&descAlignY=65" />
 
 <br/>
 
@@ -154,6 +154,64 @@ class Tegar:
 </div>
 
 ---
+
+## 📅 Contribution Heatmap
+
+<div align="center">
+
+<img src="https://ghchart.rshah.org/00e676/tegardevINF" width="100%" />
+
+</div>
+
+---
+
+## 🎖️ Dev Card
+
+<div align="center">
+
+[![tegardevINF's Dev Card](https://api.daily.dev/devcards/v2/tegardevINF.png?type=wide&r=07k)](https://app.daily.dev/tegardevINF)
+
+</div>
+
+---
+
+## 📌 Fun Stats
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tegardevINF&theme=tokyonight" width="100%" />
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tegardevINF&theme=tokyonight" />
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tegardevINF&theme=tokyonight&utcOffset=7" />
+
+</div>
+
+---
+
+## 🌟 Random Dev Quote
+
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+## 🎵 Vibing To
+
+<div align="center">
+
+[![Spotify](https://novatorem-tegardevINF.vercel.app/api/spotify)](https://open.spotify.com/user/tegardevINF)
+
+</div>
 
 ---
 
