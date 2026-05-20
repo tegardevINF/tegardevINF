@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Digital+Garage!+%F0%9F%9A%80;Backend+Engineer+%2B+AI+Specialist+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%F0%9F%92%9A;Architecting+Scalable+Systems+%F0%9F%8F%97%EF%B8%8F;Deploying+Intelligence+at+Edge+%F0%9F%A7%A0;Clean+Code+%3E%3E+Clever+Hacks+%F0%9F%A7%A0;Let%27s+engineer+the+future+together!+%E2%9C%A8;Open+for+High-Impact+Collaborations+%F0%9F%A4%9D" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Workspace!;Autonomous+Systems+%26+Swarm+Engineer;Python+%7C+TypeScript+%7C+Rust+%7C+Docker;Orchestrating+Multi-Agent+Workflows;Self-Healing+Backend+Infrastructure;Model+Context+Protocol+%26+Tooling;Let%27s+build+the+future+together!;Open+for+High-Impact+Collaborations" />
 
 <br/>
 
@@ -10,7 +10,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar%27s+environment...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25+%E2%9C%85;Loading+modules...+Done.;System+Ready+%F0%9F%9F%A2" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar%27s+environment...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25;Loading+modules...+Done.;System+Ready" />
 
 </div>
 
@@ -18,22 +18,22 @@
 
 <img align="right" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
-### 🧑‍💻 Who am I?
+### Who am I?
 
-<p>I'm a passionate <b>Backend Developer</b> and <b>AI Builder</b> based in Yogyakarta. I have a deep passion for building systems that are scalable, efficient, and intelligent. My main focus is combining the power of <i>Cloud Native Architecture</i> with <i>Artificial Intelligence</i> to create backend solutions that don't just run — but also <b>think</b>.</p>
+<p>I am an <b>Autonomous Systems & Swarm Engineer</b> based in Yogyakarta. I specialize in designing backends that don't just process API endpoints, but orchestrate state machines, run background watchers, and self-heal. My primary focus is combining <i>Cloud Native Architecture</i> with <i>Multi-Agent Systems</i> to build resilient, distributed runtimes like <b>Veltrix V2</b>.</p>
 
-<p>I believe that good code is code that is easy to read and maintain. Currently, I'm diving deep into integrating LLMs into production systems and building robust microservices that scale.</p>
+<p>I believe in system reliability, zero-trust sandboxing, and deterministic agent execution. Currently, I am designing self-healing runtimes, implementing Model Context Protocol (MCP) integrations, and deploying local LLM clusters for offline environments.</p>
 
 <br/>
 
-- Building **AI-powered** applications & intelligent backends
-- Deep focus on **system design** & **distributed architecture**
-- Always learning — one rabbit hole at a time
-- Ask me about **Python**, **Node.js**, **Redis**, **RAG**, **LLMs**
-- I believe in writing code that's easy to read, not just run
-- Goal: Build tools that actually matter
-- 2025: Ship more, think less, deploy always
-- Coffee status: `Full` *(most of the time)*
+- Designing **autonomous agent swarms** and background daemons
+- Deep focus on **system design**, **distributed architectures**, and **concurrency**
+- Building custom **Model Context Protocol (MCP)** bridges for secure system access
+- Ask me about **Python**, **TypeScript**, **ChromaDB**, **Docker**, **Multi-Agent Systems**
+- I believe in writing code that's easy to audit and self-heal
+- Goal: Build robust agent runtimes that survive real-world chaos
+- 2025: Deploy agent swarms, enforce circuit breakers, automate everything
+- System status: `Active`
 
 <br clear="right"/>
 
@@ -95,7 +95,7 @@
 
 ## AI & Machine Learning Stack
 
-> Integrating Artificial Intelligence into modern web applications.
+> Orchestrating multi-agent systems and deploying containerized agent runtimes.
 
 <div align="center">
 
@@ -108,7 +108,7 @@
 ### LLM & Generative AI
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT_4o-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-Claude_3-cc785c?style=for-the-badge&logo=anthropic&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-Claude_3.5-cc785c?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google-Gemini_Pro-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000?style=for-the-badge&logo=ollama&logoColor=white)
@@ -118,20 +118,18 @@
 
 <br/><br/>
 
-### Frameworks & RAG Stack
+### Frameworks & Swarm Infrastructure
 
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-Data_Framework-00DC82?style=for-the-badge&logo=llamaindex&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-000000?style=for-the-badge&logo=pinecone&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-Embeddings-5D3FD3?style=for-the-badge&logo=chromadb&logoColor=white)
-![Weaviate](https://img.shields.io/badge/Weaviate-Vector_Search-00E676?style=for-the-badge&logo=weaviate&logoColor=white)
-![Flowise](https://img.shields.io/badge/Flowise-No_Code_AI-FF6F61?style=for-the-badge&logo=flowise&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Pipeline-8A2BE2?style=for-the-badge&logo=amazon&logoColor=white)
-![Prompt Eng](https://img.shields.io/badge/Prompt-Engineering-ff6b6b?style=for-the-badge&logo=openai&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-5D3FD3?style=for-the-badge&logo=chromadb&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Local_Inference-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-00E676?style=for-the-badge&logo=github&logoColor=white)
+![Agentic Workflows](https://img.shields.io/badge/Agentic-Workflows-8A2BE2?style=for-the-badge&logo=amazon&logoColor=white)
 
 <br/><br/>
 
-###  MLOps & Deployment
+### MLOps & Deployment
 
 ![MLflow](https://img.shields.io/badge/MLflow-Lifecycle-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/W&B-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
@@ -142,7 +140,7 @@
 
 ---
 
-##  System Architecture Philosophy
+## System Architecture Philosophy
 
 <img align="right" width="300" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
 
@@ -170,29 +168,29 @@ I believe that a great backend is not just about writing code that works — it'
 
 ---
 
-## Deep Dive: AI Integration
+## Deep Dive: Swarm Orchestration
 
 <img align="left" width="280" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" />
 
-Integrating AI into a backend is more than just calling an API. It involves designing data flows that handle unstructured inputs, manage context, and produce reliable outputs from probabilistic models.
+Integrating AI today is about designing systems where multiple specialized agents cooperate. This requires sandbox management, circuit breaking, and secure system communication layers.
 
-**The RAG Pipeline I Build:**
-1.  **Ingestion** — Documents chunked & embedded
-2.  **Storage** — Vectors stored in Pinecone/Weaviate
-3.  **Retrieval** — Query embedded, similar chunks fetched
-4.  **Generation** — Context injected into LLM prompt
+**The Swarm Loop I Build:**
+1.  **Observation** — Watcher daemons monitor workspace changes and execution errors
+2.  **Audit** — Critic agents run AST parses and lint audits on-the-fly
+3.  **Mutation** — Mutator engines auto-patch syntax issues and logic anomalies
+4.  **Verification** — Test daemons execute validation pipelines to ensure stability
 
-**LLMOps Focus:**
-- Quantization (GPTQ/AWQ) for lean inference
-- Semantic response caching
-- Prompt versioning & A/B testing
-- Streaming responses via SSE
+**Agentic Infrastructure Focus:**
+- Model Context Protocol (MCP) integrations
+- Multitier circuit breaker routing (Claude, Gemini, Groq, Ollama)
+- Byte-by-byte token swarm scrubbing for reasoning streams
+- Isolated workspace sandboxing and tenant isolation
 
 <br clear="left"/>
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
@@ -213,7 +211,7 @@ Integrating AI into a backend is more than just calling an API. It involves desi
 
 ---
 
-## 🏆 Profile Achievements
+## Profile Achievements
 
 <div align="center">
 
@@ -223,7 +221,7 @@ Integrating AI into a backend is more than just calling an API. It involves desi
 
 ---
 
-## 📅 Contribution Heatmap
+## Contribution Heatmap
 
 <div align="center">
 
@@ -233,7 +231,7 @@ Integrating AI into a backend is more than just calling an API. It involves desi
 
 ---
 
-## 📌 Profile Summary Cards
+## Profile Summary Cards
 
 <div align="center">
 
@@ -255,23 +253,23 @@ Integrating AI into a backend is more than just calling an API. It involves desi
 
 ---
 
-## 🔧 Development Workflow
+## Development Workflow
 
 <img align="right" width="300" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" />
 
-###  The Terminal is My Home
+### The Terminal is My Home
 
 - **Shell**: `zsh` + `Oh My Zsh` + `Powerlevel10k`
 - **Multiplexer**: `tmux` — code left, server right, logs bottom
 - **Editor**: `Neovim` (LazyVim) for speed, VS Code for debugging
 
-###  Git Hygiene
+### Git Hygiene
 
 - **Commits**: Conventional Commits (`feat:`, `fix:`, `docs:`)
 - **Branching**: Short-lived feature branches, `main` always deployable
 - **History**: Rebase over merge — keep it linear
 
-###  API Design
+### API Design
 
 - **Contract First**: OpenAPI/Swagger YAML before writing code
 - **Versioning**: `/api/v1/` in URL — always
@@ -281,7 +279,7 @@ Integrating AI into a backend is more than just calling an API. It involves desi
 
 ---
 
-## 🕒 This Week I Spent My Time On
+## Weekly Language Stats
 
 <div align="center">
 
@@ -298,17 +296,17 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ---
 
-## 🚀 Deployment Strategy
+## Deployment Strategy
 
 <img align="left" width="260" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
 
 ### CI/CD Pipeline
 
-1. 🔀 **Push** → feature branch
-2. ✅ **Test** → Unit + Integration via GitHub Actions
-3. 🐳 **Build** → Docker image tagged with commit SHA
-4. 📦 **Push** → Container registry (GHCR / Docker Hub)
-5. ☸️ **Deploy** → Kubernetes rolling update — zero downtime
+1. **Push** → feature branch
+2. **Test** → Unit + Integration via GitHub Actions
+3. **Build** → Docker image tagged with commit SHA
+4. **Push** → Container registry (GHCR / Docker Hub)
+5. **Deploy** → Kubernetes rolling update — zero downtime
 
 ### Blue-Green vs Canary
 
@@ -319,28 +317,28 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ---
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 <div align="center">
 
 | Area | Practice |
 |------|----------|
-| 🔑 Passwords | `bcrypt` / `Argon2` — never plain text |
-| 🎫 Auth | JWT short expiry + refresh token rotation |
-| 🛡️ Access | RBAC — least privilege always |
-| 🔒 Data | Encrypted at rest + TLS 1.3 in transit |
-| 🧹 Inputs | Sanitize all inputs — prevent SQLi & XSS |
-| 🤫 Secrets | AWS Secrets Manager / HashiCorp Vault — no hardcoding |
+| Passwords | `bcrypt` / `Argon2` — never plain text |
+| Auth | JWT short expiry + refresh token rotation |
+| Access | RBAC — least privilege always |
+| Data | Encrypted at rest + TLS 1.3 in transit |
+| Inputs | Sanitize all inputs — prevent SQLi & XSS |
+| Secrets | AWS Secrets Manager / HashiCorp Vault — no hardcoding |
 
 </div>
 
 ---
 
-## 📚 Recommended Resources
+## Recommended Resources
 
 <div align="center">
 
-### 📖 Books That Changed How I Think
+### Books That Changed How I Think
 
 | Book | Author | Why |
 |------|--------|-----|
@@ -349,7 +347,7 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 | Building Microservices | Sam Newman | System design bible |
 | The Pragmatic Programmer | Hunt & Thomas | Developer mindset |
 
-### 🎓 Courses Worth Your Time
+### Courses Worth Your Time
 
 - **CS50** — Harvard's legendary intro to CS
 - **AWS Solutions Architect** — Cloud fundamentals
@@ -360,7 +358,7 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ---
 
-## 🤝 Contributing to Open Source
+## Contributing to Open Source
 
 <div align="center">
 
@@ -377,14 +375,14 @@ git commit -m 'feat: Add some AmazingFeature'
 # 4. Push to the branch
 git push origin feature/AmazingFeature
 
-# 5. Open a Pull Request 🚀
+# 5. Open a Pull Request
 ```
 
 </div>
 
 ---
 
-## 🌟 Random Dev Quote
+## Dev Quote
 
 <div align="center">
 
@@ -394,7 +392,7 @@ git push origin feature/AmazingFeature
 
 ---
 
-## 😂 Dev Humor
+## Dev Humor
 
 <div align="center">
 
@@ -404,14 +402,14 @@ git push origin feature/AmazingFeature
 
 ---
 
-## ☕ Support My Work
+## Support My Work
 
 <div align="center">
 
 <p>If you find my projects helpful, consider buying me a coffee!</p>
 
 <a href="https://www.buymeacoffee.com/tegardevINF">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
 </a>
 
 </div>
@@ -420,15 +418,11 @@ git push origin feature/AmazingFeature
 
 <div align="center">
 
-### 💬 Let's Build Something Extraordinary
+### Let's Build Something Extraordinary
 
 <br/>
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
-&nbsp;&nbsp;
-<b>Thanks for scrolling all the way down! Got a crazy idea? Hit me up! 🚀🔥</b>
-&nbsp;&nbsp;
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
+<b>Thanks for scrolling all the way down. Got a crazy idea? Hit me up.</b>
 
 <br/><br/>
 
