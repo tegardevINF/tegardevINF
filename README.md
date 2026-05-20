@@ -123,13 +123,13 @@ class Tegar:
 <div align="center">
 
 <a href="https://github.com/tegardevINF">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=8b949e" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=6&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=8b949e" />
+  <img height="180" src="https://github-readme-stats-salesp07.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=8b949e" />
+  <img height="180" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=6&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=8b949e" />
 </a>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" />
+<img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" />
 
 </div>
 
