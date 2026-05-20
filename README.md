@@ -1,9 +1,8 @@
-
-
 <div align="center">
 
-<!-- Header Section with Venom Style -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,40:003300,80:004d00,100:00e676&height=300&section=header&text=Tegar&fontSize=120&fontColor=00ff88&animation=fadeIn&fontAlignY=45&stroke=00e676&strokeWidth=4&desc=Backend%20Developer%20%7C%20AI%20Architect%20%7C%20Yogyakarta%20%F0%9F%87%AE%F0%9F%87%A9&descSize=22&descColor=aaffcc&descAlignY=68" />
+<!-- HEADER SECTION: CLEAN NO BACKGROUND -->
+<!-- Background color removed, text stands alone -->
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=Tegar&fontSize=150&fontColor=00ff88&animation=fadeIn&fontAlignY=50&stroke=00e676&strokeWidth=2" />
 
 <br/>
 
@@ -81,9 +80,9 @@ class BackendEngineer(Tegar):
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-tegardevINF-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tegardevINF)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tegardev) <!-- Fixed Dummy Link -->
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tegardev) <!-- Fixed Dummy Link -->
-[![Telegram](https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/tegardev) <!-- Fixed Dummy Link -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tegardev) 
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tegardev) 
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/tegardev) 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@tegardev.com)
 
 </div>
@@ -292,7 +291,7 @@ class BackendEngineer(Tegar):
 ```text
 TypeScript       ████████████████████░░   85.34 %
 Python           ████████████░░░░░░░░░░   50.12 %
-Rust             ████░░░░░░░░░░░░░░░░░░   15.20 %
+Rust             ████░░░░░░░░░░░░░░░░░   15.20 %
 YAML             ██░░░░░░░░░░░░░░░░░░░░    8.45 %
 Dockerfile       █░░░░░░░░░░░░░░░░░░░░░    5.10 %
 Other            █░░░░░░░░░░░░░░░░░░░░░    2.30 %
