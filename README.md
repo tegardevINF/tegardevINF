@@ -448,7 +448,7 @@ git push origin feature/AmazingFeature
 <p>If you find my projects helpful, consider buying me a coffee!</p>
 
 <a href="https://www.buymeacoffee.com/tegardevINF">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
 </a>
 
 </div>
