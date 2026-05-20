@@ -357,8 +357,6 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 <br/>
 
 <!-- Spotify Widget Placeholder -->
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=tegardev&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify GitHub Profile" />
-
 </div>
 
 ---
