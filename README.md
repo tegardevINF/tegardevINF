@@ -122,12 +122,14 @@ class Tegar:
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=8b949e&rank_icon=github" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&card_width=300&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=8b949e" />
+<a href="https://github.com/tegardevINF">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=8b949e" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=6&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=8b949e" />
+</a>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333&dates=8b949e&sideLabels=8b949e" />
+<img src="https://streak-stats.demolab.com/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" />
 
 </div>
 
@@ -152,18 +154,6 @@ class Tegar:
 </div>
 
 ---
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tegardevINF/tegardevINF/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tegardevINF/tegardevINF/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tegardevINF/tegardevINF/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
 
 ---
 
