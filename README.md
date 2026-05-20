@@ -209,7 +209,7 @@ class Tegar:
 
 <div align="center">
 
-[![Spotify](https://novatorem-tegardevINF.vercel.app/api/spotify)](https://open.spotify.com/user/tegardevINF)
+https://open.spotify.com/playlist/1GNGnca4T8qCEQ4TI49z2E
 
 </div>
 
