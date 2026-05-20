@@ -259,19 +259,19 @@ Integrating AI into a backend is more than just calling an API. It involves desi
 
 <img align="right" width="300" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" />
 
-### 🖥️ The Terminal is My Home
+###  The Terminal is My Home
 
 - **Shell**: `zsh` + `Oh My Zsh` + `Powerlevel10k`
 - **Multiplexer**: `tmux` — code left, server right, logs bottom
 - **Editor**: `Neovim` (LazyVim) for speed, VS Code for debugging
 
-### 🌿 Git Hygiene
+###  Git Hygiene
 
 - **Commits**: Conventional Commits (`feat:`, `fix:`, `docs:`)
 - **Branching**: Short-lived feature branches, `main` always deployable
 - **History**: Rebase over merge — keep it linear
 
-### 🔌 API Design
+###  API Design
 
 - **Contract First**: OpenAPI/Swagger YAML before writing code
 - **Versioning**: `/api/v1/` in URL — always
