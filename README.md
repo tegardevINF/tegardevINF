@@ -30,9 +30,9 @@
 
 ### 🧑‍💻 Who am I?
 
-<p>Saya adalah seorang <b>Backend Developer</b> dan <b>AI Builder</b> yang berbasis di Yogyakarta. Saya memiliki passion mendalam dalam membangun sistem yang skalabel, efisien, dan cerdas. Fokus utama saya adalah menggabungkan kekuatan <i>Cloud Native Architecture</i> dengan <i>Artificial Intelligence</i> untuk menciptakan solusi backend yang bukan hanya berjalan, tapi juga "berpikir".</p>
+<p>I am a passionate <b>Backend Developer</b> and <b>AI Builder</b> based in Yogyakarta. I have a deep passion for building systems that are scalable, efficient, and intelligent. My main focus is combining the power of <i>Cloud Native Architecture</i> with <i>Artificial Intelligence</i> to create backend solutions that don't just run, but also "think".</p>
 
-<p>Saya percaya bahwa kode yang baik adalah kode yang mudah dibaca dan dirawat. Saat ini saya sedang mendalami integrasi LLM (Large Language Models) ke dalam sistem produksi dan membangun microservices yang tangguh.</p>
+<p>I believe that good code is code that is easy to read and maintain. Currently, I am diving deep into integrating LLM (Large Language Models) into production systems and building robust microservices.</p>
 
 <br/>
 
@@ -79,7 +79,7 @@ class BackendEngineer(Tegar):
 
 <div align="center">
 
-<p>Let's connect! Saya selalu terbuka untuk diskusi teknis, kolaborasi proyek, atau sekadar ngobrol tentang teknologi terbaru.</p>
+<p>Let's connect! I am always open to technical discussions, project collaborations, or just chatting about the latest tech.</p>
 
 <br/>
 
@@ -131,7 +131,7 @@ class BackendEngineer(Tegar):
 
 ## 🤖 The AI & Machine Learning Stack
 
-> Mengintegrasikan kecerdasan buatan ke dalam aplikasi web modern.
+> Integrating Artificial Intelligence into modern web applications.
 
 <div align="center">
 
@@ -173,56 +173,57 @@ class BackendEngineer(Tegar):
 
 ---
 
-## 🚀 Featured Projects
+## 🏗️ System Architecture Philosophy
 
-<div align="center">
+> How I approach building robust software systems.
 
-| **Project Name** | **Description** | **Tech Stack** | **Link** |
-| :--- | :--- | :--- | :--- |
-| **NeuroBackend** | High-performance API gateway with integrated AI rate limiting and anomaly detection. | Go, Redis, Python, TensorFlow | [GitHub](https://github.com/tegardevINF) |
-| **RAG-Knowledge** | Enterprise-grade Retrieval Augmented Generation system for internal documentation. | LangChain, Pinecone, Next.js, PostgreSQL | [GitHub](https://github.com/tegardevINF) |
-| **MicroShop** | Scalable e-commerce microservices architecture with event-driven communication. | Node.js, RabbitMQ, Docker, Kubernetes | [GitHub](https://github.com/tegardevINF) |
-| **AutoAgent** | Multi-agent system capable of autonomous code generation and testing. | Python, AutoGen, Ollama, FastAPI | [GitHub](https://github.com/tegardevINF) |
+<div align="justify">
+
+I believe that a great backend is not just about writing code that works; it's about designing systems that survive the chaos of real-world traffic. My philosophy is built on three pillars: **Scalability**, **Reliability**, and **Maintainability**.
+
+### 1. Scalability & Performance
+When designing systems, I always ask: "What happens if this grows by 10x?" I prioritize:
+- **Horizontal Scaling**: Designing stateless services that can be replicated easily using Kubernetes.
+- **Caching Strategies**: Implementing aggressive caching layers (Redis, Memcached) to reduce database load.
+- **Asynchronous Processing**: Offloading heavy tasks (emails, image processing, AI inference) to message queues like RabbitMQ or Kafka.
+- **Database Optimization**: Normalization vs. Denormalization trade-offs, indexing strategies, and read replicas.
+
+### 2. Reliability & Resilience
+Systems fail. It's inevitable. The goal is to fail gracefully.
+- **Circuit Breakers**: Preventing cascading failures when downstream services are down.
+- **Retries with Exponential Backoff**: Handling transient network errors intelligently.
+- **Idempotency**: Ensuring that retrying a request doesn't cause duplicate actions (crucial for payments).
+- **Observability**: Logging, tracing, and metrics are not afterthoughts; they are first-class citizens.
+
+### 3. Maintainability & Code Quality
+Code is read much more often than it is written.
+- **Clean Architecture**: Separating business logic from infrastructure concerns.
+- **SOLID Principles**: Writing code that is easy to test, extend, and refactor.
+- **Documentation**: Code should be self-documenting, but complex logic always gets a docstring or comment.
+- **Code Reviews**: Treating them as learning opportunities, not gatekeeping.
 
 </div>
 
 ---
 
-## 🎓 Certifications & Learning
+## 🧠 Deep Dive: AI Integration
 
-<div align="center">
+> Building "Smart" Backends, not just connected ones.
 
-- ✅ **AWS Certified Solutions Architect – Associate** (2024)
-- ✅ **Certified Kubernetes Administrator (CKA)** (In Progress)
-- ✅ **DeepLearning.AI - Machine Learning Specialization**
-- ✅ **Google Cloud Professional Data Engineer** (Planned 2025)
+Integrating AI into a backend is more than just calling an API. It involves designing data flows that can handle unstructured inputs, manage context, and provide deterministic outputs from probabilistic models.
 
-</div>
+### The RAG Pipeline
+I specialize in building **Retrieval-Augmented Generation** systems. This allows LLMs to access up-to-date, private data without retraining the model.
+1. **Ingestion**: Documents are chunked and embedded.
+2. **Storage**: Vectors are stored in high-performance databases like Pinecone or Weaviate.
+3. **Retrieval**: User queries are embedded and similar chunks are fetched.
+4. **Generation**: The retrieved context is injected into the LLM prompt for an accurate answer.
 
----
-
-## 🧩 Full Roadmap 2025-2026
-
-<div align="center">
-
-### 🎯 Q1 - Q2: Foundation & Scaling
-- [x] Master **Advanced Docker & Kubernetes Orchestration**
-- [ ] Deep dive into **Rust** for systems programming
-- [ ] Build a **Serverless Microservices** architecture on AWS
-- [ ] Complete **Certified Kubernetes Administrator (CKA)**
-
-### 🧠 Q3 - Q4: AI Integration & Optimization
-- [ ] Develop a proprietary **RAG Pipeline** for internal knowledge base
-- [ ] Experiment with **Multi-Agent Systems** using AutoGen
-- [ ] Optimize **LLM Inference** latency (Quantization & Distillation)
-- [ ] Contribute to **Open Source** AI/ML libraries
-
-### 🔮 2026 Goals
-- [ ] Lead a team of backend engineers in a high-scale startup
-- [ ] Publish a technical paper on Efficient LLM Serving
-- [ ] Speak at a major tech conference (PyCon / KubeCon)
-
-</div>
+### LLM Ops (LLMOps)
+Deploying LLMs is expensive and slow. I focus on:
+- **Quantization**: Reducing model size (e.g., GPTQ, AWQ) to run on smaller hardware.
+- **Caching Semantic Responses**: Storing common Q&A pairs to avoid API calls.
+- **Prompt Engineering & Versioning**: Treating prompts as code that needs to be versioned and tested.
 
 ---
 
@@ -295,36 +296,27 @@ class BackendEngineer(Tegar):
 
 ---
 
-## 💻 Workspace Setup (Specs)
+## 🔧 Development Workflow
 
-<div align="center">
+> My daily routine and tooling for maximum productivity.
 
-<img src="https://img.shields.io/badge/OS-Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
-<img src="https://img.shields.io/badge/IDE-VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-<img src="https://img.shields.io/badge/Editor-Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" />
-<img src="https://img.shields.io/badge/Shell-Zsh-F15A24?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-<img src="https://img.shields.io/badge/Terminal-Kitty-000000?style=for-the-badge&logo=linux&logoColor=white" />
+### The Terminal is My Home
+I spend 90% of my time in the terminal. Here is how I organize my workflow:
+- **Shell**: `zsh` powered by `Oh My Zsh` and `Powerlevel10k` for a blazing fast prompt.
+- **Multiplexing**: `tmux` to keep sessions running and panes organized (code on left, server on right, logs on bottom).
+- **Editor**: `Neovim` (specifically the `LazyVim` distribution) for speed. I only use VS Code for debugging or heavy refactoring.
 
-<br/><br/>
+### Git Hygiene
+I treat Git with respect.
+- **Commit Messages**: Follow Conventional Commits (`feat:`, `fix:`, `docs:`).
+- **Branching**: Feature branches are short-lived. Main is always deployable.
+- **Rebase**: I prefer rebase over merge to keep history linear, unless collaborating on a complex feature.
 
-```json
-{
-  "machine": "ThinkPad X1 Carbon Gen 10",
-  "cpu": "Intel Core i7-1260P",
-  "ram": "32GB LPDDR5",
-  "storage": "1TB NVMe SSD",
-  "kernel": "Linux 6.8.9-arch1-1",
-  "shell": "zsh with oh-my-zsh + powerlevel10k",
-  "terminal": "Kitty + Tmux",
-  "editor": "Neovim (LazyVim distro)",
-  "browser": "Firefox Nightly / Arc",
-  "theme": "Tokyo Night Storm",
-  "font": "JetBrains Mono Nerd Font",
-  "keyboard": "Keychron K2 Pro (Brown Switches)"
-}
-```
-
-</div>
+### API Design
+Before writing code, I design the API.
+- **OpenAPI Spec (Swagger)**: I define the contract first using YAML.
+- **Versioning**: URLs are versioned (e.g., `/api/v1/users`), not headers.
+- **Security**: OAuth2, JWT, and rate limiting are implemented by default.
 
 ---
 
@@ -332,7 +324,6 @@ class BackendEngineer(Tegar):
 
 <div align="center">
 
-<!-- Start Time Tracker -->
 ```text
 TypeScript       ████████████████████░░   85.34 %
 Python           ████████████░░░░░░░░░░   50.12 %
@@ -365,7 +356,7 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 <br/>
 
-<!-- Assuming you might want a widget here, usually requires a token, so using a static image for safety -->
+<!-- Spotify Widget Placeholder -->
 <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=tegardev&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify GitHub Profile" />
 
 </div>
@@ -386,7 +377,6 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 <div align="center">
 
-<!-- Using a reliable meme source placeholder or static link -->
 <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=tokyonight" alt="Jokes Card" />
 
 </div>
@@ -415,6 +405,87 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 <p>If you find my projects helpful or interesting, consider supporting my work!</p>
 
 <a href="https://www.buymeacoffee.com/tegardev"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=tegardev&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+</div>
+
+---
+
+## 📚 Recommended Resources
+
+<div align="center">
+
+<p>A list of resources that helped me level up my skills.</p>
+
+### Books
+- **"Designing Data-Intensive Applications"** by Martin Kleppmann (The Bible of Backend)
+- **"Clean Architecture"** by Robert C. Martin
+- **"Building Microservices"** by Sam Newman
+
+### Courses
+- **CS50: Introduction to Computer Science** (Harvard)
+- **AWS Certified Solutions Architect** (Coursera/Udemy)
+- **FastAPI Course** by testdriven.io
+
+</div>
+
+---
+
+## 🔐 Security Best Practices
+
+<div align="justify">
+
+Security is not an afterthought. Here are the standards I uphold in every project:
+
+### Authentication & Authorization
+- **Never store passwords in plain text**. Always use strong hashing algorithms like bcrypt or Argon2.
+- **JWT (JSON Web Tokens)** for stateless authentication, with short expiry times and refresh token rotation.
+- **Role-Based Access Control (RBAC)** to ensure users only access data they are permitted to see.
+
+### Data Protection
+- **Encryption at Rest**: Databases and storage buckets are encrypted.
+- **Encryption in Transit**: Enforcing HTTPS/TLS 1.3 for all communications.
+- **Input Validation**: Sanitizing all user inputs to prevent SQL Injection (SQLi) and Cross-Site Scripting (XSS).
+
+### Secrets Management
+- Never hardcode API keys or credentials in code.
+- Using environment variables or secret managers like **AWS Secrets Manager** or **HashiCorp Vault**.
+
+</div>
+
+---
+
+## 🚀 Deployment Strategies
+
+<div align="justify">
+
+Getting code from localhost to production is an art. Here is my playbook:
+
+### CI/CD Pipeline
+1. **Push**: Code is pushed to `main` or a feature branch.
+2. **Test**: Automated tests (Unit + Integration) run in GitHub Actions.
+3. **Build**: Docker image is built and tagged with the commit SHA.
+4. **Push**: Image is pushed to a container registry (Docker Hub/GHCR).
+5. **Deploy**: Kubernetes cluster updates the deployment via a rolling update to ensure zero downtime.
+
+### Blue-Green vs. Canary
+- **Blue-Green**: I use this for critical updates where a full instant rollback might be needed. It minimizes downtime by having two identical production environments.
+- **Canary**: For new features, I release to a small subset of users (e.g., 5%) to monitor errors and performance before full rollout.
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+<div align="center">
+
+<p>I am a strong believer in Open Source. If you want to contribute to any of my projects:</p>
+
+1. Fork the repo.
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'feat: Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
 </div>
 
