@@ -66,12 +66,12 @@
 
 ### Languages & Core
 
-| <img src="https://techstack-generator.vercel.app/python-icon.svg" width="50"/><br/><b>Python</b> | <img src="https://techstack-generator.vercel.app/js-icon.svg" width="50"/><br/><b>JavaScript</b> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="50"/><br/><b>TypeScript</b> | <img src="https://techstack-generator.vercel.app/go-icon.svg" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> |
+| <img src="https://skillicons.dev/icons?i=py" width="50"/><br/><b>Python</b> | <img src="https://skillicons.dev/icons?i=js" width="50"/><br/><b>JavaScript</b> | <img src="https://skillicons.dev/icons?i=ts" width="50"/><br/><b>TypeScript</b> | <img src="https://skillicons.dev/icons?i=go" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Backend & Frameworks
 
-| <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=nestjs" width="50"/><br/><b>NestJS</b> | <img src="https://techstack-generator.vercel.app/django-icon.svg" width="50"/><br/><b>Django</b> | <img src="https://techstack-generator.vercel.app/fastapi-icon.svg" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=graphql" width="50"/><br/><b>GraphQL</b> | <img src="https://skillicons.dev/icons?i=spring" width="50"/><br/><b>Spring</b> |
+| <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=nestjs" width="50"/><br/><b>NestJS</b> | <img src="https://skillicons.dev/icons?i=django" width="50"/><br/><b>Django</b> | <img src="https://skillicons.dev/icons?i=fastapi" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=graphql" width="50"/><br/><b>GraphQL</b> | <img src="https://skillicons.dev/icons?i=spring" width="50"/><br/><b>Spring</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Databases & Storage
@@ -81,7 +81,7 @@
 
 ### DevOps & Cloud
 
-| <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>K8s</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>GCP</b> | <img src="https://skillicons.dev/icons?i=azure" width="50"/><br/><b>Azure</b> | <img src="https://skillicons.dev/icons?i=terraform" width="50"/><br/><b>Terraform</b> | <img src="https://skillicons.dev/icons?i=nginx" width="50"/><br/><b>Nginx</b> | <img src="https://skillicons.dev/icons?i=jenkins" width="50"/><br/><b>Jenkins</b> |
+| <img src="https://skillicons.dev/icons?i=docker" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>K8s</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>GCP</b> | <img src="https://skillicons.dev/icons?i=azure" width="50"/><br/><b>Azure</b> | <img src="https://skillicons.dev/icons?i=terraform" width="50"/><br/><b>Terraform</b> | <img src="https://skillicons.dev/icons?i=nginx" width="50"/><br/><b>Nginx</b> | <img src="https://skillicons.dev/icons?i=jenkins" width="50"/><br/><b>Jenkins</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Tools & Others
