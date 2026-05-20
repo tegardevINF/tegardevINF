@@ -4,13 +4,17 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=700&height=70&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80;Backend+Developer+%2B+AI+Builder+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%F0%9F%92%9A;Building+AI+powered+backends+%F0%9F%94%A5;Scalable+systems+%2B+smart+intelligence+%F0%9F%A7%A0;Let%27s+build+the+future+together!+%E2%9C%A8" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=700&height=70&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80;Backend+Developer+%2B+AI+Builder+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%F0%9F%92%9A;Building+AI+powered+backends+%F0%9F%94%A5;Scalable+systems+%2B+smart+intelligence+%F0%9F%A7%A0;Clean+code+%3E+clever+code+%F0%9F%A7%A0;Let%27s+build+the+future+together!+%E2%9C%A8;Open+to+collaborations+%F0%9F%A4%9D" />
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile+Views&color=00e676&style=flat-square)
-[![Followers](https://img.shields.io/github/followers/tegardevINF?label=Followers&style=flat-square&color=00e676&labelColor=0d1117)](https://github.com/tegardevINF?tab=followers)
-![Stars](https://img.shields.io/github/stars/tegardevINF?label=Total+Stars&style=flat-square&color=00e676&labelColor=0d1117)
+![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile+Views&color=00e676&style=for-the-badge)
+[![Followers](https://img.shields.io/github/followers/tegardevINF?label=Followers&style=for-the-badge&color=00e676&labelColor=0d1117)](https://github.com/tegardevINF?tab=followers)
+![Stars](https://img.shields.io/github/stars/tegardevINF?label=Total+Stars&style=for-the-badge&color=00e676&labelColor=0d1117)
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=555555&center=true&vCenter=true&width=500&lines=...+loading+Tegar's+profile+...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+100%25+%E2%9C%85)](https://github.com/tegardevINF)
 
 </div>
 
@@ -37,6 +41,7 @@ class Tegar:
     mantra    = "Clear code > clever code"
     currently = "Building AI-powered backends 🤖"
     fun_fact  = "I debug best at midnight 🌙"
+    status    = "🟢 Available for collabs"
 ```
 
 <br/>
@@ -47,6 +52,8 @@ class Tegar:
 - 💬 Ask me about **Node.js**, **Python**, **Redis**, **AI APIs**
 - ⚡ I believe in writing code that's easy to read, not just run
 - 🤝 Open to collaborations and cool AI projects!
+- 🏆 Goal: Build tools that actually matter
+- 🎯 2025: Ship more, think less, deploy always
 
 <br clear="right"/>
 
@@ -60,6 +67,7 @@ class Tegar:
 [![Instagram](https://img.shields.io/badge/Instagram-@tegar-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](#)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tegar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Telegram](https://img.shields.io/badge/Telegram-@tegar-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](#)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
 
 </div>
 
@@ -84,6 +92,10 @@ class Tegar:
 
 <div align="center">
 
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
+
+<br/><br/>
+
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-Claude-cc785c?style=for-the-badge&logo=anthropic&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
@@ -92,6 +104,8 @@ class Tegar:
 ![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Vector DB](https://img.shields.io/badge/Vector_DB-Embeddings-00e676?style=for-the-badge&logo=databricks&logoColor=white)
 ![Prompt Eng](https://img.shields.io/badge/Prompt-Engineering-ff6b6b?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Pipeline-8A2BE2?style=for-the-badge&logo=amazon&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-AI_Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 </div>
 
@@ -165,17 +179,7 @@ class Tegar:
 
 ---
 
-## 🎖️ Dev Card
-
-<div align="center">
-
-[![tegardevINF's Dev Card](https://api.daily.dev/devcards/v2/tegardevINF.png?type=wide&r=07k)](https://app.daily.dev/tegardevINF)
-
-</div>
-
----
-
-## 📌 Fun Stats
+## 📌 Profile Summary Cards
 
 <div align="center">
 
@@ -184,12 +188,40 @@ class Tegar:
 <br/>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tegardevINF&theme=tokyonight" />
+&nbsp;
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tegardevINF&theme=tokyonight" />
 
 <br/>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tegardevINF&theme=tokyonight" />
+&nbsp;
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tegardevINF&theme=tokyonight&utcOffset=7" />
+
+</div>
+
+---
+
+## 🎯 This Week I Spent My Time On
+
+<div align="center">
+
+```text
+TypeScript   ████████████████░░░░   78%
+Python       ██████░░░░░░░░░░░░░░   28%
+Bash         ██░░░░░░░░░░░░░░░░░░   10%
+JSON         █░░░░░░░░░░░░░░░░░░░    5%
+Other        █░░░░░░░░░░░░░░░░░░░    4%
+```
+
+</div>
+
+---
+
+## 🐱 GitHub Metrics
+
+<div align="center">
+
+<img src="https://metrics.lecoq.io/tegardevINF?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&activity=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&config.timezone=Asia%2FJakarta" width="100%"/>
 
 </div>
 
@@ -205,17 +237,31 @@ class Tegar:
 
 ---
 
+## 😂 Random Dev Meme
+
+<div align="center">
+
+<img src="https://random-memer.herokuapp.com/" width="512px" />
+
+</div>
+
+---
+
 ## 🎵 Vibing To
 
 <div align="center">
 
-https://open.spotify.com/playlist/1GNGnca4T8qCEQ4TI49z2E
+[![Spotify Playlist](https://img.shields.io/badge/Spotify-My_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/1GNGnca4T8qCEQ4TI49z2E)
 
 </div>
 
 ---
 
 <div align="center">
+
+### 💬 Feel free to reach out — I don't bite! 😄
+
+<br/>
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
 &nbsp;&nbsp;
