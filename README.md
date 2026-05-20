@@ -26,20 +26,20 @@
 
 <br/>
 
-- 🤖 Building **AI-powered** applications & intelligent backends
-- 🔭 Deep focus on **system design** & **distributed architecture**
-- 🌱 Always learning — one rabbit hole at a time
-- 💬 Ask me about **Python**, **Node.js**, **Redis**, **RAG**, **LLMs**
-- ⚡ I believe in writing code that's easy to read, not just run
-- 🏆 Goal: Build tools that actually matter
-- 🎯 2025: Ship more, think less, deploy always
-- ☕ Coffee status: `Full` *(most of the time)*
+- Building **AI-powered** applications & intelligent backends
+- Deep focus on **system design** & **distributed architecture**
+- Always learning — one rabbit hole at a time
+- Ask me about **Python**, **Node.js**, **Redis**, **RAG**, **LLMs**
+- I believe in writing code that's easy to read, not just run
+- Goal: Build tools that actually matter
+- 2025: Ship more, think less, deploy always
+- Coffee status: `Full` *(most of the time)*
 
 <br clear="right"/>
 
 ---
 
-## 🌐 Social & Contact
+## Social & Contact
 
 <div align="center">
 
@@ -58,33 +58,33 @@
 
 ---
 
-## ⚙️ Tech Stack & Arsenal
+## Tech Stack & Arsenal
 
 > The tools I use to bring ideas to life.
 
 <div align="center">
 
-### 💻 Languages & Core
+### Languages & Core
 
 | <img src="https://techstack-generator.vercel.app/python-icon.svg" width="50"/><br/><b>Python</b> | <img src="https://techstack-generator.vercel.app/js-icon.svg" width="50"/><br/><b>JavaScript</b> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="50"/><br/><b>TypeScript</b> | <img src="https://techstack-generator.vercel.app/go-icon.svg" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-### 🧩 Backend & Frameworks
+### Backend & Frameworks
 
 | <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=nestjs" width="50"/><br/><b>NestJS</b> | <img src="https://techstack-generator.vercel.app/django-icon.svg" width="50"/><br/><b>Django</b> | <img src="https://techstack-generator.vercel.app/fastapi-icon.svg" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=graphql" width="50"/><br/><b>GraphQL</b> | <img src="https://skillicons.dev/icons?i=spring" width="50"/><br/><b>Spring</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-### 🗄️ Databases & Storage
+### Databases & Storage
 
 | <img src="https://skillicons.dev/icons?i=postgres" width="50"/><br/><b>PostgreSQL</b> | <img src="https://skillicons.dev/icons?i=mysql" width="50"/><br/><b>MySQL</b> | <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br/><b>MongoDB</b> | <img src="https://skillicons.dev/icons?i=redis" width="50"/><br/><b>Redis</b> | <img src="https://skillicons.dev/icons?i=sqlite" width="50"/><br/><b>SQLite</b> | <img src="https://skillicons.dev/icons?i=firebase" width="50"/><br/><b>Firebase</b> | <img src="https://skillicons.dev/icons?i=supabase" width="50"/><br/><b>Supabase</b> | <img src="https://skillicons.dev/icons?i=elasticsearch" width="50"/><br/><b>Elastic</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-### 🐳 DevOps & Cloud
+### DevOps & Cloud
 
 | <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>K8s</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>GCP</b> | <img src="https://skillicons.dev/icons?i=azure" width="50"/><br/><b>Azure</b> | <img src="https://skillicons.dev/icons?i=terraform" width="50"/><br/><b>Terraform</b> | <img src="https://skillicons.dev/icons?i=nginx" width="50"/><br/><b>Nginx</b> | <img src="https://skillicons.dev/icons?i=jenkins" width="50"/><br/><b>Jenkins</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-### 🛠️ Tools & Others
+### Tools & Others
 
 | <img src="https://skillicons.dev/icons?i=git" width="50"/><br/><b>Git</b> | <img src="https://skillicons.dev/icons?i=github" width="50"/><br/><b>GitHub</b> | <img src="https://skillicons.dev/icons?i=gitlab" width="50"/><br/><b>GitLab</b> | <img src="https://skillicons.dev/icons?i=vscode" width="50"/><br/><b>VS Code</b> | <img src="https://skillicons.dev/icons?i=postman" width="50"/><br/><b>Postman</b> | <img src="https://skillicons.dev/icons?i=figma" width="50"/><br/><b>Figma</b> | <img src="https://skillicons.dev/icons?i=linux" width="50"/><br/><b>Linux</b> | <img src="https://skillicons.dev/icons?i=ubuntu" width="50"/><br/><b>Ubuntu</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -93,19 +93,19 @@
 
 ---
 
-## 🤖 AI & Machine Learning Stack
+## AI & Machine Learning Stack
 
 > Integrating Artificial Intelligence into modern web applications.
 
 <div align="center">
 
-### 🧠 Core AI/ML Libraries
+### Core AI/ML Libraries
 
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
 
 <br/><br/>
 
-### 🤖 LLM & Generative AI
+### LLM & Generative AI
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT_4o-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-Claude_3-cc785c?style=for-the-badge&logo=anthropic&logoColor=white)
@@ -118,7 +118,7 @@
 
 <br/><br/>
 
-### ⛓️ Frameworks & RAG Stack
+### Frameworks & RAG Stack
 
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-Data_Framework-00DC82?style=for-the-badge&logo=llamaindex&logoColor=white)
@@ -131,7 +131,7 @@
 
 <br/><br/>
 
-### 🛠️ MLOps & Deployment
+###  MLOps & Deployment
 
 ![MLflow](https://img.shields.io/badge/MLflow-Lifecycle-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/W&B-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
@@ -142,25 +142,25 @@
 
 ---
 
-## 🏗️ System Architecture Philosophy
+##  System Architecture Philosophy
 
 <img align="right" width="300" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
 
 I believe that a great backend is not just about writing code that works — it's about designing systems that **survive the chaos** of real-world traffic.
 
-**1. 📈 Scalability**
+**1. Scalability**
 - Horizontal scaling with stateless services
 - Aggressive caching with Redis
 - Async processing via message queues (Kafka, RabbitMQ)
 - Read replicas & smart DB indexing
 
-**2. 🛡️ Reliability**
+**2. Reliability**
 - Circuit breakers to prevent cascading failures
 - Retries with exponential backoff
 - Idempotency for critical operations
 - Observability: logs, traces, metrics
 
-**3. 🧹 Maintainability**
+**3. Maintainability**
 - Clean Architecture — business logic ≠ infrastructure
 - SOLID principles
 - Conventional Commits + linear git history
@@ -170,17 +170,17 @@ I believe that a great backend is not just about writing code that works — it'
 
 ---
 
-## 🧠 Deep Dive: AI Integration
+## Deep Dive: AI Integration
 
 <img align="left" width="280" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" />
 
 Integrating AI into a backend is more than just calling an API. It involves designing data flows that handle unstructured inputs, manage context, and produce reliable outputs from probabilistic models.
 
 **The RAG Pipeline I Build:**
-1. 📥 **Ingestion** — Documents chunked & embedded
-2. 🗄️ **Storage** — Vectors stored in Pinecone/Weaviate
-3. 🔍 **Retrieval** — Query embedded, similar chunks fetched
-4. ✨ **Generation** — Context injected into LLM prompt
+1.  **Ingestion** — Documents chunked & embedded
+2.  **Storage** — Vectors stored in Pinecone/Weaviate
+3.  **Retrieval** — Query embedded, similar chunks fetched
+4.  **Generation** — Context injected into LLM prompt
 
 **LLMOps Focus:**
 - Quantization (GPTQ/AWQ) for lean inference
