@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:003300,60:006600,100:00e676&height=220&section=header&text=Hey!%20I'm%20Tegar%20%F0%9F%91%8B&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Backend%20Developer%20%7C%20Yogyakarta%2C%20Indonesia%20%F0%9F%87%AE%F0%9F%87%A9&descSize=18&descColor=aaffaa&descAlignY=62" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,40:003300,80:004d00,100:00e676&height=250&section=header&text=Tegar&fontSize=100&fontColor=00ff88&animation=fadeIn&fontAlignY=45&stroke=00e676&strokeWidth=3&desc=Backend%20Developer%20%7C%20AI%20Builder%20%7C%20Yogyakarta%20%F0%9F%87%AE%F0%9F%87%A9&descSize=18&descColor=aaffcc&descAlignY=65" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=800&color=00E676&center=true&vCenter=true&width=650&height=70&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80;Backend+Developer+%7C+System+Builder+%F0%9F%94%A7;Python+%7C+Node.js+%7C+TypeScript+Lover+%F0%9F%92%9A;I+build+things+that+just+work.+%E2%9C%85;Clean+code+%3E+clever+code+%F0%9F%A7%A0;Let%27s+build+something+awesome!+%F0%9F%94%A5" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=700&height=70&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80;Backend+Developer+%2B+AI+Builder+%F0%9F%A4%96;Python+%7C+Node.js+%7C+TypeScript+%F0%9F%92%9A;Building+AI+powered+backends+%F0%9F%94%A5;Scalable+systems+%2B+smart+intelligence+%F0%9F%A7%A0;Let%27s+build+the+future+together!+%E2%9C%A8" />
 
 <br/>
 
@@ -24,27 +24,29 @@
 class Tegar:
     name      = "Tegar"
     location  = "Yogyakarta, Indonesia 🇮🇩"
-    role      = "Backend Developer"
+    role      = "Backend Developer & AI Builder"
     focus     = [
-        "Scalable Systems",
+        "Scalable Backend Systems",
+        "AI-Powered Applications",
         "Clean Architecture",
-        "Distributed Systems",
-        "API Design",
+        "API Design & Integration",
     ]
     tech      = ["Python", "Node.js", "TypeScript",
                  "Redis", "SQLite", "Docker", "Git"]
+    ai_stack  = ["LLM Integration", "AI APIs", "Prompt Eng"]
     mantra    = "Clear code > clever code"
-    currently = "Building things that don't break at 3AM"
+    currently = "Building AI-powered backends 🤖"
     fun_fact  = "I debug best at midnight 🌙"
 ```
 
 <br/>
 
+- 🤖 Building **AI-powered** applications & smart backends
 - 🔭 Focused on **backend engineering** & **system design**
 - 🌱 Always learning — one rabbit hole at a time
-- 💬 Ask me about **Node.js**, **Python**, **Redis**, **REST APIs**
+- 💬 Ask me about **Node.js**, **Python**, **Redis**, **AI APIs**
 - ⚡ I believe in writing code that's easy to read, not just run
-- 🤝 Open to collaborations and cool projects!
+- 🤝 Open to collaborations and cool AI projects!
 
 <br clear="right"/>
 
@@ -78,6 +80,23 @@ class Tegar:
 
 ---
 
+## 🤖 AI & LLM Stack
+
+<div align="center">
+
+![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-Claude-cc785c?style=for-the-badge&logo=anthropic&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Models-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Vector DB](https://img.shields.io/badge/Vector_DB-Embeddings-00e676?style=for-the-badge&logo=databricks&logoColor=white)
+![Prompt Eng](https://img.shields.io/badge/Prompt-Engineering-ff6b6b?style=for-the-badge&logo=openai&logoColor=white)
+
+</div>
+
+---
+
 ## 🧠 Skills & Expertise
 
 <div align="center">
@@ -92,8 +111,8 @@ class Tegar:
 ![Git](https://img.shields.io/badge/Git-Expert-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-Advanced-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![REST API](https://img.shields.io/badge/REST_API-Expert-00e676?style=for-the-badge&logo=fastapi&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-Intermediate-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-Intermediate-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![AI Integration](https://img.shields.io/badge/AI_Integration-Advanced-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Prompt Eng](https://img.shields.io/badge/Prompt_Engineering-Advanced-ff6b6b?style=for-the-badge&logo=openai&logoColor=white)
 
 </div>
 
@@ -148,22 +167,12 @@ class Tegar:
 
 ---
 
-## 💭 Dev Quote of the Day
-
-<div align="center">
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=First%2C%20solve%20the%20problem.%20Then%2C%20write%20the%20code.&author=John%20Johnson)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
----
-
 <div align="center">
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
-&nbsp;
-<b>Open to collaborating with passionate developers — feel free to reach out!</b>
-&nbsp;
+&nbsp;&nbsp;
+<b>Open to AI projects & cool collaborations — hit me up! 🤖🔥</b>
+&nbsp;&nbsp;
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
 
 <br/><br/>
@@ -172,6 +181,6 @@ class Tegar:
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e676,50:006600,100:0d1117&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e676,50:004d00,100:0d1117&height=120&section=footer" />
 
 </div>
