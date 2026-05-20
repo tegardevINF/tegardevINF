@@ -190,6 +190,45 @@ Integrating AI today is about designing systems where multiple specialized agent
 
 ---
 
+## Veltrix V2 Engineering Specifications
+
+### 1. Multi-Tier Inference & Fallover Routing
+
+Inference workflows route through a structured fallback chain to maximize service availability and tolerate sudden rate limits:
+
+```text
+Anthropic Claude -> OpenAI o1/GPT-4o -> Google Gemini -> Groq Cloud -> OpenRouter -> Local Ollama
+```
+
+- **Active Circuit Breaker**: If any provider returns a status code of 429 (Rate Limit) or 5xx (Server Error), the routing gateway immediately places that provider on a 60-second cooldown blacklist. Active request streams skip the blacklisted provider to eliminate connection latency.
+- **Proactive Active Probing**: A background daemon issues lightweight OPTIONS checks periodically. The response latency tracks an Exponential Moving Average (EMA). If the primary route crosses latency thresholds, subsequent calls route to fallback targets dynamically.
+- **Speculative Context Seeding**: To mitigate latency spikes during provider failover, Veltrix seeds target providers with a compressed semantic digest of active session states.
+
+### 2. Isolated Semantic Context & Vector RAG
+
+To enforce absolute tenant isolation and optimize memory usage, the Vector RAG pipeline implements the following patterns:
+
+- **Dynamic Workspace Namespacing**: Embedding indices compile directly to isolated namespaces scoped by session boundaries (`user_{user_id}_documents`).
+- **Selective Retrieval Gating**: Inlet processors classify user prompts in real-time. Conversational inputs (such as greetings or system status checks) bypass ChromaDB entirely, preserving index retrieval search cycles.
+- **Local Embedding Execution**: The ingestion queue routes documents to Celery background workers, converting text chunks to 384-dimensional vector coordinates via localized Xenova/ONNX transformers.
+
+### 3. ASGI Middleware Stream Scrubbing
+
+To prevent cognitive reasoning leaks from appearing in main user chat windows, Veltrix intercepts streaming deltas at the ASGI layer:
+
+- **Token Swarm Scrubber**: Real-time regex engines process token chunks byte-by-byte. Text contained within `<think>` and `</think>` boundaries parses into metadata channels, keeping the primary response payload clean.
+- **Speculative Prompt Prefilling**: static prompt fragments are cached and directed to providers supporting pre-filled Key-Value caches, cutting token computation latency by up to 40%.
+
+### 4. Layered Memory Lifecycle
+
+To prevent VRAM exhaustion and context truncation, conversational memory follows a tiered retention path:
+
+- **Short-Term Memory**: Pure text buffers capturing the last three dialogue iterations for high-fidelity response context.
+- **Mid-Term Memory**: Asynchronous summarizations compiled during system idle loops.
+- **Long-Term Memory**: Vectorized entities indexed in ChromaDB for cross-session semantic search.
+
+---
+
 ## GitHub Analytics
 
 <div align="center">
