@@ -1,4 +1,5 @@
 <div align="center">
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Workspace!;Autonomous+Systems+%26+Swarm+Engineer;Python+%7C+TypeScript+%7C+Rust+%7C+Docker;Orchestrating+Multi-Agent+Workflows;Self-Healing+Backend+Infrastructure;Model+Context+Protocol+%26+Tooling;Let%27s+build+the+future+together!;Open+for+High-Impact+Collaborations" />
 
 <br/>
@@ -20,7 +21,7 @@
 
 ### Who am I?
 
-<p>I am an <b>Autonomous Systems & Swarm Engineer</b> based in Yogyakarta. I specialize in designing backends that don't just process API endpoints, but orchestrate state machines, run background watchers, and self-heal. My primary focus is combining <i>Cloud Native Architecture</i> with <i>Multi-Agent Systems</i> to build resilient, distributed runtimes like <b>Veltrix V2</b>.</p>
+<p>I am an <b>Autonomous Systems & Swarm Engineer</b> based in Yogyakarta. I specialize in designing backends that don't just process API endpoints, but orchestrate state machines, run background watchers, and self-heal. My primary focus is combining <i>Cloud Native Architecture</i> with <i>Multi-Agent Systems</i> to build resilient, distributed runtimes.</p>
 
 <p>I believe in system reliability, zero-trust sandboxing, and deterministic agent execution. Currently, I am designing self-healing runtimes, implementing Model Context Protocol (MCP) integrations, and deploying local LLM clusters for offline environments.</p>
 
@@ -125,14 +126,14 @@
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-5D3FD3?style=for-the-badge&logo=chromadb&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_Inference-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-00E676?style=for-the-badge&logo=github&logoColor=white)
-![Agentic Workflows](https://img.shields.io/badge/Agentic-Workflows-8A2BE2?style=for-the-badge&logo=amazon&logoColor=white)
+![Agentic](https://img.shields.io/badge/Agentic-Workflows-8A2BE2?style=for-the-badge&logo=amazon&logoColor=white)
 
 <br/><br/>
 
 ### MLOps & Deployment
 
 ![MLflow](https://img.shields.io/badge/MLflow-Lifecycle-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Weights & Biases](https://img.shields.io/badge/W&B-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+![WandB](https://img.shields.io/badge/W&B-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
 ![DVC](https://img.shields.io/badge/DVC-Data_Version_Control-042B2C?style=for-the-badge&logo=dvc&logoColor=white)
 ![BentoML](https://img.shields.io/badge/BentoML-Model_Serving-ff4088?style=for-the-badge&logo=bentoml&logoColor=white)
 
@@ -175,10 +176,10 @@ I believe that a great backend is not just about writing code that works — it'
 Integrating AI today is about designing systems where multiple specialized agents cooperate. This requires sandbox management, circuit breaking, and secure system communication layers.
 
 **The Swarm Loop I Build:**
-1.  **Observation** — Watcher daemons monitor workspace changes and execution errors
-2.  **Audit** — Critic agents run AST parses and lint audits on-the-fly
-3.  **Mutation** — Mutator engines auto-patch syntax issues and logic anomalies
-4.  **Verification** — Test daemons execute validation pipelines to ensure stability
+1. **Observation** — Watcher daemons monitor workspace changes and execution errors
+2. **Audit** — Critic agents run AST parses and lint audits on-the-fly
+3. **Mutation** — Mutator engines auto-patch syntax issues and logic anomalies
+4. **Verification** — Test daemons execute validation pipelines to ensure stability
 
 **Agentic Infrastructure Focus:**
 - Model Context Protocol (MCP) integrations
@@ -190,42 +191,44 @@ Integrating AI today is about designing systems where multiple specialized agent
 
 ---
 
-## Veltrix V2 Engineering Specifications
+## Veltrix V2 — Engineering Specifications
 
-### 1. Multi-Tier Inference & Fallover Routing
+### 1. Multi-Tier Inference & Failover Routing
 
-Inference workflows route through a structured fallback chain to maximize service availability and tolerate sudden rate limits:
+Inference workflows route through a structured fallback chain to maximize service availability:
 
 ```text
-Anthropic Claude -> OpenAI o1/GPT-4o -> Google Gemini -> Groq Cloud -> OpenRouter -> Local Ollama
+Anthropic Claude -> OpenAI GPT-4o -> Google Gemini -> Groq Cloud -> OpenRouter -> Local Ollama
 ```
 
-- **Active Circuit Breaker**: If any provider returns a status code of 429 (Rate Limit) or 5xx (Server Error), the routing gateway immediately places that provider on a 60-second cooldown blacklist. Active request streams skip the blacklisted provider to eliminate connection latency.
-- **Proactive Active Probing**: A background daemon issues lightweight OPTIONS checks periodically. The response latency tracks an Exponential Moving Average (EMA). If the primary route crosses latency thresholds, subsequent calls route to fallback targets dynamically.
-- **Speculative Context Seeding**: To mitigate latency spikes during provider failover, Veltrix seeds target providers with a compressed semantic digest of active session states.
+- **Active Circuit Breaker**: On `429` or `5xx`, the provider is blacklisted for 60s. Active streams skip the blacklisted provider immediately, eliminating connection latency.
+- **Proactive Active Probing**: A background daemon issues lightweight `OPTIONS` checks periodically. Response latency tracks an Exponential Moving Average (EMA). If the primary route crosses latency thresholds, subsequent calls route to fallback targets dynamically.
+- **Speculative Context Seeding**: During failover, Veltrix seeds target providers with a compressed semantic digest of active session states to minimize context loss.
 
 ### 2. Isolated Semantic Context & Vector RAG
 
-To enforce absolute tenant isolation and optimize memory usage, the Vector RAG pipeline implements the following patterns:
+Absolute tenant isolation with optimized memory footprint:
 
-- **Dynamic Workspace Namespacing**: Embedding indices compile directly to isolated namespaces scoped by session boundaries (`user_{user_id}_documents`).
-- **Selective Retrieval Gating**: Inlet processors classify user prompts in real-time. Conversational inputs (such as greetings or system status checks) bypass ChromaDB entirely, preserving index retrieval search cycles.
-- **Local Embedding Execution**: The ingestion queue routes documents to Celery background workers, converting text chunks to 384-dimensional vector coordinates via localized Xenova/ONNX transformers.
+- **Dynamic Workspace Namespacing**: Embedding indices compile to isolated namespaces scoped by session boundaries (`user_{user_id}_documents`).
+- **Selective Retrieval Gating**: Inlet processors classify user prompts in real-time. Conversational inputs bypass ChromaDB entirely, preserving index retrieval search cycles.
+- **Local Embedding Execution**: The ingestion queue routes documents to Celery background workers, converting text chunks to 384-dimensional vector coordinates via local Xenova/ONNX transformers.
 
 ### 3. ASGI Middleware Stream Scrubbing
 
-To prevent cognitive reasoning leaks from appearing in main user chat windows, Veltrix intercepts streaming deltas at the ASGI layer:
+Preventing cognitive reasoning leaks in main user chat windows:
 
-- **Token Swarm Scrubber**: Real-time regex engines process token chunks byte-by-byte. Text contained within `<think>` and `</think>` boundaries parses into metadata channels, keeping the primary response payload clean.
-- **Speculative Prompt Prefilling**: static prompt fragments are cached and directed to providers supporting pre-filled Key-Value caches, cutting token computation latency by up to 40%.
+- **Token Swarm Scrubber**: Real-time regex engines process token chunks byte-by-byte. Text within `<think>` and `</think>` boundaries pipes into metadata channels, keeping the primary response payload clean.
+- **Speculative Prompt Prefilling**: Static prompt fragments are cached and directed to providers supporting pre-filled KV caches, cutting token computation latency by up to 40%.
 
 ### 4. Layered Memory Lifecycle
 
-To prevent VRAM exhaustion and context truncation, conversational memory follows a tiered retention path:
+Preventing VRAM exhaustion and context truncation with tiered retention:
 
-- **Short-Term Memory**: Pure text buffers capturing the last three dialogue iterations for high-fidelity response context.
-- **Mid-Term Memory**: Asynchronous summarizations compiled during system idle loops.
-- **Long-Term Memory**: Vectorized entities indexed in ChromaDB for cross-session semantic search.
+| Tier | Type | Description |
+|------|------|-------------|
+| Short-Term | Text Buffers | Last 3 dialogue iterations for high-fidelity context |
+| Mid-Term | Async Summaries | Compiled during system idle loops |
+| Long-Term | Vector Index | ChromaDB entities indexed for cross-session semantic search |
 
 ---
 
@@ -341,16 +344,16 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ### CI/CD Pipeline
 
-1. **Push** → feature branch
-2. **Test** → Unit + Integration via GitHub Actions
-3. **Build** → Docker image tagged with commit SHA
-4. **Push** → Container registry (GHCR / Docker Hub)
-5. **Deploy** → Kubernetes rolling update — zero downtime
+1. **Push** — feature branch
+2. **Test** — Unit + Integration via GitHub Actions
+3. **Build** — Docker image tagged with commit SHA
+4. **Push** — Container registry (GHCR / Docker Hub)
+5. **Deploy** — Kubernetes rolling update — zero downtime
 
 ### Blue-Green vs Canary
 
-- **Blue-Green** → Critical updates, instant full rollback ready
-- **Canary** → New features to 5% users first, monitor, then rollout
+- **Blue-Green** — Critical updates, instant full rollback ready
+- **Canary** — New features to 5% users first, monitor, then rollout
 
 <br clear="left"/>
 
@@ -448,7 +451,7 @@ git push origin feature/AmazingFeature
 <p>If you find my projects helpful, consider buying me a coffee!</p>
 
 <a href="https://www.buymeacoffee.com/tegardevINF">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
 </a>
 
 </div>
