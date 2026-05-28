@@ -301,14 +301,6 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 </details>
 
-## GitHub Advanced Analytics
-
-<p align="center">
-  <!-- Menggunakan server mirror alternatif yang lebih ngebut dan stabil -->
-  <img src="https://vercel.app" height="180" />
-  <img src="https://herokuapp.com" height="180" />
-</p>
-
 <p align="center">
   <img src="https://vercel.app" height="180" />
 </p>
