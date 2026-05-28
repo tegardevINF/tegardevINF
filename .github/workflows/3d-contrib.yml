@@ -1,0 +1,27 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: tegardevINF
+      - name: Commit & Push
+        run: |
+          git config user.email "tegardevINF@gmail.com"
+          git config user.name "tegardevINF"
+          git add -A .
+          git commit -m "chore: regenerate 3D contrib graph" || true
+          git push
