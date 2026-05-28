@@ -100,11 +100,11 @@ graph TD
 
 ## Now Playing on Spotify
 <p align="left">
-  <!-- ganti uid dengan akunmu -->
-  <a href="https://open.spotify.com/user/312mqggn5esmuj4kb2k24gcnt7iu">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true" width="350" alt="Spotify Now Playing"/>
+  <a href="https://open.spotify.com/playlist/1GNGnca4T8qCEQ4TI49z2E">
+    <img src="https://i.scdn.co/image/ab67706c0000bebb1c4d7df708f046c2fea9baf2" width="350" alt="Spotify playlist cover"/>
   </a>
 </p>
+
 ---
 
 ## Tech Stack & Arsenal
