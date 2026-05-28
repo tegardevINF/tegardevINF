@@ -97,14 +97,10 @@ graph TD
 </div>
 
 ---
-
-## Now Playing on Spotify
-<p align="left">
-  <a href="https://open.spotify.com/playlist/1GNGnca4T8qCEQ4TI49z2E">
-    <img src="https://i.scdn.co/image/ab67706c0000bebb1c4d7df708f046c2fea9baf2" width="350" alt="Spotify playlist cover"/>
-  </a>
-</p>
-
+<div align="center">
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&redirect=true)
+ 
+</div>
 ---
 
 ## Tech Stack & Arsenal
