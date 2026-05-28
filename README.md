@@ -47,6 +47,9 @@ graph TD
 ```
 </details>
 
+
+<p align="center"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/></p>
+
 <!-- END BADGES & INTERACTIVES -->
 
 
@@ -99,7 +102,7 @@ graph TD
 
 <div align="center">
 
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&redirect=true)
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true)
 
 </div>
 
@@ -191,6 +194,8 @@ graph TD
 
 ---
 
+<details><summary><b>System Architecture Philosophy</b></summary>
+
 ## System Architecture Philosophy
 
 <img align="right" width="300" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
@@ -219,27 +224,30 @@ I believe that a great backend is not just about writing code that works — it'
 
 ---
 
+</details>
+
 ## Deep Dive: Swarm Orchestration
 
 <img align="left" width="280" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" />
 
 Integrating AI today is about designing systems where multiple specialized agents cooperate. This requires sandbox management, circuit breaking, and secure system communication layers.
 
-**The Swarm Loop I Build:**
-1. **Observation** — Watcher daemons monitor workspace changes and execution errors
-2. **Audit** — Critic agents run AST parses and lint audits on-the-fly
-3. **Mutation** — Mutator engines auto-patch syntax issues and logic anomalies
-4. **Verification** — Test daemons execute validation pipelines to ensure stability
+**The Swarm Loop I Build:
 
-**Agentic Infrastructure Focus:**
-- Model Context Protocol (MCP) integrations
-- Multitier circuit breaker routing (Claude, Gemini, Groq, Ollama)
-- Byte-by-byte token swarm scrubbing for reasoning streams
-- Isolated workspace sandboxing and tenant isolation
-
-<br clear="left"/>
+```mermaid
+graph LR
+  A([Observation]):::obs --> B([Audit]):::aud
+  B --> C([Mutation]):::mut
+  C --> D([Verification]):::ver
+  classDef obs fill:#00e676,stroke:#0d1117,stroke-width:2px,color:#0d1117;
+  classDef aud fill:#1e90ff,stroke:#0d1117,stroke-width:2px,color:#0d1117;
+  classDef mut fill:#bb86fc,stroke:#0d1117,stroke-width:2px,color:#0d1117;
+  classDef ver fill:#ffb74d,stroke:#0d1117,stroke-width:2px,color:#0d1117;
+```
 
 ---
+
+<details><summary><b>Veltrix V2 — Engineering Specifications</b></summary>
 
 ## Veltrix V2 — Engineering Specifications
 
@@ -276,11 +284,13 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 | Tier | Type | Description |
 |------|------|-------------|
-| Short-Term | Text Buffers | Last 3 dialogue iterations for high-fidelity context |
-| Mid-Term | Async Summaries | Compiled during system idle loops |
-| Long-Term | Vector Index | ChromaDB entities indexed for cross-session semantic search |
+| ![](https://img.shields.io/badge/Short--Term-00e676?style=flat-square&labelColor=0d1117) | Text Buffers | Last 3 dialogue iterations for high-fidelity context |
+| ![](https://img.shields.io/badge/Mid--Term-00bcd4?style=flat-square&labelColor=0d1117) | Async Summaries | Compiled during system idle loops |
+| ![](https://img.shields.io/badge/Long--Term-9c27b0?style=flat-square&labelColor=0d1117) | Vector Index | ChromaDB entities indexed for cross-session semantic search |
 
 ---
+
+</details>
 
 ## GitHub Analytics
 
