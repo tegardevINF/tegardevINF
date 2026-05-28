@@ -304,8 +304,13 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 ## GitHub Advanced Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tegardevINF&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+  <!-- Menggunakan server mirror alternatif yang lebih ngebut dan stabil -->
+  <img src="https://vercel.app" height="180" />
+  <img src="https://herokuapp.com" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://vercel.app" height="180" />
 </p>
 
 <p align="center">
