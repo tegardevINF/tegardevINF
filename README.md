@@ -49,6 +49,44 @@ graph TD
 
 <!-- END BADGES & INTERACTIVES -->
 
+<!-- EXTREME_GIMMICKS_START -->
+
+<!-- ASCII DASHBOARD (auto-updated by GitHub Action) -->
+<!-- ASCII_DASHBOARD_START -->
+```
+   _____   _____   _   _   _____    _______          _       _     
+  / ____| |  __ \ | \ | | |  __ \  |__   __|        | |     | |    
+ | (___   | |  | ||  \| | | |  | |    | |  ___  ___ | | ___ | |__  
+  \___ \  | |  | || . ` | | |  | |    | | / _ \/ __|| |/ _ \| '_ \ 
+  ____) | | |__| || |\  | | |__| |    | ||  __/\__ \| | (_) | |_) |
+ |_____/  |_____/ |_| \_| |_____/     |_| \___||___/|_|\___/|_.__/ 
+   CPU: ---%  •  RAM: ---/----MB  •  Temp: --°C  •  Uptime: 00:00:00
+```
+<!-- ASCII_DASHBOARD_END -->
+
+<p align="center">
+  <!-- GitHub Skyline 3‑D – generated daily -->
+  <img src="./skyline.svg" width="100%" alt="3-D Skyline"/>
+</p>
+
+<p align="center">
+  <!-- Snake Game SVG with audio (hover to play) -->
+  <img src="./snake_with_sound.svg" width="600" alt="snake eating commits"/>
+</p>
+
+<p align="center">
+  <!-- Live server latency badge -->
+  <img src="https://img.shields.io/badge/Server-Checking...-lightgrey?style=for-the-badge&labelColor=0d1117&logo=cloud" alt="uptime">
+</p>
+
+<!-- COMMIT_OF_THE_DAY_START -->
+> **Commit of the Day:** _loading..._
+<!-- COMMIT_OF_THE_DAY_END -->
+
+<!-- EXTREME_GIMMICKS_END -->
+
+
+
 
 
 ---
