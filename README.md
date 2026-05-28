@@ -28,8 +28,6 @@
   </a>
 </p>
 
-<!-- WakaTime Stats auto‑update -->
-![wakatime](https://waka.readme.dev/api?username=tegardevINF&bg_color=0d1117&title_color=00e676&hide_border=true)
 
 <details>
   <summary><b>🗺️ Micro‑service topology (Mermaid) — click to expand</b></summary>
