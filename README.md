@@ -267,15 +267,6 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 </div>
 
 ---
-
-## GitHub Metrics
-
-<div align="center">
-
-<img src="github-metrics/metrics.svg" alt="GitHub Metrics" width="100%" />
-
-</div>
-
 ---
 
 ## 3D Contribution Graph
