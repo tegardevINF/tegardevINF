@@ -16,7 +16,11 @@
 
 </div>
 
-
+<!-- START BADGES & INTERACTIVES -->
+<p align="center">
+  <!-- GitHub Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=tegardevINF&theme=algolia&no-bg=true&column=6&margin-w=5&margin-h=5" alt="trophies"/>
+</p>
 
 <p align="center">
   <!-- Sponsor & AMA -->
@@ -28,6 +32,8 @@
   </a>
 </p>
 
+<!-- WakaTime Stats auto‑update -->
+![wakatime](https://waka.readme.dev/api?username=tegardevINF&bg_color=0d1117&title_color=00e676&hide_border=true)
 
 <details>
   <summary><b>🗺️ Micro‑service topology (Mermaid) — click to expand</b></summary>
@@ -46,9 +52,6 @@ graph TD
   AgentSwarm --> ChromaDB[(ChromaDB)]
 ```
 </details>
-
-
-<p align="center"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/></p>
 
 <!-- END BADGES & INTERACTIVES -->
 
@@ -97,15 +100,15 @@ graph TD
 </div>
 
 ---
-<!-- Spotify Now-Playing badge -->
+
+## Now Playing
+
 <div align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&redirect=true">
-    <img
-      src="https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false"
-      alt="Spotify Now Playing"
-      width="350" />
-  </a>
+
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&redirect=true)
+
 </div>
+
 ---
 
 ## Tech Stack & Arsenal
@@ -117,28 +120,7 @@ graph TD
 ### Languages & Core
 
 | <img src="https://skillicons.dev/icons?i=py" width="50"/><br/><b>Python</b> | <img src="https://skillicons.dev/icons?i=js" width="50"/><br/><b>JavaScript</b> | <img src="https://skillicons.dev/icons?i=ts" width="50"/><br/><b>TypeScript</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=go" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> |
-| :---
-
-## Visual Highlights
-
-<p align="center">
-  <!-- Skyline contribution city -->
-  <img src="assets/skyline-2025.svg" width="100%" alt="GitHub Skyline"/>
-</p>
-
-<p align="center">
-  <!-- Snake 3‑D commit game -->
-  <img src="assets/snake.gif" width="100%" alt="3‑D Snake"/>
-</p>
-
-<p align="center">
-  <!-- Isometric Tech Stack icons -->
-  <img src="assets/stack-iso.png" width="90%" alt="Isometric Tech Stack"/>
-</p>
-
----
-
-: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Backend & Frameworks
 
@@ -215,11 +197,6 @@ graph TD
 
 ---
 
-<details><summary><b>System Architecture Philosophy</b></summary>
-
-<details>
-<summary><b>CLICK TO VIEW SYSTEM ARCHITECTURE PHILOSOPHY</b></summary>
-
 ## System Architecture Philosophy
 
 <img align="right" width="300" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
@@ -248,35 +225,27 @@ I believe that a great backend is not just about writing code that works — it'
 
 ---
 
-</details>
-
-</details>
-
 ## Deep Dive: Swarm Orchestration
 
 <img align="left" width="280" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" />
 
 Integrating AI today is about designing systems where multiple specialized agents cooperate. This requires sandbox management, circuit breaking, and secure system communication layers.
 
-**The Swarm Loop I Build:
+**The Swarm Loop I Build:**
+1. **Observation** — Watcher daemons monitor workspace changes and execution errors
+2. **Audit** — Critic agents run AST parses and lint audits on-the-fly
+3. **Mutation** — Mutator engines auto-patch syntax issues and logic anomalies
+4. **Verification** — Test daemons execute validation pipelines to ensure stability
 
-```mermaid
-graph LR
-  A([Observation]):::obs --> B([Audit]):::aud
-  B --> C([Mutation]):::mut
-  C --> D([Verification]):::ver
-  classDef obs fill:#00e676,stroke:#0d1117,stroke-width:2px,color:#0d1117;
-  classDef aud fill:#1e90ff,stroke:#0d1117,stroke-width:2px,color:#0d1117;
-  classDef mut fill:#bb86fc,stroke:#0d1117,stroke-width:2px,color:#0d1117;
-  classDef ver fill:#ffb74d,stroke:#0d1117,stroke-width:2px,color:#0d1117;
-```
+**Agentic Infrastructure Focus:**
+- Model Context Protocol (MCP) integrations
+- Multitier circuit breaker routing (Claude, Gemini, Groq, Ollama)
+- Byte-by-byte token swarm scrubbing for reasoning streams
+- Isolated workspace sandboxing and tenant isolation
+
+<br clear="left"/>
 
 ---
-
-<details><summary><b>Veltrix V2 — Engineering Specifications</b></summary>
-
-<details>
-<summary><b>CLICK TO VIEW TECHNICAL SPEC OF VELTRIX V2</b></summary>
 
 ## Veltrix V2 — Engineering Specifications
 
@@ -313,23 +282,30 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 | Tier | Type | Description |
 |------|------|-------------|
-| ![](https://img.shields.io/badge/Short--Term-00e676?style=flat-square&labelColor=0d1117) | Text Buffers | Last 3 dialogue iterations for high-fidelity context |
-| ![](https://img.shields.io/badge/Mid--Term-00bcd4?style=flat-square&labelColor=0d1117) | Async Summaries | Compiled during system idle loops |
-| ![](https://img.shields.io/badge/Long--Term-9c27b0?style=flat-square&labelColor=0d1117) | Vector Index | ChromaDB entities indexed for cross-session semantic search |
+| Short-Term | Text Buffers | Last 3 dialogue iterations for high-fidelity context |
+| Mid-Term | Async Summaries | Compiled during system idle loops |
+| Long-Term | Vector Index | ChromaDB entities indexed for cross-session semantic search |
 
 ---
 
-</details>
+## GitHub Analytics
 
-</details>
+<div align="center">
 
-<p align="center">
-  <img src="https://vercel.app" height="180" />
-</p>
+<a href="https://github.com/tegardevINF">
+  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff&icon_color=00e676" />
+  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff" />
+</a>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tegardevINF&theme=tokyonight&hide_border=true" height="180"/>
-</p>
+<br/><br/>
+
+<img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" />
+
+<br/><br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=003300&hide_border=true&custom_title=GitHub%20Contribution%20Graph" />
+
+</div>
 
 ---
 ---
@@ -501,11 +477,13 @@ git push origin feature/AmazingFeature
 
 ---
 
-## Dev Quote & Humor
+## Dev Quote
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quotes"/>
-</p>
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
 
 ---
 
