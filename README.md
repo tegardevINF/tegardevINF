@@ -97,8 +97,14 @@ graph TD
 </div>
 
 ---
+<!-- Spotify Now-Playing badge -->
 <div align="center">
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&redirect=true)
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&redirect=true">
+    <img
+      src="https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false"
+      alt="Spotify Now Playing"
+      width="350" />
+  </a>
 </div>
 ---
 
