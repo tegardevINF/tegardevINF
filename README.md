@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Workspace!;Autonomous+Systems+%26+Swarm+Engineer;Building+Self-Healing+Agent+Runtimes;System+Reliability+%26+Chaos+Engineering" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Workspace!;Autonomous+Systems+Engineer" alt="Welcome Banner" />
 
 <br/>
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar%27s+environment...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar%27s+environment...+%E2%96%88%E2%96%88%E2%96%88" alt="Loading" />
 
 </div>
 
@@ -21,9 +21,9 @@
 
 ### Who am I?
 
-<p>I am an <b>Autonomous Systems & Swarm Engineer</b> based in Yogyakarta. I specialize in designing backends that don't just process API endpoints, but orchestrate state machines, run background daemons, and enable AI agents to reason in isolated sandboxes.</p>
+<p>I am an <b>Autonomous Systems & Swarm Engineer</b> based in Yogyakarta. I specialize in designing backends that don't just process API endpoints, but orchestrate state machines, run background daemons, and scale intelligently.</p>
 
-<p>I believe in system reliability, zero-trust sandboxing, and deterministic agent execution. Currently, I am designing self-healing runtimes, implementing Model Context Protocol (MCP) integrations, and building swarms of specialized agents that work together seamlessly.</p>
+<p>I believe in system reliability, zero-trust sandboxing, and deterministic agent execution. Currently, I am designing self-healing runtimes, implementing Model Context Protocol (MCP) integrations, and building swarm systems that learn from failure.</p>
 
 <br/>
 
@@ -63,7 +63,7 @@
 
 <div align="center">
 
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&redirect=true)
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676)
 
 </div>
 
@@ -77,28 +77,28 @@
 
 ### Languages & Core
 
-| <img src="https://skillicons.dev/icons?i=py" width="50"/><br/><b>Python</b> | <img src="https://skillicons.dev/icons?i=js" width="50"/><br/><b>JavaScript</b> | <img src="https://skillicons.dev/icons?i=ts" width="50"/><br/><b>TypeScript</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=go" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=py" width="50"/><br/><b>Python</b> | <img src="https://skillicons.dev/icons?i=js" width="50"/><br/><b>JavaScript</b> | <img src="https://skillicons.dev/icons?i=ts" width="50"/><br/><b>TypeScript</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=go" width="50"/><br/><b>Go</b> |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Backend & Frameworks
 
-| <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=fastapi" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=django" width="50"/><br/><b>Django</b> | <img src="https://skillicons.dev/icons?i=nestjs" width="50"/><br/><b>NestJS</b> | <img src="https://skillicons.dev/icons?i=graphql" width="50"/><br/><b>GraphQL</b> | <img src="https://skillicons.dev/icons?i=nextjs" width="50"/><br/><b>Next.js</b> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=fastapi" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=django" width="50"/><br/><b>Django</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=nextjs" width="50"/><br/><b>Next.js</b> |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Databases & Storage
 
-| <img src="https://skillicons.dev/icons?i=postgres" width="50"/><br/><b>PostgreSQL</b> | <img src="https://skillicons.dev/icons?i=mysql" width="50"/><br/><b>MySQL</b> | <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br/><b>MongoDB</b> | <img src="https://skillicons.dev/icons?i=redis" width="50"/><br/><b>Redis</b> | <img src="https://skillicons.dev/icons?i=elasticsearch" width="50"/><br/><b>Elasticsearch</b> | <img src="https://skillicons.dev/icons?i=firebase" width="50"/><br/><b>Firebase</b> | <img src="https://skillicons.dev/icons?i=cassandra" width="50"/><br/><b>Cassandra</b> | <img src="https://skillicons.dev/icons?i=sqlite" width="50"/><br/><b>SQLite</b> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=postgres" width="50"/><br/><b>PostgreSQL</b> | <img src="https://skillicons.dev/icons?i=mysql" width="50"/><br/><b>MySQL</b> | <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br/><b>MongoDB</b> | <img src="https://skillicons.dev/icons?i=redis" width="50"/><br/><b>Redis</b> | <img src="https://skillicons.dev/icons?i=dynamodb" width="50"/><br/><b>DynamoDB</b> | <img src="https://skillicons.dev/icons?i=cassandra" width="50"/><br/><b>Cassandra</b> |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### DevOps & Cloud
 
-| <img src="https://skillicons.dev/icons?i=docker" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>K8s</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>Google Cloud</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=azure" width="50"/><br/><b>Azure</b> | <img src="https://skillicons.dev/icons?i=jenkins" width="50"/><br/><b>Jenkins</b> | <img src="https://skillicons.dev/icons?i=terraform" width="50"/><br/><b>Terraform</b> | <img src="https://skillicons.dev/icons?i=nginx" width="50"/><br/><b>NGINX</b> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=docker" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>K8s</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>GCP</b> | <img src="https://skillicons.dev/icons?i=terraform" width="50"/><br/><b>Terraform</b> | <img src="https://skillicons.dev/icons?i=github" width="50"/><br/><b>GitHub</b> |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Tools & Others
 
-| <img src="https://skillicons.dev/icons?i=git" width="50"/><br/><b>Git</b> | <img src="https://skillicons.dev/icons?i=github" width="50"/><br/><b>GitHub</b> | <img src="https://skillicons.dev/icons?i=gitlab" width="50"/><br/><b>GitLab</b> | <img src="https://skillicons.dev/icons?i=vscode" width="50"/><br/><b>VS Code</b> | <img src="https://skillicons.dev/icons?i=vim" width="50"/><br/><b>Vim</b> | <img src="https://skillicons.dev/icons?i=neovim" width="50"/><br/><b>Neovim</b> | <img src="https://skillicons.dev/icons?i=postman" width="50"/><br/><b>Postman</b> | <img src="https://skillicons.dev/icons?i=linux" width="50"/><br/><b>Linux</b> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=git" width="50"/><br/><b>Git</b> | <img src="https://skillicons.dev/icons?i=github" width="50"/><br/><b>GitHub</b> | <img src="https://skillicons.dev/icons?i=gitlab" width="50"/><br/><b>GitLab</b> | <img src="https://skillicons.dev/icons?i=vscode" width="50"/><br/><b>VS Code</b> | <img src="https://skillicons.dev/icons?i=vim" width="50"/><br/><b>Vim</b> | <img src="https://skillicons.dev/icons?i=neovim" width="50"/><br/><b>Neovim</b> |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 </div>
 
@@ -251,17 +251,17 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 <div align="center">
 
 <a href="https://github.com/tegardevINF">
-  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff&icon_color=00e676" />
-  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff" />
+  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff" alt="GitHub Stats" />
+  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff" alt="Top Languages" />
 </a>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" />
+<img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" alt="GitHub Streak" />
 
 <br/><br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=003300&hide_border=true&custom_title=GitHub%20Contribution%20Graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=003300&hide_border=true&custom_title=Contribution%20Activity" alt="Activity Graph" />
 
 </div>
 
@@ -271,7 +271,7 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=tegardevINF&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=tegardevINF&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7&title=Stars,Followers,Issues,PullRequests,Commits,Repositories)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -295,19 +295,19 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tegardevINF&theme=tokyonight" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tegardevINF&theme=tokyonight" width="100%" alt="Profile Details" />
 
 <br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tegardevINF&theme=tokyonight" alt="Repos per Language" />
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tegardevINF&theme=tokyonight" alt="Most Commit Language" />
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tegardevINF&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tegardevINF&theme=tokyonight" alt="Stats" />
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tegardevINF&theme=tokyonight&utcOffset=7" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tegardevINF&theme=tokyonight&utcOffset=7" alt="Productive Time" />
 
 </div>
 
@@ -458,7 +458,7 @@ git push origin feature/AmazingFeature
 
 <div align="center">
 
-<img src="https://readme-jokes.vercel.app/api?hideBorder&theme=tokyonight" />
+<img src="https://readme-jokes.vercel.app/api?hideBorder&theme=tokyonight" alt="Dev Humor" />
 
 </div>
 
@@ -471,7 +471,7 @@ git push origin feature/AmazingFeature
 <p>If you find my projects helpful, consider buying me a coffee!</p>
 
 <a href="https://www.buymeacoffee.com/tegardevINF">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy+me+a+coffee&emoji=&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffdd00" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy+me+a+coffee&emoji=&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffdd00" alt="Buy Me A Coffee" />
 </a>
 
 </div>
@@ -488,10 +488,10 @@ git push origin feature/AmazingFeature
 
 <br/><br/>
 
-<img src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" width="100%" />
+<img src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" width="100%" alt="Dino" />
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e676,50:004d00,100:0d1117&height=130&section=footer&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e676,50:004d00,100:0d1117&height=130&section=footer&animation=twinkling" alt="Footer" />
 
 </div>
