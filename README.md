@@ -100,8 +100,8 @@ graph TD
 
 ## Now Playing on Spotify
 <p align="left">
-  <a href="https://open.spotify.com/user/312mqggn5esmuj4kb2k24gcnt7iu">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true" alt="Spotify Now Playing" width="350"/>
+  <a href="https://open.spotify.com/playlist/1GNGnca4T8qCEQ4TI49z2E">
+    <img src="https://spotify-github-profile.vercel.app/api/view?playlist_id=1GNGnca4T8qCEQ4TI49z2E&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true" alt="Spotify Now Playing" width="350"/>
   </a>
 </p>
 
