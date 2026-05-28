@@ -1,4 +1,5 @@
 name: GitHub-Profile-3D-Contrib
+
 on:
   schedule:
     - cron: "0 18 * * *"
@@ -6,21 +7,42 @@ on:
   push:
     branches:
       - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    name: generate-github-profile-3d-contrib (${{ matrix.username }})
+    
+    # --- BLOK MATRIKS DI MULAI DI SINI ---
+    strategy:
+      fail-fast: false  # Jika satu akun error, akun lain tetap diproses
+      matrix:
+        username: [tegardevINF, akunKeduaAnda] # Masukkan daftar username di sini
+    # --------------------------------------
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@main
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Contrib Graph
+        uses: yoshi389111/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: tegardevINF
+          USERNAME: ${{ matrix.username }} # Mengambil username dari matriks di atas
+
       - name: Commit & Push
         run: |
           git config user.email "tegardevINF@gmail.com"
           git config user.name "tegardevINF"
-          git pull --rebase
+          
+          # Masukkan file baru dari matriks yang berjalan ke staging
           git add -A .
-          git commit -m "chore: regenerate 3D contrib graph" || true
-          git push
+          
+          # Commit hasil dengan pesan dinamis sesuai username matriks
+          git commit -m "chore: regenerate 3D contrib graph for ${{ matrix.username }}" || true
+          
+          # Tarik perubahan terbaru agar antar job matriks tidak bentrok (race condition)
+          git pull --rebase origin main
+          
+          # Push kembali ke repositori
+          git push origin main
