@@ -16,6 +16,47 @@
 
 </div>
 
+<!-- START BADGES & INTERACTIVES -->
+<p align="center">
+  <!-- GitHub Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=tegardevINF&theme=algolia&no-bg=true&column=6&margin-w=5&margin-h=5" alt="trophies"/>
+</p>
+
+<p align="center">
+  <!-- Sponsor & AMA -->
+  <a href="https://github.com/sponsors/tegardevINF">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff4088?style=for-the-badge&labelColor=0d1117" alt="sponsor"/>
+  </a>
+  <a href="https://github.com/tegardevINF/tegardevINF/discussions">
+    <img src="https://img.shields.io/badge/Ask%20Me%20Anything-Open-1f72ff?style=for-the-badge&labelColor=0d1117" alt="AMA"/>
+  </a>
+</p>
+
+<!-- WakaTime Stats auto‑update -->
+![wakatime](https://waka.readme.dev/api?username=tegardevINF&bg_color=0d1117&title_color=00e676&hide_border=true)
+
+<details>
+  <summary><b>🗺️ Micro‑service topology (Mermaid) — click to expand</b></summary>
+
+```mermaid
+graph TD
+  API -->|REST| Gateway[API Gateway]
+  Gateway --> Auth
+  Gateway --> AgentSwarm
+  subgraph Agents
+    AgentSwarm --> Critic
+    AgentSwarm --> Coder
+    AgentSwarm --> Researcher
+  end
+  Auth --> Redis[(Redis)]
+  AgentSwarm --> ChromaDB[(ChromaDB)]
+```
+</details>
+
+<!-- END BADGES & INTERACTIVES -->
+
+
+
 ---
 
 <img align="right" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
