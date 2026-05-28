@@ -2,7 +2,108 @@
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Workspace!;Autonomous+Systems+%26+Swarm+Engineer;Building+Self-Healing+Agent+Runtimes;System+Reliability+%26+Chaos+Engineering" />
+<div align="center">
+<img src="terminal.svg" alt="terminal" width="100%"/>
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Terminal — tegardevINF</title>
+<desc>Animated terminal showing tegardevINF profile info</desc>
+<defs>
+  <style>
+    .bg { fill: #0d1117; }
+    .tbar { fill: #161b22; }
+    .dot-r { fill: #ff5f57; }
+    .dot-y { fill: #febc2e; }
+    .dot-g { fill: #28c840; }
+    .prompt { fill: #00e676; font-family: 'Courier New', monospace; font-size: 13px; }
+    .cmd { fill: #c9d1d9; font-family: 'Courier New', monospace; font-size: 13px; }
+    .out-g { fill: #00e676; font-family: 'Courier New', monospace; font-size: 13px; }
+    .out-b { fill: #79c0ff; font-family: 'Courier New', monospace; font-size: 13px; }
+    .out-y { fill: #e3b341; font-family: 'Courier New', monospace; font-size: 13px; }
+    .out-w { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 13px; }
+    .cursor { fill: #00e676; }
 
+    .line1 { opacity: 0; animation: fadein 0.1s 0.5s forwards; }
+    .line2 { opacity: 0; animation: fadein 0.1s 1.2s forwards; }
+    .line3 { opacity: 0; animation: fadein 0.1s 1.4s forwards; }
+    .line4 { opacity: 0; animation: fadein 0.1s 1.6s forwards; }
+    .line5 { opacity: 0; animation: fadein 0.1s 2.2s forwards; }
+    .line6 { opacity: 0; animation: fadein 0.1s 2.8s forwards; }
+    .line7 { opacity: 0; animation: fadein 0.1s 3.0s forwards; }
+    .line8 { opacity: 0; animation: fadein 0.1s 3.2s forwards; }
+    .line9 { opacity: 0; animation: fadein 0.1s 3.4s forwards; }
+    .line10 { opacity: 0; animation: fadein 0.1s 3.6s forwards; }
+    .line11 { opacity: 0; animation: fadein 0.1s 4.2s forwards; }
+    .line12 { opacity: 0; animation: fadein 0.1s 4.4s forwards; }
+    .line13 { opacity: 0; animation: fadein 0.1s 4.6s forwards; }
+    .line14 { opacity: 0; animation: fadein 0.1s 4.8s forwards; }
+    .line15 { opacity: 0; animation: fadein 0.1s 5.0s forwards; }
+    .line16 { opacity: 0; animation: fadein 0.1s 5.6s forwards; }
+    .line17 { opacity: 0; animation: fadein 0.1s 5.8s forwards; }
+    .cur { animation: blink 1s infinite; }
+
+    @keyframes fadein { to { opacity: 1; } }
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+  </style>
+</defs>
+
+<rect width="680" height="420" rx="8" class="bg"/>
+<rect width="680" height="32" rx="8" class="tbar"/>
+<rect y="16" width="680" height="16" class="tbar"/>
+<circle cx="20" cy="16" r="6" class="dot-r"/>
+<circle cx="40" cy="16" r="6" class="dot-y"/>
+<circle cx="60" cy="16" r="6" class="dot-g"/>
+<text x="340" y="21" text-anchor="middle" class="out-w" font-size="12">tegar@devINF: ~</text>
+
+<text x="20" y="60" class="prompt line1">tegardevINF@arch</text>
+<text x="148" y="60" class="out-w line1">:</text>
+<text x="156" y="60" class="out-b line1">~</text>
+<text x="172" y="60" class="cmd line1">$ whoami</text>
+
+<text x="20" y="82" class="out-g line2">Tegar — Autonomous Systems &amp; Swarm Engineer</text>
+<text x="20" y="100" class="out-w line3">  Based in Yogyakarta, Indonesia</text>
+<text x="20" y="118" class="out-w line4">  Building self-healing agent runtimes</text>
+
+<text x="20" y="148" class="prompt line5">tegardevINF@arch</text>
+<text x="148" y="148" class="out-w line5">:</text>
+<text x="156" y="148" class="out-b line5">~</text>
+<text x="172" y="148" class="cmd line5">$ cat skills.txt</text>
+
+<text x="20" y="170" class="out-y line6">Languages   :</text>
+<text x="128" y="170" class="out-w line6">Python · TypeScript · Rust · Go · Bash</text>
+<text x="20" y="188" class="out-y line7">Backend     :</text>
+<text x="128" y="188" class="out-w line7">FastAPI · NestJS · Django · Node.js</text>
+<text x="20" y="206" class="out-y line8">Infra       :</text>
+<text x="128" y="206" class="out-w line8">Docker · K8s · AWS · GCP · Terraform</text>
+<text x="20" y="224" class="out-y line9">AI/Agents   :</text>
+<text x="128" y="224" class="out-w line9">LangChain · MCP · ChromaDB · Ollama</text>
+
+<text x="20" y="254" class="prompt line10">tegardevINF@arch</text>
+<text x="148" y="254" class="out-w line10">:</text>
+<text x="156" y="254" class="out-b line10">~</text>
+<text x="172" y="254" class="cmd line10">$ ./status.sh</text>
+
+<text x="20" y="276" class="out-g line11">[  OK  ]</text>
+<text x="76" y="276" class="out-w line11">Agent swarms          — running</text>
+<text x="20" y="294" class="out-g line12">[  OK  ]</text>
+<text x="76" y="294" class="out-w line12">Circuit breakers      — active</text>
+<text x="20" y="312" class="out-g line13">[  OK  ]</text>
+<text x="76" y="312" class="out-w line13">MCP bridges           — online</text>
+<text x="20" y="330" class="out-g line14">[  OK  ]</text>
+<text x="76" y="330" class="out-w line14">Self-healing runtime  — stable</text>
+
+<text x="20" y="360" class="prompt line15">tegardevINF@arch</text>
+<text x="148" y="360" class="out-w line15">:</text>
+<text x="156" y="360" class="out-b line15">~</text>
+<text x="172" y="360" class="cmd line15">$ echo "Open to collaborate"</text>
+
+<text x="20" y="382" class="out-g line16">Open to collaborate</text>
+
+<text x="20" y="400" class="prompt line17">tegardevINF@arch</text>
+<text x="148" y="400" class="out-w line17">:</text>
+<text x="156" y="400" class="out-b line17">~</text>
+<text x="172" y="400" class="cmd line17">$ </text>
+<rect x="186" y="388" width="8" height="14" class="cursor cur"/>
+</svg>
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile+Views&color=00e676&style=flat-square)
