@@ -16,11 +16,7 @@
 
 </div>
 
-<!-- START BADGES & INTERACTIVES -->
-<p align="center">
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=tegardevINF&theme=algolia&no-bg=true&column=6&margin-w=5&margin-h=5" alt="trophies"/>
-</p>
+
 
 <p align="center">
   <!-- Sponsor & AMA -->
@@ -32,8 +28,6 @@
   </a>
 </p>
 
-<!-- WakaTime Stats auto‑update -->
-![wakatime](https://waka.readme.dev/api?username=tegardevINF&bg_color=0d1117&title_color=00e676&hide_border=true)
 
 <details>
   <summary><b>🗺️ Micro‑service topology (Mermaid) — click to expand</b></summary>
