@@ -1,61 +1,23 @@
-
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=00E676&center=true&vCenter=true&width=800&height=80&lines=Welcome+to+my+Workspace!;Autonomous+Systems+%26+Swarm+Engineer;Building+Self-Healing+Agent+Runtimes;System+Reliability+%26+Chaos+Engineering" />
 
-
+<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile+Views&color=00e676&style=flat-square)
 [![GitHub Followers](https://img.shields.io/github/followers/tegardevINF?label=Followers&style=for-the-badge&color=00e676&labelColor=0d1117&logo=github)](https://github.com/tegardevINF?tab=followers)
 [![GitHub Stars](https://img.shields.io/github/stars/tegardevINF?label=Total+Stars&style=for-the-badge&color=00e676&labelColor=0d1117&logo=github)](https://github.com/tegardevINF?tab=stars)
 [![Status](https://img.shields.io/badge/Status-Open_to_Work-00e676?style=for-the-badge&labelColor=0d1117)](https://github.com/tegardevINF)
-<div>
+
 <br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=555555&center=true&vCenter=true&width=600&lines=Initializing+Tegar%27s+environment...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88" />
 
+<br/>
+
+<img src="terminal.svg" alt="terminal" width="100%"/>
+
 </div>
-
-<!-- START BADGES & INTERACTIVES -->
-<p align="center">
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=tegardevINF&theme=algolia&no-bg=true&column=6&margin-w=5&margin-h=5" alt="trophies"/>
-</p>
-
-<p align="center">
-  <!-- Sponsor & AMA -->
-  <a href="https://github.com/sponsors/tegardevINF">
-    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff4088?style=for-the-badge&labelColor=0d1117" alt="sponsor"/>
-  </a>
-  <a href="https://github.com/tegardevINF/tegardevINF/discussions">
-    <img src="https://img.shields.io/badge/Ask%20Me%20Anything-Open-1f72ff?style=for-the-badge&labelColor=0d1117" alt="AMA"/>
-  </a>
-</p>
-
-<!-- WakaTime Stats auto‑update -->
-![wakatime](https://waka.readme.dev/api?username=tegardevINF&bg_color=0d1117&title_color=00e676&hide_border=true)
-
-<details>
-  <summary><b>🗺️ Micro‑service topology (Mermaid) — click to expand</b></summary>
-
-```mermaid
-graph TD
-  API -->|REST| Gateway[API Gateway]
-  Gateway --> Auth
-  Gateway --> AgentSwarm
-  subgraph Agents
-    AgentSwarm --> Critic
-    AgentSwarm --> Coder
-    AgentSwarm --> Researcher
-  end
-  Auth --> Redis[(Redis)]
-  AgentSwarm --> ChromaDB[(ChromaDB)]
-```
-</details>
-
-<!-- END BADGES & INTERACTIVES -->
-
-
 
 ---
 
@@ -308,6 +270,15 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 </div>
 
 ---
+
+## GitHub Metrics
+
+<div align="center">
+
+<img src="github-metrics/metrics.svg" alt="GitHub Metrics" width="100%" />
+
+</div>
+
 ---
 
 ## 3D Contribution Graph
