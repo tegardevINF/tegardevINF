@@ -4,10 +4,10 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile%20Views&color=00e676&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=tegardevINF&label=Profile+Views&color=00e676&style=flat-square)
 [![GitHub Followers](https://img.shields.io/github/followers/tegardevINF?label=Followers&style=for-the-badge&color=00e676&labelColor=0d1117&logo=github)](https://github.com/tegardevINF?tab=followers)
-[![GitHub Stars](https://img.shields.io/github/stars/tegardevINF?label=Total%20Stars&style=for-the-badge&color=00e676&labelColor=0d1117&logo=github)](https://github.com/tegardevINF?tab=stars)
-[![Status](https://img.shields.io/badge/Status-Open_to_Work-brightgreen?style=for-the-badge&color=00e676&labelColor=0d1117)](https://github.com/tegardevINF)
+[![GitHub Stars](https://img.shields.io/github/stars/tegardevINF?label=Total+Stars&style=for-the-badge&color=00e676&labelColor=0d1117&logo=github)](https://github.com/tegardevINF?tab=stars)
+[![Status](https://img.shields.io/badge/Status-Open_to_Work-00e676?style=for-the-badge&labelColor=0d1117)](https://github.com/tegardevINF)
 
 <br/>
 
@@ -33,7 +33,7 @@
 - Ask me about **Python**, **TypeScript**, **ChromaDB**, **Docker**, **Multi-Agent Systems**
 - I believe in writing code that's easy to audit and self-heal
 - Goal: Build robust agent runtimes that survive real-world chaos
-- 2025: Deploy agent swarms, enforce circuit breakers, automate everything
+- 2026: Deploy agent swarms, enforce circuit breakers, automate everything
 - System status: `Active`
 
 <br clear="right"/>
@@ -44,7 +44,7 @@
 
 <div align="center">
 
-<p>Let's connect! Always open to technical discussions, project collaborations, or just chatting about the latest tech.</p>
+<p>Always open to technical discussions, project collaborations, or just chatting about the latest tech.</p>
 
 <br/>
 
@@ -52,10 +52,22 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tegardevINF)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tegardevINF)
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/tegardevINF)
-[![Email](https://img.shields.io/badge/Gmail-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tegardevINF@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tegardevINF@gmail.com)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/tegardevINF)
 
 </div>
+
+---
+
+## Now Playing
+
+<div align="center">
+
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=tegardevINF&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=tegardevINF&redirect=true)
+
+</div>
+
+> **Setup:** Buka [spotify-github-profile.kittinanx.com](https://spotify-github-profile.kittinanx.com) -> login Spotify -> copy UID kamu -> ganti `uid=tegardevINF` dengan UID kamu, lalu hapus baris komentar ini.
 
 ---
 
@@ -133,7 +145,7 @@
 ### MLOps & Deployment
 
 ![MLflow](https://img.shields.io/badge/MLflow-Lifecycle-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![WandB](https://img.shields.io/badge/W&B-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+![WandB](https://img.shields.io/badge/W%26B-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
 ![DVC](https://img.shields.io/badge/DVC-Data_Version_Control-042B2C?style=for-the-badge&logo=dvc&logoColor=white)
 ![BentoML](https://img.shields.io/badge/BentoML-Model_Serving-ff4088?style=for-the-badge&logo=bentoml&logoColor=white)
 
@@ -160,7 +172,7 @@ I believe that a great backend is not just about writing code that works — it'
 - Observability: logs, traces, metrics
 
 **3. Maintainability**
-- Clean Architecture — business logic ≠ infrastructure
+- Clean Architecture — business logic != infrastructure
 - SOLID principles
 - Conventional Commits + linear git history
 - Code reviews as learning, not gatekeeping
@@ -263,13 +275,49 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 ---
 
-## Contribution Heatmap
+## 3D Contribution Graph
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/00e676/tegardevINF" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="3D Contribution Graph" src="profile-3d-contrib/profile-night-green.svg" width="100%" />
+</picture>
 
 </div>
+
+> **Setup required:** Buat file `.github/workflows/3d-contrib.yml` dengan isi di bawah, enable write permission di Settings -> Actions -> General, lalu run workflow manual pertama kali. File SVG akan auto-generate di folder `profile-3d-contrib/`.
+>
+> ```yaml
+> name: GitHub-Profile-3D-Contrib
+> on:
+>   schedule:
+>     - cron: "0 18 * * *"
+>   workflow_dispatch:
+>   push:
+>     branches:
+>       - main
+> jobs:
+>   build:
+>     runs-on: ubuntu-latest
+>     name: generate-github-profile-3d-contrib
+>     steps:
+>       - uses: actions/checkout@v3
+>       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+>           USERNAME: tegardevINF
+>       - name: Commit & Push
+>         run: |
+>           git config user.email "tegardevINF@gmail.com"
+>           git config user.name "tegardevINF"
+>           git add -A .
+>           git commit -m "chore: regenerate 3D contrib graph" || true
+>           git push
+> ```
+>
+> Setelah setup selesai, hapus seluruh blok komentar ini.
 
 ---
 
@@ -451,7 +499,7 @@ git push origin feature/AmazingFeature
 <p>If you find my projects helpful, consider buying me a coffee!</p>
 
 <a href="https://www.buymeacoffee.com/tegardevINF">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy+me+a+coffee&emoji=&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
 </a>
 
 </div>
