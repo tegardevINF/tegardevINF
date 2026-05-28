@@ -1,5 +1,4 @@
 name: GitHub-Profile-3D-Contrib
-
 on:
   schedule:
     - cron: "0 18 * * *"
@@ -7,14 +6,13 @@ on:
   push:
     branches:
       - main
-
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: yoshi389111/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: tegardevINF
