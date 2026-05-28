@@ -16,11 +16,7 @@
 
 </div>
 
-<!-- START BADGES & INTERACTIVES -->
-<p align="center">
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=tegardevINF&theme=algolia&no-bg=true&column=6&margin-w=5&margin-h=5" alt="trophies"/>
-</p>
+
 
 <p align="center">
   <!-- Sponsor & AMA -->
