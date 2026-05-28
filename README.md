@@ -98,13 +98,12 @@ graph TD
 
 ---
 
-## Now Playing
-
-<div align="center">
-
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true)
-
-</div>
+## Now Playing on Spotify
+<p align="left">
+  <a href="https://open.spotify.com/user/312mqggn5esmuj4kb2k24gcnt7iu">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=312mqggn5esmuj4kb2k24gcnt7iu&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false&vinyl=true" alt="Spotify Now Playing" width="350"/>
+  </a>
+</p>
 
 ---
 
@@ -196,6 +195,9 @@ graph TD
 
 <details><summary><b>System Architecture Philosophy</b></summary>
 
+<details>
+<summary><b>CLICK TO VIEW SYSTEM ARCHITECTURE PHILOSOPHY</b></summary>
+
 ## System Architecture Philosophy
 
 <img align="right" width="300" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
@@ -226,6 +228,8 @@ I believe that a great backend is not just about writing code that works — it'
 
 </details>
 
+</details>
+
 ## Deep Dive: Swarm Orchestration
 
 <img align="left" width="280" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" />
@@ -248,6 +252,9 @@ graph LR
 ---
 
 <details><summary><b>Veltrix V2 — Engineering Specifications</b></summary>
+
+<details>
+<summary><b>CLICK TO VIEW TECHNICAL SPEC OF VELTRIX V2</b></summary>
 
 ## Veltrix V2 — Engineering Specifications
 
@@ -292,24 +299,18 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 </details>
 
-## GitHub Analytics
+</details>
 
-<div align="center">
+## GitHub Advanced Analytics
 
-<a href="https://github.com/tegardevINF">
-  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api?username=tegardevINF&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff&icon_color=00e676" />
-  <img height="190" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=00e676&text_color=ffffff" />
-</a>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tegardevINF&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tegardevINF&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+</p>
 
-<br/><br/>
-
-<img src="https://github-readme-streak-stats-salesp07.vercel.app/?user=tegardevINF&theme=tokyonight&hide_border=true&background=0d1117&ring=00e676&fire=ff6b6b&currStreakLabel=00e676&stroke=1c2333" />
-
-<br/><br/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tegardevINF&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&area_color=003300&hide_border=true&custom_title=GitHub%20Contribution%20Graph" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tegardevINF&theme=tokyonight&hide_border=true" height="180"/>
+</p>
 
 ---
 ---
@@ -481,13 +482,11 @@ git push origin feature/AmazingFeature
 
 ---
 
-## Dev Quote
+## Dev Quote & Humor
 
-<div align="center">
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quotes"/>
+</p>
 
 ---
 
