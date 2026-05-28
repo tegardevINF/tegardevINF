@@ -20,6 +20,7 @@ jobs:
         run: |
           git config user.email "tegardevINF@gmail.com"
           git config user.name "tegardevINF"
+          git pull --rebase
           git add -A .
           git commit -m "chore: regenerate 3D contrib graph" || true
           git push
