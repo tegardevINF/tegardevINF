@@ -117,7 +117,28 @@ graph TD
 ### Languages & Core
 
 | <img src="https://skillicons.dev/icons?i=py" width="50"/><br/><b>Python</b> | <img src="https://skillicons.dev/icons?i=js" width="50"/><br/><b>JavaScript</b> | <img src="https://skillicons.dev/icons?i=ts" width="50"/><br/><b>TypeScript</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=go" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---
+
+## Visual Highlights
+
+<p align="center">
+  <!-- Skyline contribution city -->
+  <img src="assets/skyline-2025.svg" width="100%" alt="GitHub Skyline"/>
+</p>
+
+<p align="center">
+  <!-- Snake 3‑D commit game -->
+  <img src="assets/snake.gif" width="100%" alt="3‑D Snake"/>
+</p>
+
+<p align="center">
+  <!-- Isometric Tech Stack icons -->
+  <img src="assets/stack-iso.png" width="90%" alt="Isometric Tech Stack"/>
+</p>
+
+---
+
+: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Backend & Frameworks
 
