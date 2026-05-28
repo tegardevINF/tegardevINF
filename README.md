@@ -63,11 +63,11 @@
 
 <div align="center">
 
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=tegardevINF&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=tegardevINF&redirect=true)
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=SPOTIFY_UID_DISINI&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00e676&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=SPOTIFY_UID_DISINI&redirect=true)
 
 </div>
 
-> **Setup:** Buka [spotify-github-profile.kittinanx.com](https://spotify-github-profile.kittinanx.com) -> login Spotify -> copy UID kamu -> ganti `uid=tegardevINF` dengan UID kamu, lalu hapus baris komentar ini.
+> **Setup:** Buka [spotify-github-profile.kittinanx.com](https://spotify-github-profile.kittinanx.com) -> klik Login with Spotify -> setelah login, UID kamu muncul otomatis di dashboard (bentuknya string/angka unik, bukan username) -> ganti `SPOTIFY_UID_DISINI` di dua tempat pada baris img di atas -> hapus baris komentar ini.
 
 ---
 
@@ -269,7 +269,7 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=tegardevINF&row=2&column=4&margin-w=15&margin-h=15&theme=algolia&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=tegardevINF&row=2&column=4&margin-w=15&margin-h=15&theme=tokyonight&no-frame=true&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
