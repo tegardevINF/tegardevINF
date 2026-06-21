@@ -110,20 +110,17 @@ graph TD
 > The tools I use to bring ideas to life.
 
 <div align="center">
-
 ### Languages & Core
-
 | <img src="https://skillicons.dev/icons?i=py" width="50"/><br/><b>Python</b> | <img src="https://skillicons.dev/icons?i=js" width="50"/><br/><b>JavaScript</b> | <img src="https://skillicons.dev/icons?i=ts" width="50"/><br/><b>TypeScript</b> | <img src="https://skillicons.dev/icons?i=rust" width="50"/><br/><b>Rust</b> | <img src="https://skillicons.dev/icons?i=go" width="50"/><br/><b>Go</b> | <img src="https://skillicons.dev/icons?i=bash" width="50"/><br/><b>Bash</b> | <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br/><b>C++</b> | <img src="https://skillicons.dev/icons?i=java" width="50"/><br/><b>Java</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=kotlin" width="50"/><br/><b>Kotlin</b> | <img src="https://skillicons.dev/icons?i=swift" width="50"/><br/><b>Swift</b> | <img src="https://skillicons.dev/icons?i=r" width="50"/><br/><b>R</b> | <img src="https://skillicons.dev/icons?i=scala" width="50"/><br/><b>Scala</b> |
-| :---: | :---: | :---: | :---: |
-
+| <img src="https://skillicons.dev/icons?i=kotlin" width="50"/><br/><b>Kotlin</b> | <img src="https://skillicons.dev/icons?i=swift" width="50"/><br/><b>Swift</b> | <img src="https://skillicons.dev/icons?i=r" width="50"/><br/><b>R</b> | <img src="https://skillicons.dev/icons?i=scala" width="50"/><br/><b>Scala</b> | | | | |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 ### Backend & Frameworks
-
 | <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br/><b>Node.js</b> | <img src="https://skillicons.dev/icons?i=express" width="50"/><br/><b>Express</b> | <img src="https://skillicons.dev/icons?i=fastapi" width="50"/><br/><b>FastAPI</b> | <img src="https://skillicons.dev/icons?i=flask" width="50"/><br/><b>Flask</b> | <img src="https://skillicons.dev/icons?i=django" width="50"/><br/><b>Django</b> | <img src="https://skillicons.dev/icons?i=nestjs" width="50"/><br/><b>NestJS</b> | <img src="https://skillicons.dev/icons?i=graphql" width="50"/><br/><b>GraphQL</b> | <img src="https://skillicons.dev/icons?i=nextjs" width="50"/><br/><b>Next.js</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=fastify" width="50"/><br/><b>Fastify</b> | <img src="https://skillicons.dev/icons?i=spring" width="50"/><br/><b>Spring Boot</b> | <img src="https://skillicons.dev/icons?i=hono" width="50"/><br/><b>Hono</b> | <img src="https://skillicons.dev/icons?i=grpc" width="50"/><br/><b>gRPC</b> |
-| :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=fastify" width="50"/><br/><b>Fastify</b> | <img src="https://skillicons.dev/icons?i=spring" width="50"/><br/><b>Spring Boot</b> | <img src="https://skillicons.dev/icons?i=hono" width="50"/><br/><b>Hono</b> | <img src="https://skillicons.dev/icons?i=grpc" width="50"/><br/><b>gRPC</b> | | | | |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+
 
 ### Databases & Storage
 
@@ -134,8 +131,8 @@ graph TD
 
 | <img src="https://skillicons.dev/icons?i=docker" width="50"/><br/><b>Docker</b> | <img src="https://skillicons.dev/icons?i=kubernetes" width="50"/><br/><b>K8s</b> | <img src="https://skillicons.dev/icons?i=gcp" width="50"/><br/><b>Google Cloud</b> | <img src="https://skillicons.dev/icons?i=aws" width="50"/><br/><b>AWS</b> | <img src="https://skillicons.dev/icons?i=azure" width="50"/><br/><b>Azure</b> | <img src="https://skillicons.dev/icons?i=jenkins" width="50"/><br/><b>Jenkins</b> | <img src="https://skillicons.dev/icons?i=terraform" width="50"/><br/><b>Terraform</b> | <img src="https://skillicons.dev/icons?i=nginx" width="50"/><br/><b>NGINX</b> |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=githubactions" width="50"/><br/><b>GH Actions</b> | <img src="https://skillicons.dev/icons?i=prometheus" width="50"/><br/><b>Prometheus</b> | <img src="https://skillicons.dev/icons?i=grafana" width="50"/><br/><b>Grafana</b> | <img src="https://skillicons.dev/icons?i=cloudflare" width="50"/><br/><b>Cloudflare</b> | <img src="https://skillicons.dev/icons?i=vercel" width="50"/><br/><b>Vercel</b> |
-| :---: | :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=githubactions" width="50"/><br/><b>GH Actions</b> | <img src="https://skillicons.dev/icons?i=prometheus" width="50"/><br/><b>Prometheus</b> | <img src="https://skillicons.dev/icons?i=grafana" width="50"/><br/><b>Grafana</b> | <img src="https://skillicons.dev/icons?i=cloudflare" width="50"/><br/><b>Cloudflare</b> | <img src="https://skillicons.dev/icons?i=vercel" width="50"/><br/><b>Vercel</b> | | | |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ### Tools & Others
 
