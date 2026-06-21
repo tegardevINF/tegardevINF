@@ -487,19 +487,23 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 <div align="center">
 
-```text
-TypeScript       ████████████████████░░   85.34 %
-Python           ████████████░░░░░░░░░░   50.12 %
-Rust             ████░░░░░░░░░░░░░░░░░░   15.20 %
-YAML / Docker    ███░░░░░░░░░░░░░░░░░░░   12.45 %
-Bash             ██░░░░░░░░░░░░░░░░░░░░    8.10 %
-Other            █░░░░░░░░░░░░░░░░░░░░░    3.30 %
+````text
+Python           ████████████████████░░   78.45 %
+Go               ████████████████░░░░░░   62.30 %
+Rust             ████████████░░░░░░░░░░   48.75 %
+C++              ████████░░░░░░░░░░░░░░   35.20 %
+Bash / Shell     ██████░░░░░░░░░░░░░░░░   28.90 %
+SQL              █████░░░░░░░░░░░░░░░░░   22.60 %
+Java             ████░░░░░░░░░░░░░░░░░░   18.40 %
+Kotlin           ███░░░░░░░░░░░░░░░░░░░   14.15 %
+Terraform / HCL  ███░░░░░░░░░░░░░░░░░░░   12.80 %
+YAML / Docker    ██░░░░░░░░░░░░░░░░░░░░    9.90 %
+Scala            ██░░░░░░░░░░░░░░░░░░░░    7.35 %
+Other            █░░░░░░░░░░░░░░░░░░░░░    3.20 %
+```​
+
+
 ```
-
-</div>
-
----
-
 ## Deployment Strategy
 
 <img align="left" width="260" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
