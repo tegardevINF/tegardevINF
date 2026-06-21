@@ -153,6 +153,12 @@ graph TD
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-Deep_Learning-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![JAX](https://img.shields.io/badge/Google-JAX-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boost-337AB7?style=for-the-badge&logo=github&logoColor=white)
+![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 
 <br/><br/>
 
@@ -196,6 +202,13 @@ graph TD
 ![Ollama](https://img.shields.io/badge/Ollama-Local_Inference-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-00E676?style=for-the-badge&logo=github&logoColor=white)
 ![Agentic](https://img.shields.io/badge/Agentic-Workflows-8A2BE2?style=for-the-badge&logo=amazon&logoColor=white)
+![AutoGen](https://img.shields.io/badge/Microsoft-AutoGen-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-Multi_Agent-FF6B6B?style=for-the-badge&logo=github&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-Agent_Graph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Haystack](https://img.shields.io/badge/Haystack-RAG_Framework-00DC82?style=for-the-badge&logo=github&logoColor=white)
+![Semantic Kernel](https://img.shields.io/badge/Microsoft-Semantic_Kernel-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
+![DSPy](https://img.shields.io/badge/Stanford-DSPy-8C1515?style=for-the-badge&logo=github&logoColor=white)
+![OpenAI Swarm](https://img.shields.io/badge/OpenAI-Swarm-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 <br/><br/>
 
@@ -205,6 +218,11 @@ graph TD
 ![WandB](https://img.shields.io/badge/W%26B-Experiment_Tracking-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
 ![DVC](https://img.shields.io/badge/DVC-Data_Version_Control-042B2C?style=for-the-badge&logo=dvc&logoColor=white)
 ![BentoML](https://img.shields.io/badge/BentoML-Model_Serving-ff4088?style=for-the-badge&logo=bentoml&logoColor=white)
+![Ray](https://img.shields.io/badge/Ray-Distributed_AI-028CF0?style=for-the-badge&logo=ray&logoColor=white)
+![Triton](https://img.shields.io/badge/NVIDIA-Triton_Server-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache-Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Kubeflow](https://img.shields.io/badge/Kubeflow-ML_Pipeline-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Seldon](https://img.shields.io/badge/Seldon-Model_Deploy-FF6B35?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
