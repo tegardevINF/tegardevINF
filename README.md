@@ -5,24 +5,21 @@
 
 <img align="right" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
-### Who am I?
+### 👋 About Me
 
-<p>I am an <b>Autonomous Systems & Swarm Engineer</b> based in Yogyakarta. I specialize in designing backends that don't just process API endpoints, but orchestrate state machines, run background daemons, and enable AI agents to reason in isolated sandboxes.</p>
+I'm **Tegar**, an independent engineer based in Yogyakarta. I build autonomous systems and agentic runtimes that actually work in production—not just demos.
 
-<p>I believe in system reliability, zero-trust sandboxing, and deterministic agent execution. Currently, I am designing self-healing runtimes, implementing Model Context Protocol (MCP) integrations, and building swarms of specialized agents that work together seamlessly.</p>
+**What I do:**
+- Design multi-agent swarms that run as background daemons, self-heal, and handle failures without manual intervention
+- Build secure sandboxes for code execution (Firecracker microVMs, isolated Python executors)
+- Implement fallback chains across multiple AI providers (Claude → Gemini → Groq → local Ollama) with circuit breakers and active probing
+- Write backends that are modular, auditable, and survive real-world chaos
 
-<br/>
+**Tech I work with:**
+- Python, TypeScript, FastAPI, Docker, ChromaDB, SQLite
+---
 
-- Designing **autonomous agent swarms** and background daemons
-- Deep focus on **system design**, **distributed architectures**, and **concurrency**
-- Building custom **Model Context Protocol (MCP)** bridges for secure system access
-- Ask me about **Python**, **TypeScript**, **ChromaDB**, **Docker**, **Multi-Agent Systems**
-- I believe in writing code that's easy to audit and self-heal
-- Goal: Build robust agent runtimes that survive real-world chaos
-- 2026: Deploy agent swarms, enforce circuit breakers, automate everything
-- System status: `Active`
-
-<br clear="right"/>
+🔗 [GitHub](https://github.com/tegardevINF) · [Veltrix V2](https://github.com/tegardevINF/AI-VELTRIX-V2)
 
 ---
 
