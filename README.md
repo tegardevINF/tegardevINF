@@ -176,6 +176,16 @@ graph TD
 ![Groq](https://img.shields.io/badge/Groq-LPU_Inference-F54D27?style=for-the-badge&logo=groq&logoColor=white)
 ![Cohere](https://img.shields.io/badge/Cohere-Command_R+-395CF3?style=for-the-badge&logo=cohere&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-GPT--OSS_120B-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Google](https://img.shields.io/badge/Google-Gemini_2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-V3-0066FF?style=for-the-badge&logo=deepseek&logoColor=white)
+![Alibaba](https://img.shields.io/badge/Alibaba-Qwen3_Coder-FF6A00?style=for-the-badge&logo=alibaba&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--OSS_20B-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Meta](https://img.shields.io/badge/Meta-Llama_3.3_70B-0668E1?style=for-the-badge&logo=meta&logoColor=white)
+![Zhipu](https://img.shields.io/badge/Zhipu_AI-GLM--5.1_744B-9B59B6?style=for-the-badge&logo=github&logoColor=white)
+![Moonshot](https://img.shields.io/badge/Moonshot-Kimi_K2.6_1T-FF4500?style=for-the-badge&logo=github&logoColor=white)
+![Microsoft](https://img.shields.io/badge/Microsoft-Phi_4-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
+![Nvidia](https://img.shields.io/badge/NVIDIA-Nemotron_Cascade_2-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral-Magistral_24B-FF7000?style=for-the-badge&logo=mistral&logoColor=white)
 <br/><br/>
 
 ### Frameworks & Swarm Infrastructure
