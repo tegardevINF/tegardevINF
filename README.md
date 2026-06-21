@@ -175,6 +175,7 @@ graph TD
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Groq](https://img.shields.io/badge/Groq-LPU_Inference-F54D27?style=for-the-badge&logo=groq&logoColor=white)
 ![Cohere](https://img.shields.io/badge/Cohere-Command_R+-395CF3?style=for-the-badge&logo=cohere&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-GPT--OSS_120B-000000?style=for-the-badge&logo=ollama&logoColor=white)
 <br/><br/>
 
 ### Frameworks & Swarm Infrastructure
