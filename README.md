@@ -481,13 +481,12 @@ Preventing VRAM exhaustion and context truncation with tiered retention:
 
 <br clear="right"/>
 
----
-
-## Weekly Language Stats
-
 <div align="center">
 
-````text
+```
+## Weekly Language Stats
+
+```text
 Python           ████████████████████░░   78.45 %
 Go               ████████████████░░░░░░   62.30 %
 Rust             ████████████░░░░░░░░░░   48.75 %
@@ -500,7 +499,8 @@ Terraform / HCL  ███░░░░░░░░░░░░░░░░░░
 YAML / Docker    ██░░░░░░░░░░░░░░░░░░░░    9.90 %
 Scala            ██░░░░░░░░░░░░░░░░░░░░    7.35 %
 Other            █░░░░░░░░░░░░░░░░░░░░░    3.20 %
-```​
+```
+````​
 ## Deployment Strategy
 
 <img align="left" width="260" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
