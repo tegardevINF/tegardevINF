@@ -356,30 +356,6 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 ---
 
-## Contributing to Open Source
-
-<div align="center">
-
-<p>Strong believer in Open Source. Want to contribute to any of my projects?</p>
-
-```bash
-# 1. Fork the repo
-# 2. Create your feature branch
-git checkout -b feature/AmazingFeature
-
-# 3. Commit your changes
-git commit -m 'feat: Add some AmazingFeature'
-
-# 4. Push to the branch
-git push origin feature/AmazingFeature
-
-# 5. Open a Pull Request
-```
-
-</div>
-
----
-
 ## Dev Quote
 
 <div align="center">
@@ -390,27 +366,7 @@ git push origin feature/AmazingFeature
 
 ---
 
-## Dev Humor
-
-<div align="center">
-
-<img src="https://readme-jokes.vercel.app/api?hideBorder&theme=tokyonight" />
-
-</div>
-
 ---
-
-## Support My Work
-
-<div align="center">
-
-<p>If you find my projects helpful, consider buying me a coffee!</p>
-
-<a href="https://www.buymeacoffee.com/tegardevINF">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy+me+a+coffee&emoji=&slug=tegardevINF&button_colour=00e676&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffdd00" />
-</a>
-
-</div>
 
 ---
 
