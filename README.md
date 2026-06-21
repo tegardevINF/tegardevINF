@@ -501,9 +501,6 @@ YAML / Docker    ██░░░░░░░░░░░░░░░░░░░
 Scala            ██░░░░░░░░░░░░░░░░░░░░    7.35 %
 Other            █░░░░░░░░░░░░░░░░░░░░░    3.20 %
 ```​
-
-
-```
 ## Deployment Strategy
 
 <img align="left" width="260" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
