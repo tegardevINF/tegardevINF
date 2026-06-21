@@ -380,10 +380,6 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 <br/><br/>
 
-<img src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" width="100%" />
-
-<br/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e676,50:004d00,100:0d1117&height=130&section=footer&animation=twinkling" />
 
 </div>
