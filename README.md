@@ -350,7 +350,7 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 <img align="left" width="260" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
 
----
+
 
 ## Dev Quote
 
