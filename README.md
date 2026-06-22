@@ -360,12 +360,6 @@ Other            █░░░░░░░░░░░░░░░░░░░░
 
 </div>
 
----
-
----
-
----
-
 <div align="center">
 
 ### Let's Build Something Extraordinary
