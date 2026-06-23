@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://github.com/tegardevINF"><img src="https://img.shields.io/badge/GitHub-tegardevINF-181717?style=flat-square&logo=github" /></a>
-  <a href="harshiopion@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:harshiopion@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/tegardevINF"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="https://t.me/t3gxr_404"><img src="https://img.shields.io/badge/Telegram-Chat-2CA5E0?style=flat-square&logo=telegram&logoColor=white" /></a>
   <a href="https://instagram.com/t3gxr_404"><img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white" /></a>
