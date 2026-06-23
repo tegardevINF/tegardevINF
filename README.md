@@ -3,10 +3,7 @@
 </div>
 
 <h1 align="center">Hey, I'm Tegar 👋</h1>
-<p align="center">Independent Engineer · Yogyakarta, Indonesia</p>
-<p align="center">
-  I build autonomous agent runtimes and self-healing systems — not just demos, but things that actually survive production chaos.
-</p>
+<p align="center">Independent Engineer </p>
 
 <div align="center">
   <a href="https://github.com/tegardevINF"><img src="https://img.shields.io/badge/GitHub-tegardevINF-181717?style=flat-square&logo=github" /></a>
