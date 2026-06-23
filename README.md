@@ -13,7 +13,7 @@
 
 ## About Me
 
-I'm a self-taught solo engineer based in Yogyakarta. For the past 2 months I've been deep in Python — building Veltrix V2, a full autonomous multi-agent swarm runtime from scratch. No team, no shortcuts.
+I'm a self-taught solo engineer based in Yogyakarta.
 
 What I actually do:
 - Design **multi-agent swarms** that run as background daemons, self-heal, and recover from failures without intervention
