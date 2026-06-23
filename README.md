@@ -1,3 +1,5 @@
+🔗 [GitHub](https://github.com/tegardevINF) · [Veltrix V2](https://github.com/tegardevINF/AI-VELTRIX-V2)
+
 ### LLM & Generative AI
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT_4o-412991?style=for-the-badge&logo=openai&logoColor=white)
