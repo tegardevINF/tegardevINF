@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:003300,100:00e676&height=120&section=header&animation=twinkling" />
-</div>
-
 <h1 align="center">Hey, I'm Tegar 👋</h1>
 <p align="center">Independent Engineer </p>
 
